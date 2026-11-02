@@ -2,77 +2,91 @@
   {
     "category": "Documentación y Normativa",
     "question": "¿Cuál es la vigencia máxima del Permiso de Conducir otorgado por primera vez en Uruguay?",
-    "options": ["1 año.", "2 años.", "5 años.", "10 años."],
-    "correct": 1,
+    "options": [
+      "5 años.",
+      "10 años.",
+      "2 años.",
+      "1 año."
+    ],
+    "correct": 2,
     "explanation": "La primera vez que se obtiene el Permiso de Conducir tiene una validez máxima de 2 años. Las renovaciones posteriores pueden ser por hasta 10 años.",
     "source": "Guía Nacional de Conducción, pág. 6"
   },
   {
     "category": "Velocidad",
     "question": "¿Cuál es la velocidad máxima permitida en zonas urbanas, salvo que exista señalización en contrario?",
-    "options": ["30 km/h.", "45 km/h.", "60 km/h.", "75 km/h."],
-    "correct": 1,
-    "explanation": "La velocidad máxima estándar en zonas urbanas es de 45 km/h.",
-    "source": "Guía Nacional de Conducción, pág. 90"
+    "options": [
+      "30 km/h.",
+      "75 km/h.",
+      "60 km/h.",
+      "45 km/h."
+    ],
+    "correct": 3,
+    "explanation": "La velocidad máxima general en zonas urbanas y suburbanas es de 45 km/h. La autoridad departamental puede fijar velocidades mayores, señalizadas expresamente.",
+    "source": "Reglamento Nacional de Circulación Vial, art. 13.3; Guía Nacional de Conducción, pág. 90"
   },
   {
     "category": "Velocidad",
-    "question": "¿Cuál es la velocidad máxima estándar en rutas nacionales, salvo señalización específica?",
-    "options": ["70 km/h.", "90 km/h.", "110 km/h.", "120 km/h."],
+    "question": "¿Cuál es la velocidad máxima en carreteras y caminos, fuera de zonas urbanas, para vehículos livianos sin remolque, salvo señalización específica?",
+    "options": [
+      "70 km/h.",
+      "90 km/h.",
+      "110 km/h.",
+      "120 km/h."
+    ],
     "correct": 1,
-    "explanation": "En rutas nacionales la velocidad máxima estándar es de 90 km/h, salvo excepciones señalizadas.",
-    "source": "Guía Nacional de Conducción, pág. 90"
+    "explanation": "Fuera de zonas urbanas y suburbanas, la velocidad máxima para vehículos livianos sin remolque es de 90 km/h. Para los restantes vehículos es de 80 km/h.",
+    "source": "Reglamento Nacional de Circulación Vial, art. 13.2; Guía Nacional de Conducción, págs. 90 y 112"
   },
   {
     "category": "Alcohol y Conducción",
     "question": "Según la legislación uruguaya, ¿cuál es el límite de concentración de alcohol en sangre para conducir?",
     "options": [
-      "0,3 gramos por litro.",
-      "0,5 gramos por litro.",
+      "0,8 gramos por litro.",
       "0,0 (tolerancia cero).",
-      "0,8 gramos por litro."
+      "0,3 gramos por litro.",
+      "0,5 gramos por litro."
     ],
-    "correct": 2,
-    "explanation": "En Uruguay rige la tolerancia cero (0,0): cualquier concentración de alcohol en sangre es incompatible con la conducción.",
-    "source": "Guía Nacional de Conducción, págs. 16-17",
-    "verify": true,
-    "verifyNote": "Creo que la tolerancia cero viene de la Ley 19.360 y no de la 18.191. Confirmar en impo.com.uy y citar la ley correcta."
+    "correct": 1,
+    "explanation": "Todo conductor está inhabilitado para conducir cuando la concentración de alcohol en sangre supera 0,0 g/l. Rige la tolerancia cero.",
+    "source": "Ley 18.191, art. 45 (redacción dada por Ley 19.360); Guía Nacional de Conducción, págs. 16-17"
   },
   {
     "category": "Alcohol y Sanciones",
-    "question": "Según la Guía, ante una primera infracción por superar el límite legal de alcohol, ¿cuál es la sanción sobre la licencia?",
+    "question": "Según la Ley 18.191, ante una primera infracción por conducir con alcohol por encima del límite legal, ¿cuál es la sanción sobre la licencia?",
     "options": [
-      "Advertencia verbal, sin suspensión.",
-      "Retención del permiso y suspensión de entre 6 meses y 1 año.",
       "Cancelación definitiva e inhabilitación por 5 años.",
-      "Inhabilitación de 2 a 3 años."
+      "Inhabilitación de 2 a 3 años.",
+      "Retención del permiso y suspensión de entre 6 meses y 1 año.",
+      "Advertencia verbal, sin suspensión."
     ],
-    "correct": 1,
-    "explanation": "Para la primera infracción, la Guía indica retención del permiso y suspensión de entre 6 meses y 1 año.",
-    "source": "Ley 18.191, art. 46; Guía Nacional de Conducción, pág. 18",
-    "verify": true,
-    "verifyNote": "Las sanciones fueron modificadas por leyes posteriores. Confirmar la sanción vigente y el artículo."
+    "correct": 2,
+    "explanation": "En una primera infracción se retiene la licencia y se aplica una suspensión de entre seis meses y un año. Si hay reincidencia, la sanción se extiende hasta dos años.",
+    "source": "Ley 18.191, art. 46; Guía Nacional de Conducción, pág. 18"
   },
   {
     "category": "Seguridad Pasiva",
     "question": "Según la Guía Nacional de Conducción, ¿en qué porcentaje reduce el casco homologado la probabilidad de morir en un siniestro de tránsito?",
-    "options": ["Un 10%.", "Hasta un 29%.", "Hasta un 75%.", "No tiene un impacto comprobado."],
+    "options": [
+      "Hasta un 75%.",
+      "Hasta un 29%.",
+      "Un 10%.",
+      "No tiene un impacto comprobado."
+    ],
     "correct": 1,
     "explanation": "La Guía indica que el uso de casco homologado reduce hasta en un 29% la probabilidad de morir en un siniestro vial.",
-    "source": "Guía Nacional de Conducción, pág. 54",
-    "verify": true,
-    "verifyNote": "Otras fuentes (OMS) dan cifras mayores. Confirmar el número exacto en la Guía o usar otra fuente."
+    "source": "Guía Nacional de Conducción, pág. 54"
   },
   {
     "category": "Seguridad Vial",
     "question": "¿Qué luces debe llevar encendidas de forma permanente un vehículo automotor al circular?",
     "options": [
-      "Luces de posición únicamente.",
+      "Luces de baliza intermitente.",
       "Luces de carretera (altas).",
-      "Luces bajas (cortas).",
-      "Luces de baliza intermitente."
+      "Luces de posición únicamente.",
+      "Luces bajas (cortas)."
     ],
-    "correct": 2,
+    "correct": 3,
     "explanation": "Es obligatorio circular con las luces bajas (cortas) encendidas de forma permanente, a cualquier hora.",
     "source": "Ley 18.191, art. 30; Guía Nacional de Conducción, pág. 27"
   },
@@ -81,35 +95,35 @@
     "question": "En una intersección no regulada por señales ni semáforos, ¿quién tiene la preferencia de paso entre dos vehículos?",
     "options": [
       "El vehículo de mayor tamaño.",
+      "El vehículo que circula hacia el norte.",
       "El vehículo que circula a mayor velocidad.",
-      "El vehículo que se aproxima por la derecha.",
-      "El vehículo que circula hacia el norte."
+      "El vehículo que se aproxima por la derecha."
     ],
-    "correct": 2,
+    "correct": 3,
     "explanation": "En cruces sin señalizar, todo conductor debe ceder el paso al vehículo que se aproxima por su derecha.",
-    "source": "Ley 18.191, art. 17; Guía Nacional de Conducción, págs. 99-100"
+    "source": "Ley 18.191, art. 17 (3); Guía Nacional de Conducción, pág. 100"
   },
   {
     "category": "Preferencia y Giros",
     "question": "Cuando un vehículo gira hacia otra calle en un cruce, ¿quién tiene la preferencia de paso?",
     "options": [
-      "El vehículo que gira.",
       "Los peatones que cruzan y los vehículos que continúan de frente.",
+      "El vehículo que gira.",
       "Siempre el vehículo de transporte público.",
-      "El vehículo que gira, si señalizó con 10 metros de anticipación."
+      "El vehículo que gira, si puso la luz señalera."
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": "Al girar, el conductor debe ceder el paso a los peatones que cruzan y a los vehículos que continúan de frente.",
-    "source": "Guía Nacional de Conducción, págs. 99-100"
+    "source": "Ley 18.191, art. 17 (6); Guía Nacional de Conducción, págs. 66 y 100"
   },
   {
     "category": "Distancia de Seguridad",
     "question": "¿Qué regla se recomienda para mantener la distancia de seguridad con el vehículo de adelante en ruta?",
     "options": [
-      "10 metros por cada 10 km/h.",
+      "5 metros fijos en todos los casos.",
       "La regla de los 3 segundos.",
-      "La regla de 1 segundo.",
-      "5 metros fijos en todos los casos."
+      "10 metros por cada 10 km/h.",
+      "La regla de 1 segundo."
     ],
     "correct": 1,
     "explanation": "En carretera se recomienda la regla de los 3 segundos, tomando un objeto fijo como referencia.",
@@ -119,70 +133,66 @@
     "category": "Seguridad Infantil",
     "question": "Según la Guía, ¿hasta qué edad deben viajar los niños en los asientos traseros con un sistema de retención infantil (SRI)?",
     "options": [
+      "No es obligatorio en asientos traseros si usan cinturón.",
       "De 0 a 6 años.",
       "De 0 a 12 años (y hasta 18 si miden menos de 1,50 m).",
-      "Hasta los 8 años únicamente.",
-      "No es obligatorio en asientos traseros si usan cinturón."
+      "Hasta los 8 años únicamente."
     ],
-    "correct": 1,
-    "explanation": "Los niños de 0 a 12 años deben viajar en el asiento trasero con SRI. La Guía lo extiende a adolescentes de hasta 18 años que midan menos de 1,50 m.",
-    "source": "Ley 19.061, art. 1; Guía Nacional de Conducción, pág. 34",
-    "verify": true,
-    "verifyNote": "Revisar el texto exacto de la ley sobre edades y altura en impo.com.uy."
+    "correct": 2,
+    "explanation": "Los niños de 0 a 12 años deben viajar en el asiento trasero con SRI. La normativa nacional lo extiende a menores de 18 años que midan menos de 1,50 m.",
+    "source": "Ley 19.061, art. 1; Guía Nacional de Conducción, pág. 34"
   },
   {
     "category": "SRI e Infantes",
     "question": "Según la Guía, ¿hasta cuándo debe viajar como mínimo un bebé en el SRI en sentido contrario a la marcha (mirando hacia atrás)?",
     "options": [
-      "Hasta los 3 meses.",
+      "No se recomienda colocar el SRI mirando hacia atrás.",
       "Al menos hasta cumplir 1 año de edad.",
-      "Hasta los 3 años.",
-      "No se recomienda colocar el SRI mirando hacia atrás."
+      "Hasta los 3 meses.",
+      "Hasta los 3 años."
     ],
     "correct": 1,
-    "explanation": "La Guía indica que el niño viaje mirando hacia atrás al menos hasta cumplir un año (y/o 10 kg). Las recomendaciones actuales de seguridad sugieren mantenerlo así más tiempo.",
-    "source": "Guía Nacional de Conducción, pág. 34",
-    "verify": true,
-    "verifyNote": "La recomendación actual suele ser más extensa que 1 año. Confirmar qué dice la ley y la edición vigente de la Guía."
+    "explanation": "La Guía indica que el niño viaje mirando hacia atrás al menos hasta cumplir un año de edad y/o pesar 10 kg.",
+    "source": "Guía Nacional de Conducción, pág. 34"
   },
   {
     "category": "Señales Manuales",
     "question": "Si no funciona la luz señalera, ¿cómo indica un conductor con el brazo que va a girar a la IZQUIERDA?",
     "options": [
       "Brazo extendido horizontalmente hacia afuera del vehículo.",
+      "Moviendo la mano de arriba hacia abajo.",
       "Brazo extendido en ángulo recto hacia arriba.",
-      "Brazo extendido hacia abajo.",
-      "Moviendo la mano de arriba hacia abajo."
+      "Brazo extendido hacia abajo."
     ],
     "correct": 0,
     "explanation": "Para girar a la izquierda, la señal manual reglamentaria es el brazo y la mano extendidos horizontalmente.",
-    "source": "Guía Nacional de Conducción, págs. 65 y 98"
+    "source": "Ley 18.191, art. 18 (6); Guía Nacional de Conducción, págs. 65 y 98"
   },
   {
     "category": "Señales Manuales",
     "question": "¿Qué indica un conductor cuando saca el brazo por la ventanilla extendido hacia ARRIBA en ángulo recto?",
     "options": [
-      "Intención de detenerse.",
-      "Intención de girar a la izquierda.",
+      "Pedido de paso por emergencia.",
       "Intención de girar a la derecha.",
-      "Pedido de paso por emergencia."
+      "Intención de girar a la izquierda.",
+      "Intención de detenerse."
     ],
-    "correct": 2,
+    "correct": 1,
     "explanation": "El brazo levantado en ángulo recto hacia arriba señala la intención de girar a la derecha.",
-    "source": "Guía Nacional de Conducción, págs. 65 y 98"
+    "source": "Ley 18.191, art. 18 (6); Guía Nacional de Conducción, págs. 65 y 98"
   },
   {
     "category": "Señales Manuales",
     "question": "¿Qué maniobra indica el brazo extendido hacia ABAJO fuera del vehículo?",
     "options": [
-      "Giro a la derecha.",
-      "Giro a la izquierda.",
+      "Estacionamiento en paralelo.",
       "Reducción considerable de velocidad o detención.",
-      "Estacionamiento en paralelo."
+      "Giro a la izquierda.",
+      "Giro a la derecha."
     ],
-    "correct": 2,
+    "correct": 1,
     "explanation": "El brazo extendido hacia abajo indica que se va a detener el vehículo o reducir sensiblemente la velocidad.",
-    "source": "Guía Nacional de Conducción, págs. 65 y 98"
+    "source": "Ley 18.191, art. 18 (7); Guía Nacional de Conducción, págs. 65 y 98"
   },
   {
     "category": "Factores de Riesgo",
@@ -200,21 +210,26 @@
   {
     "category": "Estacionamiento",
     "question": "¿A qué distancia máxima del cordón de la acera debe quedar un vehículo estacionado?",
-    "options": ["15 cm.", "30 cm.", "50 cm.", "1 metro."],
+    "options": [
+      "15 cm.",
+      "30 cm.",
+      "50 cm.",
+      "1 metro."
+    ],
     "correct": 1,
     "explanation": "Al estacionar en la vía pública, el vehículo no debe quedar a más de 30 cm del cordón.",
-    "source": "Guía Nacional de Conducción, pág. 104"
+    "source": "Ley 18.191, art. 19 (1); Guía Nacional de Conducción, pág. 104"
   },
   {
     "category": "Estacionamiento en Pendiente",
     "question": "Al estacionar en bajada junto al cordón, ¿hacia dónde deben quedar giradas las ruedas delanteras?",
     "options": [
-      "Hacia la calzada, alejándose del cordón.",
       "Hacia el cordón, apuntando a la acera.",
+      "Da igual, alcanza con el freno de mano.",
       "Completamente rectas.",
-      "Da igual, alcanza con el freno de mano."
+      "Hacia la calzada, alejándose del cordón."
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": "En bajada las ruedas delanteras deben quedar giradas hacia el cordón, para que el vehículo se detenga contra él si falla el freno.",
     "source": "Guía Nacional de Conducción, pág. 103"
   },
@@ -222,12 +237,12 @@
     "category": "Estacionamiento en Pendiente",
     "question": "Al estacionar en subida (cuesta arriba) junto al cordón, ¿hacia dónde se deben orientar las ruedas delanteras?",
     "options": [
-      "Hacia la calzada, de modo que la parte trasera del neumático apoye contra el cordón.",
-      "Hacia el cordón de la acera.",
+      "Hacia la vereda izquierda.",
       "Completamente rectas.",
-      "Hacia la vereda izquierda."
+      "Hacia la calzada, de modo que la parte trasera del neumático apoye contra el cordón.",
+      "Hacia el cordón de la acera."
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": "En subida se giran las ruedas hacia la calzada para que el borde posterior del neumático haga tope contra el cordón.",
     "source": "Guía Nacional de Conducción, pág. 103"
   },
@@ -235,29 +250,27 @@
     "category": "Adelantamiento",
     "question": "¿Por qué lado se realiza, como regla general, el adelantamiento a otro vehículo en marcha?",
     "options": [
+      "Por cualquier lado si hay espacio.",
       "Por la derecha.",
       "Por la izquierda.",
-      "Por cualquier lado si hay espacio.",
       "Por la banquina, si es en carretera."
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "Los vehículos circulan por la derecha y, como regla general, el adelantamiento se realiza por la izquierda.",
-    "source": "Ley 18.191; Guía Nacional de Conducción, págs. 101-102"
+    "source": "Ley 18.191, arts. 14 y 16; Guía Nacional de Conducción, págs. 101-102"
   },
   {
     "category": "Adelantamiento",
     "question": "¿En qué caso se permite adelantar por la DERECHA a un vehículo?",
     "options": [
-      "En autopistas, cuando el vehículo de adelante va despacio.",
       "Cuando el vehículo de adelante indicó claramente que va a girar a la izquierda.",
       "Nunca, bajo ninguna circunstancia.",
+      "Cuando el conductor tiene apuro y la banquina está libre.",
       "En los puentes de dos carriles."
     ],
-    "correct": 1,
-    "explanation": "Según la Guía, se puede adelantar por la derecha a un vehículo que haya indicado su intención de girar a la izquierda.",
-    "source": "Guía Nacional de Conducción, pág. 101",
-    "verify": true,
-    "verifyNote": "Puede haber otros casos permitidos (vías de varios carriles). Confirmar en la ley."
+    "correct": 0,
+    "explanation": "En una calzada con dos o más carriles en el mismo sentido se puede adelantar por la derecha cuando el vehículo de adelante indicó que va a girar o detenerse a su izquierda, o cuando los vehículos del carril izquierdo no avanzan o lo hacen con lentitud, cumpliendo las normas generales de adelantamiento.",
+    "source": "Ley 18.191, art. 16 (9); Guía Nacional de Conducción, pág. 101"
   },
   {
     "category": "Adelantamiento Prohibido",
@@ -269,8 +282,8 @@
       "Durante el día, con las luces encendidas."
     ],
     "correct": 1,
-    "explanation": "Está prohibido adelantar en intersecciones, puentes, túneles, curvas sin visibilidad y cimas de cuestas.",
-    "source": "Guía Nacional de Conducción, pág. 101"
+    "explanation": "En calzadas de doble sentido no se puede adelantar en intersecciones, pasos a nivel, puentes, viaductos, túneles ni pasos de peatones, ni donde la visibilidad sea insuficiente (por ejemplo, en curvas).",
+    "source": "Ley 18.191, art. 16 (5) y (6); Guía Nacional de Conducción, pág. 101"
   },
   {
     "category": "Líneas de Pavimento",
@@ -278,8 +291,8 @@
     "options": [
       "Separa carriles y se puede adelantar con precaución.",
       "Prohíbe traspasarla y realizar adelantamientos.",
-      "Marca una zona de estacionamiento nocturno.",
-      "Indica preferencia para vehículos pesados."
+      "Indica preferencia para vehículos pesados.",
+      "Marca una zona de estacionamiento nocturno."
     ],
     "correct": 1,
     "explanation": "Una línea central continua prohíbe el adelantamiento a quien circula de ese lado.",
@@ -291,8 +304,8 @@
     "options": [
       "Separan los sentidos de circulación y está prohibido traspasarlas o circular sobre ellas.",
       "Habilitan el adelantamiento en ambos sentidos.",
-      "Indican carril preferencial para ómnibus.",
-      "Permiten únicamente el giro en U."
+      "Permiten únicamente el giro en U.",
+      "Indican carril preferencial para ómnibus."
     ],
     "correct": 0,
     "explanation": "Dos líneas continuas separan los sentidos de circulación y no deben traspasarse ni pisarse.",
@@ -302,12 +315,12 @@
     "category": "Fenómenos Climáticos",
     "question": "¿Qué es el hidroplaneo (aquaplaning)?",
     "options": [
+      "El derrape causado por el congelamiento de los frenos.",
       "Un choque producido por exceso de vapor en el motor.",
       "La pérdida de contacto del neumático con el pavimento por una película de agua.",
-      "El derrape causado por el congelamiento de los frenos.",
       "El encandilamiento causado por el reflejo del agua."
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "Ocurre cuando el dibujo del neumático no logra desalojar el agua, se forma una película que lo hace flotar y se pierde el control.",
     "source": "Guía Nacional de Conducción, págs. 85-86"
   },
@@ -315,12 +328,12 @@
     "category": "Hidroplaneo",
     "question": "Si su vehículo entra en hidroplaneo, ¿cuál es la acción correcta?",
     "options": [
+      "Accionar el freno de mano.",
       "Frenar bruscamente a fondo.",
       "Girar el volante rápidamente hacia un lado.",
-      "Sostener el volante firme, no frenar de golpe y soltar suavemente el acelerador.",
-      "Accionar el freno de mano."
+      "Sostener el volante firme, no frenar de golpe y soltar suavemente el acelerador."
     ],
-    "correct": 2,
+    "correct": 3,
     "explanation": "No se debe frenar bruscamente ni dar volantazos: hay que sujetar el volante firme y desacelerar suavemente hasta recuperar la adherencia.",
     "source": "Guía Nacional de Conducción, pág. 86"
   },
@@ -328,12 +341,12 @@
     "category": "Cinturón de Seguridad",
     "question": "En automóviles y camionetas, ¿quiénes están obligados a usar el cinturón de seguridad?",
     "options": [
-      "Solamente el conductor en rutas nacionales.",
-      "Conductor y acompañante delantero únicamente.",
       "Todos los ocupantes, tanto en asientos delanteros como traseros.",
-      "Solo en viajes de más de 50 km."
+      "Conductor y acompañante delantero únicamente.",
+      "Solo en viajes de más de 50 km.",
+      "Solamente el conductor en rutas nacionales."
     ],
-    "correct": 2,
+    "correct": 0,
     "explanation": "Es obligatorio el uso del cinturón para conductor y pasajeros, en asientos delanteros y traseros, en zonas urbanas e interurbanas.",
     "source": "Ley 18.191, art. 31; Guía Nacional de Conducción, pág. 33"
   },
@@ -341,16 +354,14 @@
     "category": "Giro en U",
     "question": "Según la Guía, ¿dónde se puede realizar la inversión de marcha (giro en U)?",
     "options": [
+      "Sobre puentes y pasos a nivel.",
       "En mitad de cuadra, en calles de poco tránsito.",
       "En las intersecciones, salvo que una señal lo prohíba.",
-      "Sobre puentes y pasos a nivel.",
       "En cualquier avenida, si no vienen autos de frente."
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "La Guía indica que la inversión de marcha se hace en las intersecciones (no a mitad de cuadra), siempre que no esté prohibida por señalización.",
-    "source": "Guía Nacional de Conducción, pág. 96",
-    "verify": true,
-    "verifyNote": "Puede haber otros lugares habilitados (por ejemplo, retornos señalizados). Confirmar."
+    "source": "Reglamento Nacional de Circulación Vial, art. 16.4; Guía Nacional de Conducción, pág. 96"
   },
   {
     "category": "Semáforos",
@@ -358,12 +369,12 @@
     "options": [
       "Acelerar para cruzar antes de que cambie a roja.",
       "Detenerse antes del cruce, salvo que esté tan cerca que frenar genere un riesgo.",
-      "Tiene preferencia absoluta de paso.",
-      "Apagar las luces del vehículo."
+      "Apagar las luces del vehículo.",
+      "Tiene preferencia absoluta de paso."
     ],
     "correct": 1,
     "explanation": "La luz amarilla advierte que hay que prepararse para detenerse antes del cruce, salvo que por la cercanía una frenada brusca genere un siniestro.",
-    "source": "Guía Nacional de Conducción, pág. 108"
+    "source": "Ley 18.191, art. 36 (C); Guía Nacional de Conducción, pág. 108"
   },
   {
     "category": "Semáforos",
@@ -376,14 +387,14 @@
     ],
     "correct": 1,
     "explanation": "Obliga a detenerse completamente antes del cruce; luego se continúa según las reglas de la señal PARE.",
-    "source": "Guía Nacional de Conducción, pág. 108"
+    "source": "Ley 18.191, art. 36 (B); Guía Nacional de Conducción, pág. 108"
   },
   {
     "category": "Prioridad de Órdenes",
     "question": "Si hay un agente de tránsito dando indicaciones en un cruce con semáforo, ¿qué orden prevalece?",
     "options": [
-      "La del semáforo.",
       "La de las señales verticales.",
+      "La del semáforo.",
       "La del agente de tránsito.",
       "La regla general de la derecha."
     ],
@@ -396,44 +407,49 @@
     "question": "¿Qué significa que el agente de tránsito esté de FRENTE o de ESPALDAS a su sentido de marcha?",
     "options": [
       "Avanzar con precaución.",
+      "Solo disminuir la velocidad.",
       "Detención obligatoria.",
-      "Se permite el giro a la derecha.",
-      "Solo disminuir la velocidad."
+      "Se permite el giro a la derecha."
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "El agente de frente o de espaldas significa detención obligatoria. De perfil significa que se puede avanzar.",
-    "source": "Guía Nacional de Conducción, pág. 109"
+    "source": "Ley 18.191, art. 40; Guía Nacional de Conducción, pág. 109"
   },
   {
     "category": "Peatones",
     "question": "¿Qué regla de prioridad se aplica respecto a los peatones en los cruces peatonales (cebras)?",
     "options": [
-      "El peatón debe ceder siempre el paso a los vehículos.",
-      "El conductor debe dar preferencia de paso al peatón.",
+      "El vehículo solo se detiene si el peatón es menor de edad.",
       "Depende de si es de día o de noche.",
-      "El vehículo solo se detiene si el peatón es menor de edad."
+      "El conductor debe dar preferencia de paso al peatón.",
+      "El peatón debe ceder siempre el paso a los vehículos."
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "Todo conductor debe dar preferencia de paso a los peatones en los cruces o pasos reglamentarios (cebras).",
-    "source": "Ley 18.191, art. 7; Guía Nacional de Conducción, págs. 80 y 111"
+    "source": "Ley 18.191, art. 17 (7); Reglamento, art. 15.9; Guía Nacional de Conducción, págs. 80 y 100"
   },
   {
     "category": "Peatones en Carretera",
     "question": "Si no hay acera ni banquina, ¿cómo debe caminar un peatón por una ruta?",
     "options": [
-      "De espaldas al tránsito.",
-      "De frente al tránsito que viene hacia él.",
       "Por el medio de la calzada.",
+      "De frente al tránsito que viene hacia él.",
+      "De espaldas al tránsito.",
       "Es indistinto."
     ],
     "correct": 1,
     "explanation": "Se debe caminar de frente al tránsito para ver los vehículos que se aproximan y poder reaccionar ante una emergencia.",
-    "source": "Guía Nacional de Conducción, pág. 81"
+    "source": "Ley 18.191, art. 22 (3); Guía Nacional de Conducción, pág. 81"
   },
   {
     "category": "Sistemas del Vehículo",
     "question": "¿A qué tipo de seguridad pertenecen los frenos, la dirección y los neumáticos?",
-    "options": ["Seguridad pasiva.", "Seguridad activa.", "Seguridad de confort.", "Seguridad secundaria."],
+    "options": [
+      "Seguridad de confort.",
+      "Seguridad activa.",
+      "Seguridad pasiva.",
+      "Seguridad secundaria."
+    ],
     "correct": 1,
     "explanation": "La seguridad activa reúne los elementos que actúan durante la marcha para evitar que ocurra el siniestro (frenos, dirección, neumáticos, luces, ABS).",
     "source": "Guía Nacional de Conducción, pág. 23"
@@ -441,8 +457,13 @@
   {
     "category": "Sistemas del Vehículo",
     "question": "¿A qué tipo de seguridad pertenecen el cinturón, el airbag y los apoyacabezas?",
-    "options": ["Seguridad activa.", "Seguridad pasiva.", "Mecanismo de tracción.", "Seguridad reactiva."],
-    "correct": 1,
+    "options": [
+      "Mecanismo de tracción.",
+      "Seguridad activa.",
+      "Seguridad pasiva.",
+      "Seguridad reactiva."
+    ],
+    "correct": 2,
     "explanation": "La seguridad pasiva incluye los elementos que reducen las lesiones cuando el siniestro es inevitable (cinturones, airbags, apoyacabezas, casco).",
     "source": "Guía Nacional de Conducción, pág. 23"
   },
@@ -451,11 +472,11 @@
     "question": "¿Cuándo debe controlarse la presión de inflado de los neumáticos?",
     "options": [
       "Justo después de manejar varios kilómetros a alta velocidad.",
-      "Con los neumáticos fríos.",
+      "Solo cuando se vean desinflados a simple vista.",
       "Solo al hacer la inspección técnica anual.",
-      "Solo cuando se vean desinflados a simple vista."
+      "Con los neumáticos fríos."
     ],
-    "correct": 1,
+    "correct": 3,
     "explanation": "La presión de aire se controla con los neumáticos fríos.",
     "source": "Guía Nacional de Conducción, pág. 24"
   },
@@ -463,52 +484,53 @@
     "category": "Frenos ABS",
     "question": "¿Cuál es la función principal del sistema ABS en una frenada de emergencia?",
     "options": [
-      "Aumentar automáticamente la velocidad de detención.",
-      "Evitar el bloqueo de las ruedas para mantener el control de la dirección.",
       "Apagar el motor de inmediato.",
-      "Encender las balizas de forma automática."
+      "Aumentar automáticamente la velocidad de detención.",
+      "Encender las balizas de forma automática.",
+      "Evitar el bloqueo de las ruedas para mantener el control de la dirección."
     ],
-    "correct": 1,
+    "correct": 3,
     "explanation": "El ABS evita que las ruedas se bloqueen al frenar a fondo, lo que permite seguir dirigiendo el vehículo para esquivar obstáculos.",
     "source": "Guía Nacional de Conducción, pág. 24"
   },
   {
     "category": "Siniestros",
     "question": "Ante un siniestro de tránsito con lesionados, ¿a qué número nacional de emergencias se debe llamar?",
-    "options": ["104", "108", "911", "128"],
-    "correct": 2,
+    "options": [
+      "911",
+      "108",
+      "128",
+      "104"
+    ],
+    "correct": 0,
     "explanation": "En caso de emergencia con lesionados se debe llamar de inmediato al 911.",
     "source": "Guía Nacional de Conducción, pág. 118"
   },
   {
     "category": "Equipamiento Obligatorio",
-    "question": "Según la Ley 19.061, ¿cuál de estos elementos es obligatorio llevar en el vehículo?",
+    "question": "Según la Ley 19.061, ¿qué deben llevar los vehículos automotores de cuatro o más ruedas que circulan por la vía pública?",
     "options": [
-      "Un extintor de agua.",
-      "Un maletín de primeros auxilios y seguridad vial.",
-      "Una manta térmica especial.",
-      "Herramientas de mecánica pesada."
+      "Un maletín con elementos de primeros auxilios y seguridad vial.",
+      "Una caja de herramientas de mecánica pesada.",
+      "Un equipo de radiocomunicación.",
+      "Cadenas para nieve y barro."
     ],
-    "correct": 1,
-    "explanation": "Los vehículos de 4 o más ruedas deben llevar un maletín de primeros auxilios y seguridad vial.",
-    "source": "Ley 19.061, art. 15; Guía Nacional de Conducción, págs. 37 y 118",
-    "verify": true,
-    "verifyNote": "Confirmar qué otros elementos son obligatorios (balizas, extintor) para que ninguna opción incorrecta sea también correcta."
+    "correct": 0,
+    "explanation": "Todos los vehículos automotores de cuatro o más ruedas que circulen por la vía pública deben contar con un maletín con elementos de primeros auxilios y seguridad vial.",
+    "source": "Ley 19.061, art. 15; Guía Nacional de Conducción, págs. 37 y 118"
   },
   {
     "category": "Distracciones",
     "question": "Según la Guía, ¿qué pasa con el uso del celular en modalidad \"manos libres\" mientras se conduce?",
     "options": [
-      "Elimina por completo el riesgo de distracción.",
-      "También distrae: la conversación genera distracción cognitiva y aumenta el riesgo.",
+      "Solo es peligroso dentro de la ciudad.",
       "Solo es peligroso para enviar mensajes de texto.",
-      "Solo es peligroso dentro de la ciudad."
+      "Elimina por completo el riesgo de distracción.",
+      "También distrae: la conversación genera distracción cognitiva y aumenta el riesgo."
     ],
-    "correct": 1,
-    "explanation": "El manos libres también desvía la atención del conductor y aumenta la probabilidad de siniestro.",
-    "source": "Guía Nacional de Conducción, pág. 90",
-    "verify": true,
-    "verifyNote": "Confirmar qué dice la ley sobre el uso de celular al conducir (solo en mano o también manos libres) y citar la norma."
+    "correct": 3,
+    "explanation": "El manos libres también desvía la atención cognitiva del conductor y aumenta de forma significativa la probabilidad de siniestro.",
+    "source": "Guía Nacional de Conducción, pág. 90"
   },
   {
     "category": "Adelantamiento en Ruta",
@@ -516,10 +538,10 @@
     "options": [
       "Aumentar la velocidad al máximo.",
       "Tocar la bocina repetidamente.",
-      "Que no venga un vehículo de frente y que el de atrás no haya iniciado su adelantamiento.",
-      "Encender las luces altas."
+      "Encender las luces altas.",
+      "Que no venga un vehículo de frente y que el de atrás no haya iniciado su adelantamiento."
     ],
-    "correct": 2,
+    "correct": 3,
     "explanation": "Hay que mirar hacia adelante para comprobar que la vía esté libre y por los espejos para confirmar que nadie de atrás empezó a adelantar.",
     "source": "Guía Nacional de Conducción, pág. 114"
   },
@@ -527,12 +549,12 @@
     "category": "Puntos Ciegos",
     "question": "¿Qué son los \"puntos ciegos\" o \"ángulos muertos\" de un vehículo?",
     "options": [
-      "Zonas que los faros no iluminan en las curvas.",
-      "Zonas alrededor del vehículo que el conductor no ve a través de los espejos.",
       "Sectores de la ruta sin señal de GPS.",
-      "Manchas en el parabrisas."
+      "Manchas en el parabrisas.",
+      "Zonas que los faros no iluminan en las curvas.",
+      "Zonas alrededor del vehículo que el conductor no ve a través de los espejos."
     ],
-    "correct": 1,
+    "correct": 3,
     "explanation": "Son zonas que no se ven por los espejos, generadas por la estructura del vehículo y sus parantes; hay que girar la cabeza para verlas.",
     "source": "Guía Nacional de Conducción, pág. 95"
   },
@@ -540,25 +562,25 @@
     "category": "Motocicletas",
     "question": "¿Qué freno aporta la mayor parte de la fuerza de frenado (alrededor del 75%) en una motocicleta?",
     "options": [
-      "El freno trasero.",
       "El freno delantero.",
+      "El freno trasero.",
       "El freno de mano.",
       "Ambos aportan exactamente el 50%."
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": "El freno delantero es el más potente de la moto y aporta alrededor de tres cuartas partes de la fuerza total de frenado.",
-    "source": "Guía Nacional de Conducción, págs. 47-49"
+    "source": "Guía Nacional de Conducción, pág. 47"
   },
   {
     "category": "Motocicletas",
     "question": "Según la Ley 19.061, ¿qué elemento de visibilidad es obligatorio para quienes conducen motocicletas?",
     "options": [
-      "Casco blanco únicamente.",
-      "Chaleco, campera o bandas reflectivas.",
       "Cinta fluorescente en los tobillos.",
-      "Guantes amarillos."
+      "Casco blanco únicamente.",
+      "Guantes amarillos.",
+      "Chaleco, campera o bandas reflectivas."
     ],
-    "correct": 1,
+    "correct": 3,
     "explanation": "Es obligatorio el uso permanente de chaleco, campera o bandas reflectivas para conductores y acompañantes de motos.",
     "source": "Ley 19.061, art. 7; Guía Nacional de Conducción, pág. 53"
   },
@@ -566,10 +588,10 @@
     "category": "Motocicletas",
     "question": "¿Se pueden transportar niños como pasajeros en una moto o ciclomotor?",
     "options": [
-      "Sí, a cualquier edad si llevan casco.",
+      "Sí, a partir de los 3 años.",
       "No, salvo que el niño llegue con los pies a los posapiés.",
-      "Solo si van adelante del conductor.",
-      "Sí, a partir de los 3 años."
+      "Sí, a cualquier edad si llevan casco.",
+      "Solo si van adelante del conductor."
     ],
     "correct": 1,
     "explanation": "Está prohibido transportar niños o adolescentes que no alcancen los posapiés de la moto.",
@@ -579,12 +601,12 @@
     "category": "Bicicletas",
     "question": "¿Por dónde deben circular las personas en bicicleta?",
     "options": [
-      "Por el borde izquierdo de la calzada.",
-      "Junto al borde derecho de la calzada, en fila india.",
       "Por las veredas, sin importar la zona.",
-      "Por cualquier carril si van rápido."
+      "Por cualquier carril si van rápido.",
+      "Por el borde izquierdo de la calzada.",
+      "Junto al borde derecho de la calzada, en fila india."
     ],
-    "correct": 1,
+    "correct": 3,
     "explanation": "Los ciclistas deben circular por el borde derecho de la calzada, uno detrás de otro (fila india).",
     "source": "Guía Nacional de Conducción, pág. 74"
   },
@@ -592,43 +614,1133 @@
     "category": "Bicicletas",
     "question": "Según la Guía y la Ley 19.061, ¿es obligatorio el casco para quienes andan en bicicleta en la vía pública?",
     "options": [
+      "Solo para menores de 12 años.",
       "No, es opcional.",
       "Sí, es obligatorio.",
-      "Solo para menores de 12 años.",
       "Solo en rutas nacionales."
     ],
-    "correct": 1,
-    "explanation": "Quienes conducen bicicletas deben usar casco protector de seguridad.",
-    "source": "Ley 19.061, art. 9; Guía Nacional de Conducción, pág. 74",
-    "verify": true,
-    "verifyNote": "Confirmar si es obligatorio para todas las edades y si varía según la Intendencia."
+    "correct": 2,
+    "explanation": "Quienes conducen bicicletas están obligados a usar casco protector de seguridad.",
+    "source": "Ley 19.061, art. 9; Guía Nacional de Conducción, pág. 74"
   },
   {
     "category": "Emergencias",
-    "question": "Si el vehículo se avería y queda detenido en la calzada o banquina de una ruta, ¿a qué distancia mínima se deben colocar las balizas portátiles?",
+    "question": "Si un vehículo queda detenido por fuerza mayor sobre la senda de circulación en una carretera, ¿a qué distancia se colocan las balizas?",
     "options": [
-      "A 10 metros, adelante y atrás.",
-      "A no menos de 50 metros, adelante y atrás.",
       "A 5 metros, solo atrás.",
-      "A 150 metros."
+      "A 10 metros, adelante y atrás.",
+      "A 150 metros.",
+      "A 50 metros, adelante y atrás."
     ],
-    "correct": 1,
-    "explanation": "Los triángulos o balizas portátiles se colocan a no menos de 50 metros delante y detrás del vehículo detenido.",
-    "source": "Guía Nacional de Conducción, pág. 113",
-    "verify": true,
-    "verifyNote": "Confirmar la distancia en la norma vigente."
+    "correct": 3,
+    "explanation": "En carreteras y caminos las dos balizas reglamentarias se colocan a cincuenta metros de las partes anterior y posterior del vehículo, sobre la senda bloqueada. (Las balizas deben ser visibles a no menos de 150 metros.)",
+    "source": "Reglamento Nacional de Circulación Vial, art. 7.23; Guía Nacional de Conducción, pág. 113"
   },
   {
     "category": "Conducción Eficiente",
     "question": "¿Qué hábito favorece un menor consumo de combustible al circular?",
     "options": [
-      "Manejar en marchas cortas y a altas revoluciones.",
-      "Circular en los cambios más largos posibles y a bajas revoluciones.",
       "Acelerar fuerte en cada esquina.",
-      "Bajar las pendientes en punto muerto."
+      "Bajar las pendientes en punto muerto.",
+      "Circular en los cambios más largos posibles y a bajas revoluciones.",
+      "Manejar en marchas cortas y a altas revoluciones."
+    ],
+    "correct": 2,
+    "explanation": "La conducción eficiente implica circular lo más posible en cambios largos y a bajas revoluciones, sin forzar el motor.",
+    "source": "Guía Nacional de Conducción, pág. 120"
+  },
+  {
+    "category": "Señales de Tránsito",
+    "question": "¿Qué finalidad tienen las señales de reglamentación en la vía pública?",
+    "options": [
+      "Informar sobre la ubicación de talleres mecánicos.",
+      "Advertir sobre la existencia de un peligro próximo.",
+      "Indicar condiciones, prohibiciones o restricciones cuyo cumplimiento es obligatorio.",
+      "Guiar al usuario en su trayecto."
+    ],
+    "correct": 2,
+    "explanation": "Las señales de reglamentación indican a los usuarios las condiciones, prohibiciones o restricciones en el uso de la vía pública cuyo cumplimiento es obligatorio.",
+    "source": "Ley 18.191, art. 35 (A); Guía Nacional de Conducción, pág. 124"
+  },
+  {
+    "category": "Señales de Tránsito",
+    "question": "¿Qué forma y colores caracterizan generalmente a las señales de advertencia de peligro?",
+    "options": [
+      "Rectangulares de fondo verde y letras blancas.",
+      "Romboideas (rombo) con fondo amarillo y símbolos negros.",
+      "Triangulares invertidas con fondo rojo.",
+      "Circulares con fondo azul y borde blanco."
     ],
     "correct": 1,
-    "explanation": "La conducción eficiente implica circular lo más posible en cambios largos y a bajas revoluciones, sin forzar el motor.",
+    "explanation": "Las señales de advertencia (de prevención) previenen al usuario de la existencia y naturaleza de un peligro. Son de forma romboidal, con fondo amarillo y símbolos negros.",
+    "source": "Ley 18.191, art. 35 (B); Guía Nacional de Conducción, págs. 124 y 126"
+  },
+  {
+    "category": "Leyes Físicas y Velocidad",
+    "question": "¿De qué se compone principalmente la denominada distancia total de detención o parada de un vehículo?",
+    "options": [
+      "Únicamente de la distancia de frenado.",
+      "De la distancia recorrida durante el tiempo de reacción más la distancia de frenado.",
+      "De la distancia recorrida en punto muerto exclusivamente.",
+      "Del tiempo que el motor tarda en apagarse al frenar."
+    ],
+    "correct": 1,
+    "explanation": "La distancia total de detención es la suma de la distancia recorrida durante el tiempo de reacción del conductor más la distancia de frenado del vehículo.",
+    "source": "Guía Nacional de Conducción, pág. 92"
+  },
+  {
+    "category": "Leyes Físicas y Velocidad",
+    "question": "¿Cómo influyen el alcohol, la fatiga y ciertos medicamentos en el tiempo de reacción de un conductor?",
+    "options": [
+      "Solo lo afecta la velocidad a la que se circula.",
+      "No lo modifican: el tiempo de reacción es siempre fijo.",
+      "Lo alargan: el conductor tarda más en reaccionar.",
+      "Únicamente lo afecta la temperatura ambiente."
+    ],
+    "correct": 2,
+    "explanation": "El tiempo de reacción aumenta considerablemente con el cansancio, el alcohol, las drogas, la falta de atención y determinados medicamentos.",
+    "source": "Guía Nacional de Conducción, pág. 92"
+  },
+  {
+    "category": "Medicina y Conducción",
+    "question": "¿Qué efecto secundario frecuente de los antihistamínicos más antiguos, usados contra las alergias, afecta la conducción?",
+    "options": [
+      "Aumento drástico de la agudeza visual nocturna.",
+      "Excitación y euforia extrema.",
+      "Sedación, que va desde somnolencia ligera hasta sueño profundo.",
+      "Aceleración de los reflejos musculares."
+    ],
+    "correct": 2,
+    "explanation": "Los antihistamínicos producen frecuentemente sedación (somnolencia o sueño), lo cual disminuye las capacidades psicomotoras para conducir.",
+    "source": "Guía Nacional de Conducción, pág. 14"
+  },
+  {
+    "category": "Maniobras en General",
+    "question": "Según la Guía, ¿con qué anticipación mínima se debe indicar la intención de girar?",
+    "options": [
+      "100 metros antes.",
+      "5 metros antes.",
+      "30 metros antes.",
+      "10 metros antes."
+    ],
+    "correct": 2,
+    "explanation": "La Guía indica que es obligatorio señalizar la intención de girar por lo menos con treinta metros de anticipación.",
+    "source": "Guía Nacional de Conducción, pág. 65"
+  },
+  {
+    "category": "Maniobras en General",
+    "question": "Según la Guía, para realizar un giro a la IZQUIERDA en una calle de doble sentido, ¿dónde debe ubicarse previamente el conductor?",
+    "options": [
+      "Bien contra el cordón derecho.",
+      "En el eje de la calzada, sin invadir el sentido contrario.",
+      "Invadiendo el carril contrario para ganar espacio.",
+      "Sobre la acera, esperando que pase el tránsito."
+    ],
+    "correct": 1,
+    "explanation": "La Guía indica que en calles de doble sentido el giro a la izquierda se hace desde el eje de la calzada, sin invadir el sentido contrario (siempre desde el carril más a la izquierda de su sentido).",
+    "source": "Guía Nacional de Conducción, pág. 65; Ley 18.191, art. 18 (4)"
+  },
+  {
+    "category": "Medio Ambiente",
+    "question": "¿Qué debe hacer un conductor al circular con niebla densa o lluvia intensa?",
+    "options": [
+      "Aumentar la distancia con el vehículo de adelante y adecuar la velocidad a la poca visibilidad.",
+      "Mantener la velocidad de siempre y usar luces altas.",
+      "Apagar las luces para no encandilar con la niebla.",
+      "Detenerse en plena calzada hasta que mejore la visibilidad."
+    ],
+    "correct": 0,
+    "explanation": "Ante lluvia o niebla se debe extremar la precaución, aumentar la distancia de seguimiento y adecuar la velocidad a las condiciones atmosféricas.",
+    "source": "Guía Nacional de Conducción, pág. 87"
+  },
+  {
+    "category": "Conducción en Ruta",
+    "question": "Según la Guía, si lo encandila otro vehículo que viene de frente con las luces altas, ¿cómo debe actuar?",
+    "options": [
+      "Frenar de golpe en medio de la ruta.",
+      "No accionar la luz larga, encender la baliza, aminorar la marcha, acercarse a la banquina y evitar el choque de frente.",
+      "Cerrar los ojos por completo durante unos segundos.",
+      "Accionar también la luz larga para devolver el encandilamiento."
+    ],
+    "correct": 1,
+    "explanation": "Ante el encandilamiento: no accionar la luz larga, encender la baliza, aminorar la marcha, acercarse a la banquina y evitar el choque de frente.",
+    "source": "Guía Nacional de Conducción, pág. 115"
+  },
+  {
+    "category": "Siniestros",
+    "question": "Según la Ley 18.191, todo conductor implicado en un siniestro de tránsito con lesionados debe:",
+    "options": [
+      "Detenerse sin crear un nuevo peligro, permanecer en el lugar, socorrer a los lesionados y señalizar.",
+      "Esperar a que llegue una grúa particular antes de asistir a nadie.",
+      "Mover los vehículos para despejar la calle.",
+      "Abandonar el lugar rápidamente para no obstruir el tránsito."
+    ],
+    "correct": 0,
+    "explanation": "Todo conductor implicado en un siniestro debe detenerse sin generar un nuevo peligro, permanecer en el lugar hasta la llegada de las autoridades, procurar socorro a los lesionados, señalizar el lugar, no alterar elementos útiles para la investigación y denunciar el hecho a la autoridad competente.",
+    "source": "Ley 18.191, art. 43; Guía Nacional de Conducción, págs. 9 y 117"
+  },
+  {
+    "category": "Seguridad Pasiva",
+    "question": "¿A qué altura aproximada deben colocarse los apoyacabezas de los asientos para que cumplan su función protectora?",
+    "options": [
+      "A la misma altura que la cabeza, nunca por debajo de la nuca.",
+      "No importa la altura si el asiento está reclinado.",
+      "Bien separados de la cabeza para mayor comodidad.",
+      "A la altura de los hombros o la espalda baja."
+    ],
+    "correct": 0,
+    "explanation": "Los apoyacabezas deben colocarse a la misma altura que la cabeza, nunca por debajo de la nuca, a una distancia de unos 4 o 5 cm.",
+    "source": "Guía Nacional de Conducción, pág. 35"
+  },
+  {
+    "category": "Estacionamiento",
+    "question": "En zonas urbanas, ¿a qué distancia antes de un símbolo de PARE, CEDA EL PASO o de advertencia está prohibido estacionar?",
+    "options": [
+      "A menos de 5 metros.",
+      "A menos de 2 metros.",
+      "A menos de 10 metros.",
+      "No hay restricción si se dejan las balizas encendidas."
+    ],
+    "correct": 2,
+    "explanation": "En zonas urbanas y suburbanas está prohibido estacionar o detenerse a menos de diez metros antes de un símbolo de PARE, CEDA EL PASO o de advertencia.",
+    "source": "Reglamento Nacional de Circulación Vial, art. 18.2 (f); Guía Nacional de Conducción, pág. 103"
+  },
+  {
+    "category": "Motos y Similares",
+    "question": "En una motocicleta, ¿cómo se compensa habitualmente la acción de la fuerza centrífuga al tomar una curva?",
+    "options": [
+      "Inclinando la motocicleta y el cuerpo hacia el interior de la curva.",
+      "Frenando a fondo con ambas ruedas dentro de la curva.",
+      "Girando el manillar en sentido contrario al giro.",
+      "Acelerando bruscamente para salir en línea recta."
+    ],
+    "correct": 0,
+    "explanation": "En las curvas, las motos sufren la acción de la fuerza centrífuga y deben ser inclinadas por su conductor para compensarla.",
+    "source": "Guía Nacional de Conducción, pág. 39"
+  },
+  {
+    "category": "Motos y Similares",
+    "question": "¿Por qué se considera \"vulnerables\" a quienes conducen motos y bicicletas?",
+    "options": [
+      "Porque las leyes de tránsito no los contemplan.",
+      "Porque no pagan impuestos de circulación.",
+      "Porque circulan exclusivamente por las aceras.",
+      "Porque no tienen carrocería que los proteja y están muy expuestos a daños graves en un siniestro."
+    ],
+    "correct": 3,
+    "explanation": "La falta de carrocería y la fragilidad de los vehículos de dos ruedas transforman a sus conductores en usuarios vulnerables ante impactos.",
+    "source": "Guía Nacional de Conducción, págs. 39 y 73"
+  },
+  {
+    "category": "Cuatriciclos",
+    "question": "Según la Guía, ¿qué se recomienda sobre llevar acompañantes o cargas en un cuatriciclo?",
+    "options": [
+      "Pueden circular por cualquier autopista sin restricciones.",
+      "Pueden llevar niños pequeños sobre el manillar.",
+      "Pueden llevar hasta 3 pasajeros y carga pesada.",
+      "No están diseñados para llevar acompañantes ni cargas, y deben evitarse las maniobras que provoquen vuelcos."
+    ],
+    "correct": 3,
+    "explanation": "La Guía recomienda no transportar acompañantes porque no están diseñados para ello, y señala que en general no están habilitados para llevar carga ni pasajeros. También indica evitar maniobras bruscas que puedan hacer perder estabilidad.",
+    "source": "Guía Nacional de Conducción, pág. 76"
+  },
+  {
+    "category": "El Peatón",
+    "question": "¿Qué probabilidad tiene de sobrevivir un peatón atropellado por un vehículo que lo impacta a 30 km/h o menos?",
+    "options": [
+      "Menos del 10%.",
+      "Aproximadamente un 90% o más.",
+      "Alrededor del 50%.",
+      "El 100%, sin importar el tamaño del auto."
+    ],
+    "correct": 1,
+    "explanation": "Según la Guía, los peatones tienen alrededor de un 90% de probabilidad de sobrevivir a un atropellamiento a 30 km/h o menos.",
+    "source": "Guía Nacional de Conducción, pág. 79"
+  },
+  {
+    "category": "Conducción Ecológica",
+    "question": "En un motor de nafta, ¿cómo se recomienda hacer el arranque y la puesta en marcha según los principios de conducción eficiente?",
+    "options": [
+      "Dejar calentar el vehículo en punto muerto durante 15 minutos.",
+      "Arrancar el motor sin pisar el acelerador e iniciar la marcha inmediatamente después.",
+      "Pisando el acelerador a fondo antes de encender.",
+      "Arrancar directamente en tercera velocidad."
+    ],
+    "correct": 1,
+    "explanation": "La primera clave de la conducción eficiente indica arrancar el motor sin pisar el acelerador e iniciar la marcha inmediatamente después, en motores de nafta.",
+    "source": "Guía Nacional de Conducción, pág. 119"
+  },
+  {
+    "category": "Conducción en Ruta",
+    "question": "Según el Reglamento y la Guía, ¿cuál es el uso de la banquina en una ruta nacional para los vehículos?",
+    "options": [
+      "Estacionar para descansar o comer de forma prolongada.",
+      "Adelantar vehículos lentos por la derecha.",
+      "Circular a baja velocidad cuando hay embotellamiento.",
+      "Solo se usa para circulación y detención de emergencia, con precaución."
+    ],
+    "correct": 3,
+    "explanation": "Las banquinas solo pueden ser usadas por los vehículos, con precaución, para circulación de emergencia y detenciones de igual carácter. Los peatones pueden usarlas para transitar de frente al sentido de circulación.",
+    "source": "Reglamento Nacional de Circulación Vial, art. 2.3; Guía Nacional de Conducción, pág. 112"
+  },
+  {
+    "category": "Seguridad Vial",
+    "question": "¿Qué establece el principio de \"abstenerse ante la duda\" de la Ley 18.191?",
+    "options": [
+      "Que ante una duda en un cruce conviene acelerar para despejarlo rápido.",
+      "Que se puede estacionar en doble fila si hay dudas sobre el lugar.",
+      "Que el peatón debe ceder el paso cuando tiene dudas.",
+      "Que ante la duda, los usuarios deben abstenerse y adaptar su comportamiento a los criterios de seguridad vial."
+    ],
+    "correct": 3,
+    "explanation": "La ley establece que los usuarios deben actuar con sujeción al principio de «Abstenerse ante la duda», adaptando su comportamiento a los criterios de seguridad vial.",
+    "source": "Ley 18.191, art. 6; Guía Nacional de Conducción, pág. 11"
+  },
+  {
+    "category": "Documentación y Normativa",
+    "question": "Además del permiso de conducir, ¿qué documentos debe portar quien conduce un vehículo?",
+    "options": [
+      "Únicamente la cédula de identidad.",
+      "El recibo de pago de la patente del año anterior.",
+      "El registro (libreta de propiedad) del vehículo y el certificado de seguro obligatorio (SOA).",
+      "Un certificado de buena conducta policial."
+    ],
+    "correct": 2,
+    "explanation": "La Guía indica que quien conduce debe portar el permiso de conducir, el registro del vehículo y el certificado de seguro obligatorio (SOA), y presentarlos a los agentes de tránsito cuando se los exijan.",
+    "source": "Guía Nacional de Conducción, pág. 8; Ley 18.191, art. 26 (1)"
+  },
+  {
+    "category": "Sistemas del Vehículo",
+    "question": "¿Qué consecuencia tiene circular con los neumáticos con una presión de aire NOTABLEMENTE INFERIOR a la recomendada?",
+    "options": [
+      "Mejora notable de la adherencia en curvas cerradas.",
+      "Flexión extrema del neumático, exceso de calor, riesgo de estallido y desgaste desparejo.",
+      "Mayor ahorro de combustible y vida útil prolongada.",
+      "Aumento automático de la presión de frenado."
+    ],
+    "correct": 1,
+    "explanation": "La baja presión provoca una flexión extrema del neumático que genera calor, riesgo de estallido y desgaste desparejo.",
+    "source": "Guía Nacional de Conducción, págs. 24 y 26"
+  },
+  {
+    "category": "Sistemas del Vehículo",
+    "question": "Según la Guía, ¿cada cuántos años se aconseja cambiar los neumáticos, aunque conserven dibujo y no hayan rodado en exceso?",
+    "options": [
+      "Cada 10 años.",
+      "Cada 2 años.",
+      "Aproximadamente cada 5 años.",
+      "No hace falta cambiarlos mientras tengan dibujo."
+    ],
+    "correct": 2,
+    "explanation": "Aunque conserven dibujo, se aconseja cambiar los neumáticos aproximadamente cada cinco años, porque pierden propiedades necesarias para circular con seguridad.",
+    "source": "Guía Nacional de Conducción, pág. 24"
+  },
+  {
+    "category": "Maniobras en General",
+    "question": "¿Qué indican las líneas diagonales entre líneas continuas en la calzada (zonas o áreas neutrales)?",
+    "options": [
+      "Áreas donde está prohibido circular y también estacionar.",
+      "Zonas de cruce prioritario para ciclistas.",
+      "Zonas habilitadas para estacionamiento breve.",
+      "Carriles exclusivos para transporte de carga."
+    ],
+    "correct": 0,
+    "explanation": "Las zonas o áreas neutrales sirven para separar carriles; está prohibido circular sobre ellas y también estacionarse.",
+    "source": "Guía Nacional de Conducción, pág. 111"
+  },
+  {
+    "category": "Drogas y Conducción",
+    "question": "Respecto al consumo de sustancias como la marihuana o las drogas estimulantes (cocaína, pasta base) al conducir:",
+    "options": [
+      "Están permitidas si se consumen en dosis bajas.",
+      "No tienen ninguna relación con la seguridad vial.",
+      "Mejoran los reflejos y la atención nocturna.",
+      "Deterioran gravemente las capacidades mentales y físicas, y alteran los tiempos de reacción y la percepción de la realidad."
+    ],
+    "correct": 3,
+    "explanation": "Consumir drogas, solas o mezcladas con alcohol, deteriora las capacidades mentales y físicas y provoca somnolencia, impulsividad o agresividad.",
+    "source": "Guía Nacional de Conducción, pág. 19"
+  },
+  {
+    "category": "Conducción en Ruta",
+    "question": "Ante un \"banderillero\" en la calzada (por ejemplo, en obras viales), el conductor debe:",
+    "options": [
+      "Ignorarlo si el semáforo cercano está en verde.",
+      "Reducir la velocidad, prestar atención a su señal y respetarla.",
+      "Tocar bocina para que se retire del carril.",
+      "Acelerar para pasar antes de que cambie su señal."
+    ],
+    "correct": 1,
+    "explanation": "El banderillero está autorizado a realizar señales; ante su presencia el conductor debe reducir la velocidad, atender su señal y respetarla.",
+    "source": "Guía Nacional de Conducción, pág. 116"
+  },
+  {
+    "category": "Generalidades",
+    "question": "Según la Guía, ¿qué se establece sobre el uso de la bocina?",
+    "options": [
+      "Su uso se limita a casos de emergencia o para prevenir un posible siniestro.",
+      "Se puede usar libremente para saludar a conocidos.",
+      "Debe usarse obligatoriamente al llegar a cada esquina sin semáforo.",
+      "Está prohibido en zonas urbanas en toda circunstancia."
+    ],
+    "correct": 0,
+    "explanation": "La bocina debe usarse solo en caso de emergencia o para prevenir un posible siniestro; en cualquier otra circunstancia su uso está prohibido.",
+    "source": "Ley 18.191, art. 29 (6); Guía Nacional de Conducción, págs. 30 y 47"
+  },
+  {
+    "category": "Siniestros",
+    "question": "Ante un desperfecto mecánico o una colisión sin heridos en la vía pública, ¿qué debe hacer el conductor con el vehículo?",
+    "options": [
+      "Empujarlo hacia la vereda.",
+      "Abandonarlo con las puertas abiertas.",
+      "Retirarlo de la zona de circulación, arrimándolo lo más posible al cordón para no obstruir.",
+      "Dejarlo exactamente donde quedó hasta que llegue la policía."
+    ],
+    "correct": 2,
+    "explanation": "En caso de desperfecto o colisión sin heridos, el vehículo debe retirarse de la zona de circulación y arrimarse lo más posible al cordón.",
+    "source": "Guía Nacional de Conducción, pág. 104"
+  },
+  {
+    "category": "Normativa y Vehículos",
+    "question": "Según la Ley 19.061, ¿qué se establece sobre el transporte de personas en la caja de un vehículo?",
+    "options": [
+      "Está prohibido en la caja de cualquier tipo de vehículo que no haya sido diseñado para ese fin.",
+      "Está permitido sin ninguna limitación.",
+      "Solo está permitido en zonas urbanas y de noche.",
+      "Está permitido si las personas llevan casco."
+    ],
+    "correct": 0,
+    "explanation": "Se prohíbe el transporte de personas en la caja de cualquier tipo de vehículo que no haya sido diseñado para tal fin.",
+    "source": "Ley 19.061, art. 14 (redacción dada por Ley 19.824); Guía Nacional de Conducción, pág. 38"
+  },
+  {
+    "category": "Velocidad y Percepción",
+    "question": "¿Qué efecto tiene la conducción a alta velocidad sobre el campo visual, conocido como \"efecto túnel\"?",
+    "options": [
+      "No genera ningún cambio en la visión.",
+      "Disminuye notablemente el campo visual lateral y se pierde la perspectiva de los costados.",
+      "Mejora la visualización de los carteles lejanos.",
+      "Se amplía la visión periférica y se ven mejor los laterales."
+    ],
+    "correct": 1,
+    "explanation": "Conducir a alta velocidad reduce el campo visual lateral, fenómeno conocido como efecto túnel.",
+    "source": "Guía Nacional de Conducción, pág. 90"
+  },
+  {
+    "category": "Intersecciones",
+    "question": "Al llegar a una rotonda, ¿en qué sentido se circula alrededor de ella, salvo señalización en contrario?",
+    "options": [
+      "Por la izquierda, dejando la isleta a la derecha.",
+      "Por donde el conductor prefiera según su destino.",
+      "Por el carril central, cruzando en ambos sentidos.",
+      "Por la derecha, dejando la isleta a la izquierda."
+    ],
+    "correct": 3,
+    "explanation": "En una rotonda se circula por la derecha, dejando el obstáculo central a la izquierda, salvo señalización específica.",
+    "source": "Ley 18.191, art. 14 (5); Guía Nacional de Conducción, pág. 106"
+  },
+  {
+    "category": "Semáforos",
+    "question": "En una calle de doble sentido con semáforo, ¿qué ocurre con el giro a la izquierda con luz verde?",
+    "options": [
+      "Está permitido si se usa la luz señalera.",
+      "Está permitido siempre que no vengan autos de frente.",
+      "Solo se permite fuera del horario pico.",
+      "Está prohibido, salvo que una señalización expresa lo autorice."
+    ],
+    "correct": 3,
+    "explanation": "La luz verde permite seguir de frente y girar a la derecha. En calles de un solo sentido también permite girar a la izquierda, pero se prohíbe girar a la izquierda en calles con semáforos de doble sentido, salvo autorización expresa mediante señalización.",
+    "source": "Ley 18.191, art. 36 (E)"
+  },
+  {
+    "category": "Semáforos",
+    "question": "¿Qué significa una luz AMARILLA INTERMITENTE en un semáforo?",
+    "options": [
+      "Los conductores pueden continuar la marcha con las precauciones necesarias.",
+      "Solo pueden pasar los vehículos de emergencia.",
+      "Prohibido avanzar hasta que cambie a verde.",
+      "Detención obligatoria, como un PARE."
+    ],
+    "correct": 0,
+    "explanation": "Con luz amarilla intermitente los conductores pueden continuar la marcha con las precauciones necesarias.",
+    "source": "Ley 18.191, art. 36 (D)"
+  },
+  {
+    "category": "Semáforos",
+    "question": "¿Qué indica una luz ROJA acompañada de una FLECHA VERDE?",
+    "options": [
+      "Que se debe esperar a que se apague la flecha.",
+      "Que se puede cruzar en cualquier dirección.",
+      "Que se puede entrar cuidadosamente al cruce, solo para seguir en la dirección que indica la flecha.",
+      "Que el semáforo está descompuesto."
+    ],
+    "correct": 2,
+    "explanation": "Los vehículos que enfrentan luz roja y flecha verde pueden entrar cuidadosamente al cruce, solamente para proseguir en la dirección indicada.",
+    "source": "Ley 18.191, art. 36 (F)"
+  },
+  {
+    "category": "Señales de Tránsito",
+    "question": "¿Qué debe hacer un conductor ante una señal de CEDA EL PASO?",
+    "options": [
+      "Reducir la velocidad, detenerse si es necesario y permitir el paso a quienes se aproximan por la otra vía.",
+      "Tocar la bocina y continuar.",
+      "Mantener su velocidad, porque tiene prioridad.",
+      "Detenerse siempre por completo."
+    ],
+    "correct": 0,
+    "explanation": "Ante un CEDA EL PASO hay que reducir la velocidad, detenerse si es necesario y permitir el paso a los usuarios que se aproximan por la otra vía. Ante un PARE, en cambio, la detención es obligatoria.",
+    "source": "Ley 18.191, art. 41"
+  },
+  {
+    "category": "Señales de Tránsito",
+    "question": "¿Qué obliga a hacer una señal de PARE?",
+    "options": [
+      "Detenerse solo si hay peatones.",
+      "Detener obligatoriamente el vehículo y permitir el paso a los demás usuarios.",
+      "Ceder el paso solo a los vehículos que vienen por la derecha.",
+      "Reducir la velocidad y seguir si no viene nadie."
+    ],
+    "correct": 1,
+    "explanation": "El conductor que se enfrenta a una señal de PARE debe detener obligatoriamente su vehículo y permitir el paso a los demás usuarios.",
+    "source": "Ley 18.191, art. 41"
+  },
+  {
+    "category": "Señales de Tránsito",
+    "question": "¿Qué finalidad tienen las señales de información?",
+    "options": [
+      "Advertir sobre un peligro próximo.",
+      "Prohibir ciertas maniobras.",
+      "Regular la velocidad máxima en la vía.",
+      "Guiar a los usuarios en su recorrido o facilitarles indicaciones que puedan serles útiles."
+    ],
+    "correct": 3,
+    "explanation": "Las señales de información tienen por finalidad guiar a los usuarios en el curso de sus desplazamientos o facilitarles otras indicaciones que puedan serles de utilidad.",
+    "source": "Ley 18.191, art. 35 (C)"
+  },
+  {
+    "category": "Cruces Ferroviarios",
+    "question": "Al llegar a un cruce ferroviario a nivel, ¿qué deben hacer los conductores?",
+    "options": [
+      "Detenerse únicamente si se ve venir el tren.",
+      "Reducir la velocidad y cruzar sin detenerse.",
+      "Detener el vehículo antes del cruce y continuar solo después de comprobar que no hay riesgo de accidente.",
+      "Tocar la bocina y cruzar rápido."
+    ],
+    "correct": 2,
+    "explanation": "Los conductores deben detener sus vehículos antes de un cruce ferroviario a nivel y solo pueden continuar después de comprobar que no existe riesgo de accidente.",
+    "source": "Ley 18.191, art. 20"
+  },
+  {
+    "category": "Motocicletas",
+    "question": "Según la Ley 18.191, ¿qué casco deben usar las personas que viajan en motocicleta?",
+    "options": [
+      "Es obligatorio solo para quien conduce, no para el acompañante.",
+      "Cualquier casco, aunque no esté certificado.",
+      "Un casco certificado y debidamente abrochado.",
+      "Solo es obligatorio en rutas nacionales."
+    ],
+    "correct": 2,
+    "explanation": "Es obligatorio el uso de casco protector certificado, debidamente abrochado, para los usuarios de motocicletas.",
+    "source": "Ley 18.191, art. 33"
+  },
+  {
+    "category": "Motocicletas",
+    "question": "Según la Ley 19.061, ¿quiénes deben usar chaleco o campera reflectivos (o bandas reflectivas) en una moto?",
+    "options": [
+      "Solo quienes circulan por rutas.",
+      "Solo quienes circulan de noche.",
+      "El conductor y los acompañantes.",
+      "Solo el conductor."
+    ],
+    "correct": 2,
+    "explanation": "El uso permanente de chaleco, campera o bandas reflectivas es obligatorio para conductores y acompañantes de motos, ciclomotores, motocicletas, cuadriciclos o similares, en todas las vías públicas.",
+    "source": "Ley 19.061, art. 7"
+  },
+  {
+    "category": "Motocicletas",
+    "question": "Según la Ley 19.061, ¿qué debe acompañar la venta de una moto o ciclomotor cero kilómetro?",
+    "options": [
+      "Un chaleco reflectivo de regalo.",
+      "Un seguro por cinco años.",
+      "Un casco protector certificado.",
+      "Un curso de manejo."
+    ],
+    "correct": 2,
+    "explanation": "La venta de vehículos cero kilómetro, ciclomotores, motos, motocicletas, motonetas y similares debe ser acompañada con un casco protector certificado como mínimo.",
+    "source": "Ley 19.061, art. 12"
+  },
+  {
+    "category": "Bicicletas",
+    "question": "Según la Ley 19.061, ¿cuál de estos elementos forma parte del equipamiento obligatorio de seguridad de una bicicleta?",
+    "options": [
+      "Guardabarros metálicos.",
+      "Sistema de freno delantero y trasero.",
+      "Una matrícula.",
+      "Un velocímetro."
+    ],
+    "correct": 1,
+    "explanation": "El equipamiento obligatorio incluye sistema de freno delantero y trasero, espejos retrovisores o dispositivos de visión indirecta, timbre o bocina y un sistema lumínico (faro blanco adelante y faro rojo atrás, con reflectantes).",
+    "source": "Ley 19.061, art. 10"
+  },
+  {
+    "category": "Seguridad Pasiva",
+    "question": "Según la Ley 19.061, ¿qué deben incluir los vehículos cero kilómetro de cuatro o más ruedas que se comercializan en el país?",
+    "options": [
+      "ABS, apoyacabezas, cinturones de seguridad en todas las plazas y airbags frontales (cuando el vehículo lo admita).",
+      "Un sistema de navegación GPS.",
+      "Solo cinturón de seguridad en las plazas delanteras.",
+      "Únicamente airbags laterales."
+    ],
+    "correct": 0,
+    "explanation": "Los vehículos cero kilómetro de cuatro o más ruedas deben contar con sistema antibloqueo de frenado (ABS), apoyacabezas, cinturones en todas sus plazas y airbags frontales en las plazas delanteras como mínimo, en los vehículos que lo admitan.",
+    "source": "Ley 19.061, art. 5; Guía Nacional de Conducción, pág. 35"
+  },
+  {
+    "category": "Distracciones",
+    "question": "Según la Ley 19.061, ¿cuándo se permite comunicarse por teléfono o por otro medio mientras se conduce?",
+    "options": [
+      "Nunca, bajo ninguna circunstancia.",
+      "Solo en ciudad, no en rutas.",
+      "Solo cuando la comunicación se realiza sin emplear ninguna de las manos.",
+      "Solo si se sostiene el teléfono con una mano."
+    ],
+    "correct": 2,
+    "explanation": "La ley prohíbe el uso de dispositivos de telefonía móvil o cualquier otro sistema de comunicación al circular, excepto cuando la comunicación tenga lugar sin emplear ninguna de las manos. Aun así, la Guía advierte que el manos libres también distrae.",
+    "source": "Ley 19.061, art. 13; Guía Nacional de Conducción, pág. 90"
+  },
+  {
+    "category": "Normativa y Vehículos",
+    "question": "¿Qué establece la Ley 18.191 sobre las placas de matrícula de un vehículo automotor?",
+    "options": [
+      "Las placas pueden estar tapadas si se cubre la carga.",
+      "La matrícula se puede llevar dentro del vehículo en lugar de la placa.",
+      "Debe identificarse con dos placas, delantera y trasera (los remolques solo con la trasera).",
+      "Solo debe llevar una placa trasera."
+    ],
+    "correct": 2,
+    "explanation": "Todo vehículo automotor debe identificarse con dos placas, delantera y trasera. Los remolques y semirremolques se identifican únicamente con la placa trasera, y los caracteres deben ser fácilmente visibles y legibles.",
+    "source": "Ley 18.191, art. 28 (4)"
+  },
+  {
+    "category": "Normativa y Vehículos",
+    "question": "Según la Ley 18.191, ¿cuántos sistemas de frenos de acción independiente debe tener todo vehículo automotor para circular?",
+    "options": [
+      "Uno.",
+      "Ninguno, si tiene ABS.",
+      "Tres.",
+      "Dos."
+    ],
+    "correct": 3,
+    "explanation": "Entre el equipamiento obligatorio figuran dos sistemas de frenos de acción independiente que permitan controlar el movimiento del vehículo, detenerlo y mantenerlo inmóvil.",
+    "source": "Ley 18.191, art. 29 (1)(C)"
+  },
+  {
+    "category": "Seguro Obligatorio",
+    "question": "Según la Ley 18.191, ¿qué seguro debe tener todo vehículo automotor que circula por las vías de tránsito?",
+    "options": [
+      "Un seguro de responsabilidad civil por daños a terceros.",
+      "Un seguro contra robo.",
+      "Un seguro de vida para el conductor.",
+      "Un seguro contra todo riesgo."
+    ],
+    "correct": 0,
+    "explanation": "Todo vehículo automotor y los acoplados remolcados deben tener un contrato de seguro de responsabilidad civil por daños a terceros, que la ley declara obligatorio (el SOA).",
+    "source": "Ley 18.191, art. 44; Guía Nacional de Conducción, págs. 8 y 10"
+  },
+  {
+    "category": "Licencia de Conducir",
+    "question": "Según la Ley 18.191, ¿qué debe aprobar quien quiere obtener la habilitación para conducir?",
+    "options": [
+      "Solo un examen práctico.",
+      "Un examen médico, un examen teórico de las normas de tránsito y un examen práctico de idoneidad.",
+      "Un curso de mecánica y un examen de primeros auxilios.",
+      "Solo un examen teórico."
+    ],
+    "correct": 1,
+    "explanation": "Para obtener la habilitación el aspirante debe aprobar un examen médico sobre sus condiciones psicofísicas, un examen teórico de las normas de tránsito y un examen práctico de idoneidad para conducir.",
+    "source": "Ley 18.191, art. 26 (3)"
+  },
+  {
+    "category": "Licencia de Conducir",
+    "question": "Según la Guía, ¿qué organismos expiden el Permiso de Conducir en Uruguay?",
+    "options": [
+      "El Ministerio del Interior.",
+      "La Policía Caminera.",
+      "Las Intendencias Departamentales.",
+      "El Banco de Seguros del Estado."
+    ],
+    "correct": 2,
+    "explanation": "En Uruguay, los organismos a cargo de expedir el Permiso de Conducir son las Intendencias Departamentales.",
+    "source": "Guía Nacional de Conducción, pág. 6"
+  },
+  {
+    "category": "Licencia de Conducir",
+    "question": "Según la Guía, ¿a quiénes no se les expide Permiso de Conducir ni se les exigen condiciones de edad o conocimientos?",
+    "options": [
+      "A los conductores mayores de 65 años.",
+      "A los peatones y ciclistas.",
+      "A los conductores de camionetas.",
+      "A los conductores de motos."
+    ],
+    "correct": 1,
+    "explanation": "A los peatones y ciclistas no se les expide Permiso, y no tienen exigencias de salud, de edad ni de conocimientos para desempeñarse como tales.",
+    "source": "Guía Nacional de Conducción, pág. 7"
+  },
+  {
+    "category": "Licencia de Conducir",
+    "question": "Según la Guía (edición 2013), ¿cuál es la edad mínima para obtener la categoría G1 (ciclomotores de hasta 50 cc sin cambios)?",
+    "options": [
+      "21 años.",
+      "18 años.",
+      "16 años.",
+      "14 años."
+    ],
+    "correct": 2,
+    "explanation": "La tabla de categorías de la Guía indica 16 años como edad mínima para la categoría G1.",
+    "source": "Guía Nacional de Conducción, pág. 8",
+    "verify": true,
+    "verifyNote": "La tabla es de la edición de 2013. Confirmar si las categorías y edades siguen vigentes."
+  },
+  {
+    "category": "Reglas de Circulación",
+    "question": "En una calzada con tránsito en doble sentido, ¿por dónde deben circular los vehículos, en general?",
+    "options": [
+      "Por el centro de la calzada.",
+      "Por la mitad izquierda.",
+      "Por la que tenga menos tránsito.",
+      "Por la mitad derecha."
+    ],
+    "correct": 3,
+    "explanation": "En calzadas con tránsito en doble sentido los vehículos deben circular por la mitad derecha, salvo para adelantar o cuando un obstáculo obligue a usar el lado izquierdo, dando preferencia a quienes vienen en sentido contrario.",
+    "source": "Ley 18.191, art. 14 (1)"
+  },
+  {
+    "category": "Reglas de Circulación",
+    "question": "Según la Ley 18.191, ¿qué está prohibido hacer sobre las marcas delimitadoras de carriles, los ejes separadores y las islas canalizadoras?",
+    "options": [
+      "Estacionar por menos de 5 minutos.",
+      "Cruzarlas en bicicleta.",
+      "Circular sobre ellas.",
+      "Detenerse a esperar un semáforo."
+    ],
+    "correct": 2,
+    "explanation": "Se prohíbe circular sobre marcas delimitadoras de carriles, ejes separadores o islas canalizadoras.",
+    "source": "Ley 18.191, art. 14 (4)"
+  },
+  {
+    "category": "Reglas de Circulación",
+    "question": "En una vía de dos o más carriles en el mismo sentido, ¿por qué carriles deben circular los vehículos pesados y los más lentos?",
+    "options": [
+      "Por la banquina.",
+      "Por los carriles situados más a la derecha.",
+      "Por el carril que prefieran.",
+      "Por los carriles de más a la izquierda."
+    ],
+    "correct": 1,
+    "explanation": "Los vehículos pesados y los más lentos deben circular por los carriles situados más a la derecha, dejando los demás para quienes circulan a mayor velocidad.",
+    "source": "Ley 18.191, art. 15 (2)"
+  },
+  {
+    "category": "Velocidad",
+    "question": "Según la Ley 18.191, ¿qué ocurre si se conduce a una velocidad tan baja que obstruye la circulación?",
+    "options": [
+      "Solo está prohibido de noche.",
+      "Es una conducta prudente y está permitida.",
+      "Solo está prohibido en autopistas.",
+      "No se puede conducir a una velocidad tan baja que obstruya o impida la adecuada circulación del tránsito."
+    ],
+    "correct": 3,
+    "explanation": "No se puede conducir a una velocidad tan baja que obstruya o impida la adecuada circulación del tránsito.",
+    "source": "Ley 18.191, art. 15 (3); Reglamento, art. 13.5"
+  },
+  {
+    "category": "Velocidad",
+    "question": "En carreteras y caminos fuera de zonas urbanas, ¿cuál es la velocidad máxima para los vehículos que no son livianos sin remolque (por ejemplo, camiones)?",
+    "options": [
+      "70 km/h.",
+      "80 km/h.",
+      "90 km/h.",
+      "60 km/h."
+    ],
+    "correct": 1,
+    "explanation": "La velocidad máxima es de 90 km/h para vehículos livianos sin remolque y ómnibus específicamente habilitados, y de 80 km/h para los restantes vehículos.",
+    "source": "Reglamento Nacional de Circulación Vial, art. 13.2"
+  },
+  {
+    "category": "Velocidad",
+    "question": "¿Cuál es la velocidad máxima que el Ministerio de Transporte y Obras Públicas puede autorizar, en tramos adecuados y señalizados, para vehículos livianos sin remolque?",
+    "options": [
+      "110 km/h.",
+      "120 km/h.",
+      "130 km/h.",
+      "100 km/h."
+    ],
+    "correct": 0,
+    "explanation": "En vías o tramos de características adecuadas, el MTOP puede autorizar velocidades superiores a 90 km/h para vehículos livianos sin remolque, que no superarán los 110 km/h, y deben señalizarse.",
+    "source": "Reglamento Nacional de Circulación Vial, art. 13.4"
+  },
+  {
+    "category": "Velocidad",
+    "question": "En zonas urbanas, además de los 45 km/h generales, ¿qué velocidades máximas puede autorizar la autoridad departamental?",
+    "options": [
+      "Hasta 60 km/h señalizados y, en vías especialmente adecuadas, hasta 75 km/h para vehículos livianos sin remolque.",
+      "Hasta 90 km/h en cualquier avenida.",
+      "Ninguna: los 45 km/h no se pueden modificar.",
+      "Hasta 30 km/h en todas las calles."
+    ],
+    "correct": 0,
+    "explanation": "La autoridad departamental puede fijar velocidades máximas de 60 km/h señalizadas expresamente y, excepcionalmente, de hasta 75 km/h en vías adecuadas para vehículos livianos sin remolque.",
+    "source": "Reglamento Nacional de Circulación Vial, art. 13.3"
+  },
+  {
+    "category": "Adelantamiento",
+    "question": "Si un vehículo lo alcanza y quiere adelantarlo, ¿qué debe hacer usted?",
+    "options": [
+      "Frenar bruscamente.",
+      "Moverse al centro de la calzada.",
+      "Acercarse a la derecha de la calzada y no aumentar la velocidad hasta que termine la maniobra.",
+      "Aumentar la velocidad para no dejarlo pasar."
+    ],
+    "correct": 2,
+    "explanation": "El conductor que es alcanzado por otro que tiene la intención de adelantarlo se acercará a la derecha de la calzada y no aumentará su velocidad hasta que el otro haya finalizado la maniobra.",
+    "source": "Ley 18.191, art. 16 (3)"
+  },
+  {
+    "category": "Adelantamiento",
+    "question": "En una vía de tres carriles con tránsito en doble sentido, ¿qué carril se usa para adelantar?",
+    "options": [
+      "El carril izquierdo.",
+      "Cualquiera de los tres.",
+      "El carril central.",
+      "La banquina."
+    ],
+    "correct": 2,
+    "explanation": "En vías de tres carriles con doble sentido se puede utilizar el carril central para adelantar a un vehículo que circule en el mismo sentido. El carril izquierdo se reserva exclusivamente para los vehículos que circulan en sentido contrario.",
+    "source": "Ley 18.191, art. 16 (7)"
+  },
+  {
+    "category": "Adelantamiento",
+    "question": "¿Se puede adelantar a otro vehículo invadiendo la banquina?",
+    "options": [
+      "Sí, siempre que se use la baliza.",
+      "No: no se adelanta invadiendo bermas, banquinas u otras zonas no previstas para la circulación.",
+      "Sí, si el vehículo de adelante va despacio.",
+      "Sí, pero solo de noche."
+    ],
+    "correct": 1,
+    "explanation": "No se adelantará invadiendo las bermas o banquinas u otras zonas no previstas específicamente para la circulación vehicular.",
+    "source": "Ley 18.191, art. 16 (8); Reglamento, art. 14.5"
+  },
+  {
+    "category": "Preferencia de Paso",
+    "question": "Según la Ley 18.191, ¿qué deben hacer los conductores cuando se acerca un vehículo de emergencia con sus señales audibles y visuales?",
+    "options": [
+      "Mantener su lugar sin importar nada.",
+      "Acelerar para despejar la vía.",
+      "Seguirlo para pasar más rápido.",
+      "Darle preferencia de paso."
+    ],
+    "correct": 3,
+    "explanation": "Los vehículos deben dar preferencia de paso a los de emergencia cuando estos emitan las señales audibles y visuales correspondientes. Además, está prohibido seguir a vehículos de emergencia.",
+    "source": "Ley 18.191, arts. 14 (9) y 17 (8)"
+  },
+  {
+    "category": "Preferencia de Paso",
+    "question": "Si el semáforo le da paso pero hay tránsito detenido adelante, ¿puede avanzar y quedarse en medio del cruce?",
+    "options": [
+      "Sí, si toca la bocina.",
+      "No: está prohibido avanzar en una encrucijada, aunque un dispositivo lo permita, si existe la posibilidad de obstruir el área de cruzamiento.",
+      "Sí, si pone las balizas.",
+      "Sí, porque tiene luz verde."
+    ],
+    "correct": 1,
+    "explanation": "Está prohibido avanzar en una encrucijada, aunque algún dispositivo de control de tránsito lo permita, si existe la posibilidad de obstruir el área de cruzamiento.",
+    "source": "Ley 18.191, art. 17 (9)"
+  },
+  {
+    "category": "Giros",
+    "question": "Para girar a la DERECHA, ¿cómo debe ubicarse y por dónde debe ingresar el conductor a la nueva vía?",
+    "options": [
+      "Desde el carril de la derecha, poniendo las señales de giro e ingresando por el carril de la derecha.",
+      "Desde el centro de la calzada.",
+      "Desde el carril izquierdo, ingresando por el carril izquierdo.",
+      "Desde cualquier carril, ingresando por donde haya lugar."
+    ],
+    "correct": 0,
+    "explanation": "Para girar a la derecha, el conductor debe ubicarse previamente en el carril de la derecha, poner las señales de giro obligatorias e ingresar a la nueva vía por el carril de la derecha.",
+    "source": "Ley 18.191, art. 18 (3); Reglamento, art. 16.1"
+  },
+  {
+    "category": "Maniobras en General",
+    "question": "¿Cuándo se permite circular marcha atrás?",
+    "options": [
+      "Libremente, si la calle está vacía.",
+      "Solo en casos estrictamente justificados, sin perturbar a los demás usuarios y con las precauciones necesarias.",
+      "Solo en rutas nacionales.",
+      "Siempre que se pongan las balizas."
+    ],
+    "correct": 1,
+    "explanation": "La circulación en marcha atrás solo puede efectuarse en casos estrictamente justificados, en circunstancias que no perturben a los demás usuarios, y adoptando las precauciones necesarias.",
+    "source": "Ley 18.191, art. 23 (3)"
+  },
+  {
+    "category": "Peatones",
+    "question": "Según la Ley 18.191, ¿cómo deben cruzar la calzada los peatones?",
+    "options": [
+      "En diagonal y corriendo.",
+      "Deteniéndose a mitad de calzada para mirar.",
+      "En forma perpendicular al eje de la calzada, caminando rápido y asegurándose de que no haya peligro.",
+      "Por cualquier lugar, sin mirar."
+    ],
+    "correct": 2,
+    "explanation": "Los peatones deben cruzar caminando lo más rápidamente posible, en forma perpendicular al eje de la calzada y asegurándose de que no exista peligro, en los lugares señalizados o, donde no hay cruces delimitados, de esquina a esquina.",
+    "source": "Ley 18.191, art. 22 (2) y (4)"
+  },
+  {
+    "category": "Estacionamiento",
+    "question": "En zonas urbanas, ¿dónde está prohibido detener o estacionar un vehículo?",
+    "options": [
+      "Frente a la entrada o salida de un garaje.",
+      "En un espacio libre frente a un edificio sin entrada de vehículos.",
+      "Paralelo al cordón, a no más de 30 cm de él.",
+      "En una calle con cordón, en el sentido de circulación."
+    ],
+    "correct": 0,
+    "explanation": "En zonas urbanas está prohibido estacionar o detenerse, entre otros lugares, en doble fila, en cruces peatonales, en paradas de transporte colectivo o de taxis, y delante de las entradas de vehículos a los inmuebles.",
+    "source": "Reglamento Nacional de Circulación Vial, art. 18.2; Guía Nacional de Conducción, pág. 103"
+  },
+  {
+    "category": "Estacionamiento",
+    "question": "Fuera de zonas urbanas, ¿qué se prohíbe respecto a detener o estacionar sobre la faja de circulación?",
+    "options": [
+      "Solo está prohibido en las curvas.",
+      "Está prohibido si hay banquina o berma.",
+      "Solo está prohibido de noche.",
+      "Está permitido siempre."
+    ],
+    "correct": 1,
+    "explanation": "Fuera de zonas urbanas se prohíbe detener o estacionar un vehículo sobre la faja de circulación si hubiere banquina o berma.",
+    "source": "Ley 18.191, art. 19 (4)"
+  },
+  {
+    "category": "Emergencias",
+    "question": "Si el vehículo queda detenido por fuerza mayor sobre la senda de circulación en una zona urbana con poca iluminación, ¿a qué distancia se colocan las balizas?",
+    "options": [
+      "A 5 metros.",
+      "A 150 metros.",
+      "A 15 metros.",
+      "A 50 metros."
+    ],
+    "correct": 2,
+    "explanation": "En zonas urbanas y suburbanas, cuando no hay suficiente iluminación, las balizas se colocan a 15 metros por delante y por detrás del vehículo. En carreteras y caminos son 50 metros.",
+    "source": "Reglamento Nacional de Circulación Vial, art. 7.23"
+  },
+  {
+    "category": "Alcohol y Sanciones",
+    "question": "Según la Ley 18.191, ¿qué consecuencias tiene negarse a realizar los exámenes de alcohol u otras drogas?",
+    "options": [
+      "Se retiene la licencia, la negativa constituye presunción de culpabilidad y puede aplicarse una multa.",
+      "Solo se retira el vehículo, sin sanción sobre la licencia.",
+      "Solo una advertencia verbal.",
+      "Ninguna, porque el examen es voluntario."
+    ],
+    "correct": 0,
+    "explanation": "Quien se niega a los exámenes: se le retiene la licencia, se le puede aplicar una multa de hasta 100 UR, la negativa constituye presunción de culpabilidad y se aplica una inhabilitación de entre seis meses y un año.",
+    "source": "Ley 18.191, art. 46"
+  },
+  {
+    "category": "Alcohol y Sanciones",
+    "question": "Según la Ley 18.191, si un conductor reincide en conducir con alcohol por encima del límite, ¿qué sanción corresponde?",
+    "options": [
+      "Una multa sin suspensión.",
+      "La misma que la primera infracción.",
+      "La cancelación inmediata y definitiva.",
+      "Una suspensión que se extiende hasta dos años."
+    ],
+    "correct": 3,
+    "explanation": "En caso de reincidencia la suspensión se extiende hasta dos años, y ante una nueva reincidencia se podrá cancelar la licencia de conducir.",
+    "source": "Ley 18.191, art. 46; Guía Nacional de Conducción, pág. 18"
+  },
+  {
+    "category": "Siniestros",
+    "question": "Según la Ley 18.191, ¿qué es un siniestro de tránsito?",
+    "options": [
+      "Una falla mecánica en ruta.",
+      "Cualquier infracción de tránsito.",
+      "Cualquier daño material a un vehículo.",
+      "La colisión u otro tipo de impacto con al menos un vehículo en movimiento, en una vía a la que la población tiene acceso, que deja al menos una persona lesionada."
+    ],
+    "correct": 3,
+    "explanation": "Siniestro de tránsito es la colisión u otro impacto con implicación de al menos un vehículo en movimiento, en una vía pública o privada de acceso a la población, con al menos una persona lesionada. Si solo hay daños a bienes, se habla de incidente vial.",
+    "source": "Ley 18.191, art. 42"
+  },
+  {
+    "category": "Organismos",
+    "question": "Según el art. 5 de la Ley 18.113, ¿cuál es un objetivo de la Unidad Nacional de Seguridad Vial?",
+    "options": [
+      "Expedir los permisos de conducir en todo el país.",
+      "Elaborar y proponer al Poder Ejecutivo la política nacional de seguridad vial.",
+      "Cobrar las multas de tránsito departamentales.",
+      "Fabricar las señales de tránsito."
+    ],
+    "correct": 1,
+    "explanation": "Entre sus objetivos, la Unidad Nacional de Seguridad Vial elabora y propone al Poder Ejecutivo la política nacional de seguridad vial, analiza las causas de los siniestros y coordina con los cuerpos de fiscalización la aplicación de las políticas.",
+    "source": "Ley 18.113, art. 5"
+  },
+  {
+    "category": "Factores de Riesgo",
+    "question": "Según la Guía, ¿cuál es el elemento central del problema de los traumatismos por siniestros de tránsito?",
+    "options": [
+      "El color del vehículo.",
+      "El tipo de combustible.",
+      "La marca del neumático.",
+      "La velocidad."
+    ],
+    "correct": 3,
+    "explanation": "La Guía señala que la velocidad es el elemento central del problema de los traumatismos e influye de manera decisiva en las consecuencias de la colisión.",
+    "source": "Guía Nacional de Conducción, pág. 12"
+  },
+  {
+    "category": "Factores de Riesgo",
+    "question": "Según la Guía, ¿cuánto suele tardar más la reacción a estímulos simples a los 70 años?",
+    "options": [
+      "No cambia con la edad.",
+      "Un 10% más.",
+      "Un 5% más.",
+      "Un 50% más."
+    ],
+    "correct": 3,
+    "explanation": "Con el paso del tiempo se reducen las aptitudes y la rapidez para reaccionar: a los 70 años la reacción a estímulos simples suele tardar un 50% más.",
+    "source": "Guía Nacional de Conducción, pág. 6"
+  },
+  {
+    "category": "Medicina y Conducción",
+    "question": "Según la Guía, ¿qué ocurre con la mezcla de alcohol y medicamentos?",
+    "options": [
+      "Es segura si la dosis es baja.",
+      "Mejora los reflejos.",
+      "Siempre es peligrosa y debe ser evitada.",
+      "Solo es peligrosa con antibióticos."
+    ],
+    "correct": 2,
+    "explanation": "La mezcla de alcohol con medicamentos siempre es peligrosa y debe ser evitada. Además, la Guía recomienda no automedicarse y consultar al médico los efectos de una medicación si se conduce.",
+    "source": "Guía Nacional de Conducción, pág. 15"
+  },
+  {
+    "category": "Conducción en Ruta",
+    "question": "Según la Guía, si se maneja por períodos de más de cuatro horas, ¿qué se sugiere?",
+    "options": [
+      "Seguir sin parar mientras no se tenga sueño.",
+      "Descansar por lo menos veinte minutos antes de proseguir el viaje.",
+      "Tomar bebidas energizantes y acelerar.",
+      "Descansar dos minutos."
+    ],
+    "correct": 1,
+    "explanation": "La fatiga aparece cuando se maneja por períodos de más de cuatro horas. Se sugiere descansar por lo menos veinte minutos antes de proseguir el viaje.",
+    "source": "Guía Nacional de Conducción, pág. 113"
+  },
+  {
+    "category": "Distancia de Seguridad",
+    "question": "La regla de los 3 segundos se aplica en condiciones ideales. ¿Qué ocurre con pavimento resbaloso, según la Guía?",
+    "options": [
+      "Se necesita menos distancia.",
+      "La regla deja de aplicarse.",
+      "Se mantiene igual: 3 segundos.",
+      "Se necesita más distancia: hay que contar hasta 4 segundos o más."
+    ],
+    "correct": 3,
+    "explanation": "En pavimento resbaloso se necesita más distancia, por lo que hay que contar hasta mil ciento cuatro (4 segundos) o más.",
+    "source": "Guía Nacional de Conducción, pág. 113"
+  },
+  {
+    "category": "Medio Ambiente",
+    "question": "Según la Guía, ¿cuándo se pueden usar los faros de niebla en simultáneo con los faros principales?",
+    "options": [
+      "Solo de día.",
+      "Siempre, para ver mejor.",
+      "Nunca.",
+      "Solo con niebla o lluvia que reducen la visibilidad."
+    ],
+    "correct": 3,
+    "explanation": "Con niebla (y de igual forma con lluvia) hay que aumentar la distancia entre vehículos y adaptar la velocidad a la visibilidad. Solo en esas condiciones se pueden usar los faros de niebla junto con los faros principales.",
+    "source": "Guía Nacional de Conducción, pág. 87"
+  },
+  {
+    "category": "Conducción en Ruta",
+    "question": "Según la Guía, ¿qué debe hacer un conductor ante la presencia de animales sueltos en la ruta?",
+    "options": [
+      "Acelerar para pasar rápido.",
+      "Disminuir la velocidad.",
+      "Apagar las luces.",
+      "Tocar bocina sin reducir la marcha."
+    ],
+    "correct": 1,
+    "explanation": "Ante la presencia de animales sueltos hay que disminuir la velocidad.",
+    "source": "Guía Nacional de Conducción, pág. 116"
+  },
+  {
+    "category": "Seguridad Pasiva",
+    "question": "Según la Guía, ¿a qué distancia aproximada del volante conviene sentarse para evitar que el airbag golpee a quien conduce al inflarse?",
+    "options": [
+      "Entre 25 y 30 cm.",
+      "Pegado al volante.",
+      "Entre 60 y 70 cm.",
+      "Entre 5 y 10 cm."
+    ],
+    "correct": 0,
+    "explanation": "El airbag se dispara en milésimas de segundo, por lo que conviene adoptar una posición distante del volante (entre 25 y 30 cm). Además, este sistema es eficaz solo si se utiliza el cinturón de seguridad.",
+    "source": "Guía Nacional de Conducción, pág. 35"
+  },
+  {
+    "category": "Seguridad Infantil",
+    "question": "Según la Guía, ¿qué se debe verificar en un sistema de retención infantil (SRI) que cumple con la norma técnica?",
+    "options": [
+      "Que sea de segunda mano.",
+      "Que pueda usarse en el asiento delantero.",
+      "Que tenga fecha de vencimiento (se verifica en la parte trasera del SRI).",
+      "Que sea de color claro."
+    ],
+    "correct": 2,
+    "explanation": "Todo SRI que cumple con la norma técnica tiene fecha de vencimiento, que se verifica en la parte trasera del mismo. El lugar para colocarlo es el asiento trasero.",
+    "source": "Guía Nacional de Conducción, pág. 34"
+  },
+  {
+    "category": "Conducción Ecológica",
+    "question": "En un motor gasolero (diésel), ¿qué recomienda la Guía al arrancar, según la conducción eficiente?",
+    "options": [
+      "Arrancar sin pisar el acelerador y esperar unos segundos antes de comenzar la marcha.",
+      "Dejarlo calentar 15 minutos.",
+      "Iniciar la marcha inmediatamente después del arranque, como en los de nafta.",
+      "Pisar el acelerador a fondo antes de arrancar."
+    ],
+    "correct": 0,
+    "explanation": "En todos los motores se arranca sin pisar el acelerador. En los de nafta se inicia la marcha inmediatamente después del arranque, y en los gasoleros se esperan unos segundos antes de comenzar la marcha.",
+    "source": "Guía Nacional de Conducción, pág. 119"
+  },
+  {
+    "category": "Conducción Ecológica",
+    "question": "Según la Guía, ¿cuándo se debe cambiar de primera a segunda al arrancar?",
+    "options": [
+      "A los 30 segundos.",
+      "Solo cuando el motor lo pida con ruido.",
+      "A los 100 metros.",
+      "A los 2 segundos o unos 6 metros aproximadamente."
+    ],
+    "correct": 3,
+    "explanation": "La primera velocidad se usa solo para el inicio de la marcha; se cambia a segunda a los 2 segundos o 6 metros aproximadamente.",
+    "source": "Guía Nacional de Conducción, pág. 119"
+  },
+  {
+    "category": "Conducción Ecológica",
+    "question": "En un motor de nafta, según la Guía, ¿entre qué revoluciones se recomienda colocar el cambio?",
+    "options": [
+      "Entre 2.000 y 2.500 r/min.",
+      "Entre 500 y 1.000 r/min.",
+      "Siempre al máximo de revoluciones.",
+      "Entre 4.000 y 5.000 r/min."
+    ],
+    "correct": 0,
+    "explanation": "En los motores de nafta se recomienda colocar el cambio entre 2.000 y 2.500 r/min; en los gasoleros, entre 1.500 y 2.000 r/min. Se acelera tras realizar el cambio.",
     "source": "Guía Nacional de Conducción, pág. 120"
   }
 ]
