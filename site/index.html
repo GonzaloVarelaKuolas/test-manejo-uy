@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es-UY">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Práctica de examen de manejo · Uruguay</title>
+  <meta name="description" content="Preguntas de práctica para el examen teórico de manejo en Uruguay, con explicación y fuente en cada respuesta.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="band">
+    <div class="band-inner">
+      <a class="brand" href="#" id="brand">
+        <span class="brand-sign" aria-hidden="true"></span>
+        <span>Examen de manejo <span class="brand-uy">Uruguay</span></span>
+      </a>
+      <button class="link-btn" id="quit" type="button" hidden>Salir</button>
+    </div>
+    <div class="road" id="road" aria-hidden="true"></div>
+  </header>
+
+  <main id="main">
+    <!-- Carga / error -->
+    <section id="loading" class="screen">
+      <p class="muted">Cargando preguntas…</p>
+    </section>
+
+    <section id="load-error" class="screen" hidden>
+      <h1>No se pudieron cargar las preguntas</h1>
+      <p>El navegador bloquea la lectura de <code>questions.json</code> cuando abrís <code>index.html</code> con doble clic. Abrí la carpeta <code>site</code> con un servidor local:</p>
+      <pre><code>cd site
+python3 -m http.server 8080</code></pre>
+      <p>Después entrá a <a href="http://localhost:8080">http://localhost:8080</a>.</p>
+    </section>
+
+    <!-- Inicio -->
+    <section id="home" class="screen" hidden>
+      <h1 class="home-title">Practicá para el examen teórico</h1>
+      <p class="lead">Preguntas basadas en la Guía Nacional de Conducción, la Ley 18.191, la Ley 19.061 y el Reglamento Nacional de Circulación Vial. Cada respuesta indica de dónde sale.</p>
+
+      <form id="setup" class="setup">
+        <fieldset class="modes">
+          <legend>Elegí cómo practicar</legend>
+
+          <label class="mode">
+            <input type="radio" name="mode" value="exam" checked>
+            <span class="mode-body">
+              <span class="mode-name">Simulacro de examen</span>
+              <span class="mode-desc"><span id="exam-size">25</span> preguntas al azar. Ves el resultado y las explicaciones al final.</span>
+            </span>
+          </label>
+
+          <label class="mode">
+            <input type="radio" name="mode" value="practice">
+            <span class="mode-body">
+              <span class="mode-name">Práctica por tema</span>
+              <span class="mode-desc">Ves si acertaste y la explicación después de cada pregunta.</span>
+            </span>
+          </label>
+        </fieldset>
+
+        <div class="topic" id="topic-wrap" hidden>
+          <label for="topic">Tema</label>
+          <select id="topic"></select>
+        </div>
+
+        <button class="btn-primary" type="submit" id="start">Empezar</button>
+      </form>
+    </section>
+
+    <!-- Pregunta -->
+    <section id="quiz" class="screen" hidden>
+      <div class="q-meta">
+        <span id="q-count"></span>
+        <span class="q-cat" id="q-cat"></span>
+      </div>
+      <h1 class="q-text" id="q-text" tabindex="-1"></h1>
+      <div class="options" id="options" role="group" aria-labelledby="q-text"></div>
+
+      <div class="feedback" id="feedback" hidden aria-live="polite">
+        <p class="fb-verdict" id="fb-verdict"></p>
+        <p id="fb-text"></p>
+        <p class="source" id="fb-source"></p>
+      </div>
+
+      <div class="q-actions">
+        <button class="btn-primary" type="button" id="next" disabled>Siguiente</button>
+        <span class="hint">Teclas 1–4 para elegir, Enter para seguir</span>
+      </div>
+    </section>
+
+    <!-- Resultado -->
+    <section id="results" class="screen" hidden>
+      <div class="score-sign" id="score-sign">
+        <span class="score-num" id="score-num"></span>
+        <span class="score-of" id="score-of"></span>
+      </div>
+      <p class="lead" id="score-text"></p>
+
+      <h2>Por tema</h2>
+      <ul class="by-topic" id="by-topic"></ul>
+
+      <h2 id="review-title">Repasá las que fallaste</h2>
+      <ol class="review" id="review"></ol>
+
+      <div class="r-actions">
+        <button class="btn-primary" type="button" id="retry-wrong">Practicar las que fallaste</button>
+        <button class="btn-secondary" type="button" id="home-btn">Volver al inicio</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <p>No es material oficial. Las preguntas se basan en la Guía Nacional de Conducción (1.ª edición, junio 2013) y en la normativa publicada en <a href="https://www.impo.com.uy" rel="noopener">impo.com.uy</a>. Verificá siempre con la Intendencia de tu departamento.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
