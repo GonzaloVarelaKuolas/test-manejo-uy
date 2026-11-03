@@ -1744,41 +1744,775 @@
     "source": "Guía Nacional de Conducción, pág. 120"
   },
   {
-    "category": "Señalización",
+    "category": "Señales Reglamentarias",
     "question": "¿Qué indica esta señal?",
-    "image": "img/signs/EJEMPLO-pare.png",
-    "imageAlt": "Señal octogonal roja con la palabra PARE",
+    "image": "img/signs/reg-ceda-el-paso.png",
+    "imageAlt": "Señal: Ceda el paso",
     "options": [
-      "Ceder el paso sin detenerse si no hay tránsito.",
-      "Detención obligatoria antes de cruzar.",
-      "Prohibido el paso de vehículos pesados.",
-      "Fin de una vía prioritaria."
+      "Ceda el paso",
+      "Prohibido cruzar peatones",
+      "Circular por la derecha",
+      "Contramano (sentido prohibido)"
     ],
-    "correct": 1,
-    "explanation": "La señal de PARE obliga a detener completamente el vehículo antes de la línea de detención o el cruce, exista o no tránsito visible.",
-    "source": "Ley 18.191, art. 17 num. 4; Guía Nacional de Conducción",
-    "verify": true,
-    "verifyNote": "Pregunta de ejemplo del sistema de imágenes: reemplazar \"image\" por un archivo real en site/img/signs/ antes de habilitarla (quitar \"verify\")."
+    "correct": 0,
+    "explanation": "Obliga a reducir la velocidad y ceder el paso al tránsito de la vía a la que se incorpora, deteniéndose si fuera necesario.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
   },
   {
-    "category": "Señalización",
-    "question": "¿Cuál de estas señales corresponde a \"Ceda el paso\"?",
-    "optionImages": [
-      "img/signs/EJEMPLO-pare.png",
-      "img/signs/EJEMPLO-ceda.png",
-      "img/signs/EJEMPLO-prohibido.png",
-      "img/signs/EJEMPLO-curva.png"
-    ],
+    "category": "Señales Reglamentarias",
+    "question": "¿Qué indica esta señal?",
+    "image": "img/signs/reg-contramano.png",
+    "imageAlt": "Señal: Contramano (sentido prohibido)",
     "options": [
-      "Señal A (octógono rojo)",
-      "Señal B (triángulo invertido)",
-      "Señal C (círculo rojo)",
-      "Señal D (rombo amarillo)"
+      "Prohibido circular camiones",
+      "Zona de carga",
+      "Circular por la derecha",
+      "Contramano (sentido prohibido)"
+    ],
+    "correct": 3,
+    "explanation": "Prohíbe circular en esa dirección: señala la entrada a una vía de sentido contrario.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señales Reglamentarias",
+    "question": "¿Qué indica esta señal?",
+    "image": "img/signs/reg-direccion-obligatoria.png",
+    "imageAlt": "Señal: Dirección obligatoria",
+    "options": [
+      "Velocidad máxima 75 km/h",
+      "Dirección obligatoria",
+      "Calle cerrada",
+      "Zona de carga"
     ],
     "correct": 1,
-    "explanation": "\"Ceda el paso\" se representa con un triángulo invertido de borde rojo: el conductor debe reducir la velocidad y ceder el paso al tránsito de la vía a la que se incorpora.",
-    "source": "Ley 18.191, art. 17 num. 4; Guía Nacional de Conducción",
-    "verify": true,
-    "verifyNote": "Pregunta de ejemplo del sistema de opciones con imagen: reemplazar los 4 archivos en \"optionImages\" por señales reales antes de habilitarla (quitar \"verify\")."
+    "explanation": "Obliga a circular únicamente en la dirección indicada por la flecha.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señales Reglamentarias",
+    "question": "¿Qué indica esta señal?",
+    "image": "img/signs/reg-zona-de-carga.png",
+    "imageAlt": "Señal: Zona de carga",
+    "options": [
+      "Prohibido circular camiones",
+      "Prohibido girar en U",
+      "Calle cerrada",
+      "Zona de carga"
+    ],
+    "correct": 3,
+    "explanation": "Señala un espacio reservado para la carga y descarga de mercadería.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señales Reglamentarias",
+    "question": "¿Qué indica esta señal?",
+    "image": "img/signs/reg-circular-por-la-derecha.png",
+    "imageAlt": "Señal: Circular por la derecha",
+    "options": [
+      "Circular por la derecha",
+      "Ceda el paso",
+      "Velocidad máxima 60 km/h",
+      "Prohibido girar en U"
+    ],
+    "correct": 0,
+    "explanation": "Obliga a circular por la derecha del obstáculo o elemento señalizado (por ejemplo, un cantero o una isla de tránsito).",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señales Reglamentarias",
+    "question": "¿Qué indica esta señal?",
+    "image": "img/signs/reg-velocidad-maxima-45.png",
+    "imageAlt": "Señal: Velocidad máxima 45 km/h",
+    "options": [
+      "Zona de carga",
+      "Velocidad máxima 45 km/h",
+      "Prohibido estacionar y detenerse",
+      "Velocidad máxima 75 km/h"
+    ],
+    "correct": 1,
+    "explanation": "Fija en 45 km/h la velocidad máxima permitida en ese tramo.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señales Reglamentarias",
+    "question": "¿Qué indica esta señal?",
+    "image": "img/signs/reg-velocidad-maxima-60.png",
+    "imageAlt": "Señal: Velocidad máxima 60 km/h",
+    "options": [
+      "Velocidad máxima 60 km/h",
+      "Solo bus (carril exclusivo)",
+      "Prohibido cruzar peatones",
+      "Prohibido girar a la izquierda"
+    ],
+    "correct": 0,
+    "explanation": "Fija en 60 km/h la velocidad máxima permitida en ese tramo.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señales Reglamentarias",
+    "question": "¿Qué indica esta señal?",
+    "image": "img/signs/reg-velocidad-maxima-75.png",
+    "imageAlt": "Señal: Velocidad máxima 75 km/h",
+    "options": [
+      "Velocidad máxima 75 km/h",
+      "Zona de carga",
+      "Prohibido girar a la derecha",
+      "Prohibido circular camiones"
+    ],
+    "correct": 0,
+    "explanation": "Fija en 75 km/h la velocidad máxima permitida en ese tramo.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señales Reglamentarias",
+    "question": "¿Qué indica esta señal?",
+    "image": "img/signs/reg-calle-cerrada.png",
+    "imageAlt": "Señal: Calle cerrada",
+    "options": [
+      "Velocidad máxima 60 km/h",
+      "Calle cerrada",
+      "Dirección obligatoria",
+      "Prohibido girar a la izquierda"
+    ],
+    "correct": 1,
+    "explanation": "Indica que la vía está cerrada al tránsito; prohíbe el paso.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señales Reglamentarias",
+    "question": "¿Qué indica esta señal?",
+    "image": "img/signs/reg-prohibido-cruzar-peatones.png",
+    "imageAlt": "Señal: Prohibido cruzar peatones",
+    "options": [
+      "Prohibido cruzar peatones",
+      "Velocidad máxima 75 km/h",
+      "Dirección obligatoria",
+      "Prohibido estacionar"
+    ],
+    "correct": 0,
+    "explanation": "Prohíbe a los peatones cruzar la calzada en ese punto.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señales Reglamentarias",
+    "question": "¿Qué indica esta señal?",
+    "image": "img/signs/reg-prohibido-estacionar.png",
+    "imageAlt": "Señal: Prohibido estacionar",
+    "options": [
+      "Prohibido estacionar",
+      "Prohibido tracción a sangre",
+      "Prohibido girar a la izquierda",
+      "Velocidad máxima 45 km/h"
+    ],
+    "correct": 0,
+    "explanation": "Prohíbe dejar el vehículo detenido y desocupado en esa zona; detenerse brevemente sí está permitido.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señales Reglamentarias",
+    "question": "¿Qué indica esta señal?",
+    "image": "img/signs/reg-prohibido-estacionar-y-detenerse.png",
+    "imageAlt": "Señal: Prohibido estacionar y detenerse",
+    "options": [
+      "Velocidad máxima 45 km/h",
+      "Prohibido estacionar y detenerse",
+      "Calle cerrada",
+      "Dirección obligatoria"
+    ],
+    "correct": 1,
+    "explanation": "Prohíbe tanto estacionar como detenerse, aunque sea por un instante.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señales Reglamentarias",
+    "question": "¿Qué indica esta señal?",
+    "image": "img/signs/reg-prohibido-girar-a-la-izquierda.png",
+    "imageAlt": "Señal: Prohibido girar a la izquierda",
+    "options": [
+      "Calle cerrada",
+      "Prohibido girar a la izquierda",
+      "Prohibido girar a la derecha",
+      "Velocidad máxima 75 km/h"
+    ],
+    "correct": 1,
+    "explanation": "Prohíbe realizar el giro a la izquierda en esa intersección.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señales Reglamentarias",
+    "question": "¿Qué indica esta señal?",
+    "image": "img/signs/reg-prohibido-girar-a-la-derecha.png",
+    "imageAlt": "Señal: Prohibido girar a la derecha",
+    "options": [
+      "Prohibido estacionar",
+      "Prohibido girar a la derecha",
+      "Contramano (sentido prohibido)",
+      "Prohibido girar a la izquierda"
+    ],
+    "correct": 1,
+    "explanation": "Prohíbe realizar el giro a la derecha en esa intersección.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señales Reglamentarias",
+    "question": "¿Qué indica esta señal?",
+    "image": "img/signs/reg-prohibido-girar-en-u.png",
+    "imageAlt": "Señal: Prohibido girar en U",
+    "options": [
+      "Solo bus (carril exclusivo)",
+      "Velocidad máxima 60 km/h",
+      "Prohibido estacionar",
+      "Prohibido girar en U"
+    ],
+    "correct": 3,
+    "explanation": "Prohíbe realizar el giro en U (cambio de sentido) en ese tramo.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señales Reglamentarias",
+    "question": "¿Qué indica esta señal?",
+    "image": "img/signs/reg-prohibido-traccion-a-sangre.png",
+    "imageAlt": "Señal: Prohibido tracción a sangre",
+    "options": [
+      "Circular por la derecha",
+      "Prohibido tracción a sangre",
+      "Solo bus (carril exclusivo)",
+      "Calle cerrada"
+    ],
+    "correct": 1,
+    "explanation": "Prohíbe la circulación de vehículos de tracción animal.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señales Reglamentarias",
+    "question": "¿Qué indica esta señal?",
+    "image": "img/signs/reg-prohibido-circular-ciclistas.png",
+    "imageAlt": "Señal: Prohibido circular ciclistas",
+    "options": [
+      "Prohibido girar a la derecha",
+      "Prohibido circular ciclistas",
+      "Solo bus (carril exclusivo)",
+      "Prohibido girar a la izquierda"
+    ],
+    "correct": 1,
+    "explanation": "Prohíbe el paso de bicicletas.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señales Reglamentarias",
+    "question": "¿Qué indica esta señal?",
+    "image": "img/signs/reg-prohibido-adelantar.png",
+    "imageAlt": "Señal: Prohibido adelantar",
+    "options": [
+      "Prohibido tracción a sangre",
+      "Dirección obligatoria",
+      "Prohibido adelantar",
+      "Prohibido circular ciclistas"
+    ],
+    "correct": 2,
+    "explanation": "Prohíbe adelantar a otros vehículos en ese tramo.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señales Reglamentarias",
+    "question": "¿Qué indica esta señal?",
+    "image": "img/signs/reg-prohibido-circular-camiones.png",
+    "imageAlt": "Señal: Prohibido circular camiones",
+    "options": [
+      "Velocidad máxima 45 km/h",
+      "Dirección obligatoria",
+      "Prohibido girar a la derecha",
+      "Prohibido circular camiones"
+    ],
+    "correct": 3,
+    "explanation": "Prohíbe el paso de camiones.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señales Reglamentarias",
+    "question": "¿Qué indica esta señal?",
+    "image": "img/signs/reg-solo-bus.png",
+    "imageAlt": "Señal: Solo bus (carril exclusivo)",
+    "options": [
+      "Solo bus (carril exclusivo)",
+      "Calle cerrada",
+      "Ceda el paso",
+      "Prohibido circular ciclistas"
+    ],
+    "correct": 0,
+    "explanation": "Señala un carril o vía de uso exclusivo para ómnibus.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señales de Advertencia",
+    "question": "¿Qué indica esta señal?",
+    "image": "img/signs/adv-escuela.png",
+    "imageAlt": "Señal: Escuela",
+    "options": [
+      "Escuela",
+      "Curva a la derecha",
+      "Puente angosto",
+      "Pavimento resbaladizo"
+    ],
+    "correct": 0,
+    "explanation": "Advierte la proximidad de una escuela: extremar precaución por posible presencia de niños.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señales de Advertencia",
+    "question": "¿Qué indica esta señal?",
+    "image": "img/signs/adv-liceo.png",
+    "imageAlt": "Señal: Liceo",
+    "options": [
+      "Lomo de burro",
+      "Peatones",
+      "Liceo",
+      "Escuela"
+    ],
+    "correct": 2,
+    "explanation": "Advierte la proximidad de un liceo.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señales de Advertencia",
+    "question": "¿Qué indica esta señal?",
+    "image": "img/signs/adv-ninos-jugando.png",
+    "imageAlt": "Señal: Niños jugando",
+    "options": [
+      "Liceo",
+      "Badén",
+      "Niños jugando",
+      "Puente angosto"
+    ],
+    "correct": 2,
+    "explanation": "Advierte la posible presencia de niños jugando cerca de la calzada.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señales de Advertencia",
+    "question": "¿Qué indica esta señal?",
+    "image": "img/signs/adv-peatones.png",
+    "imageAlt": "Señal: Peatones",
+    "options": [
+      "Peatones",
+      "Curva a la derecha",
+      "Calle sin veredas",
+      "Niños jugando"
+    ],
+    "correct": 0,
+    "explanation": "Advierte tránsito frecuente de peatones en la zona.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señales de Advertencia",
+    "question": "¿Qué indica esta señal?",
+    "image": "img/signs/adv-proximidad-de-semaforos.png",
+    "imageAlt": "Señal: Proximidad de semáforos",
+    "options": [
+      "Proximidad de semáforos",
+      "Lomo de burro",
+      "Escuela",
+      "Liceo"
+    ],
+    "correct": 0,
+    "explanation": "Advierte que se aproxima una intersección regulada por semáforos.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señales de Advertencia",
+    "question": "¿Qué indica esta señal?",
+    "image": "img/signs/adv-curva-a-la-izquierda.png",
+    "imageAlt": "Señal: Curva a la izquierda",
+    "options": [
+      "Cruce de caminos",
+      "Peatones",
+      "Curva a la izquierda",
+      "Escuela"
+    ],
+    "correct": 2,
+    "explanation": "Advierte una curva pronunciada hacia la izquierda.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señales de Advertencia",
+    "question": "¿Qué indica esta señal?",
+    "image": "img/signs/adv-curva-a-la-derecha.png",
+    "imageAlt": "Señal: Curva a la derecha",
+    "options": [
+      "Badén",
+      "Curva a la derecha",
+      "Calle sin veredas",
+      "Liceo"
+    ],
+    "correct": 1,
+    "explanation": "Advierte una curva pronunciada hacia la derecha.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señales de Advertencia",
+    "question": "¿Qué indica esta señal?",
+    "image": "img/signs/adv-curvas-en-forma-de-s.png",
+    "imageAlt": "Señal: Curvas en forma de \"S\"",
+    "options": [
+      "Niños jugando",
+      "Proximidad de semáforos",
+      "Badén",
+      "Curvas en forma de \"S\""
+    ],
+    "correct": 3,
+    "explanation": "Advierte una sucesión de curvas en forma de \"S\".",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señales de Advertencia",
+    "question": "¿Qué indica esta señal?",
+    "image": "img/signs/adv-lomo-de-burro.png",
+    "imageAlt": "Señal: Lomo de burro",
+    "options": [
+      "Animales sueltos",
+      "Lomo de burro",
+      "Proximidad de semáforos",
+      "Curva a la derecha"
+    ],
+    "correct": 1,
+    "explanation": "Advierte un resalto o reductor de velocidad en la calzada.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señales de Advertencia",
+    "question": "¿Qué indica esta señal?",
+    "image": "img/signs/adv-baden.png",
+    "imageAlt": "Señal: Badén",
+    "options": [
+      "Pavimento resbaladizo",
+      "Badén",
+      "Peatones",
+      "Liceo"
+    ],
+    "correct": 1,
+    "explanation": "Advierte una depresión o zanja transversal en la calzada (lo opuesto al lomo de burro).",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señales de Advertencia",
+    "question": "¿Qué indica esta señal?",
+    "image": "img/signs/adv-cruce-de-caminos.png",
+    "imageAlt": "Señal: Cruce de caminos",
+    "options": [
+      "Cruce de caminos",
+      "Peatones",
+      "Badén",
+      "Lomo de burro"
+    ],
+    "correct": 0,
+    "explanation": "Advierte una intersección de caminos de jerarquía similar.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señales de Advertencia",
+    "question": "¿Qué indica esta señal?",
+    "image": "img/signs/adv-puente.png",
+    "imageAlt": "Señal: Puente angosto",
+    "options": [
+      "Puente angosto",
+      "Escuela",
+      "Animales sueltos",
+      "Cruce de caminos"
+    ],
+    "correct": 0,
+    "explanation": "Advierte un puente angosto más adelante.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señales de Advertencia",
+    "question": "¿Qué indica esta señal?",
+    "image": "img/signs/adv-animales-sueltos.png",
+    "imageAlt": "Señal: Animales sueltos",
+    "options": [
+      "Calle sin veredas",
+      "Liceo",
+      "Animales sueltos",
+      "Curva a la izquierda"
+    ],
+    "correct": 2,
+    "explanation": "Advierte la posible presencia de animales sueltos en la calzada.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señales de Advertencia",
+    "question": "¿Qué indica esta señal?",
+    "image": "img/signs/adv-pavimento-resbaladizo.png",
+    "imageAlt": "Señal: Pavimento resbaladizo",
+    "options": [
+      "Niños jugando",
+      "Lomo de burro",
+      "Peatones",
+      "Pavimento resbaladizo"
+    ],
+    "correct": 3,
+    "explanation": "Advierte riesgo de derrape por piso deslizante (lluvia, aceite, etc.).",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señales de Advertencia",
+    "question": "¿Qué indica esta señal?",
+    "image": "img/signs/adv-calle-sin-veredas.png",
+    "imageAlt": "Señal: Calle sin veredas",
+    "options": [
+      "Peatones",
+      "Curva a la derecha",
+      "Calle sin veredas",
+      "Animales sueltos"
+    ],
+    "correct": 2,
+    "explanation": "Advierte la ausencia de veredas: puede haber peatones circulando por la calzada.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señales Reglamentarias",
+    "question": "¿Cuál de estas señales indica \"Prohibido estacionar y detenerse\"?",
+    "optionImages": [
+      "img/signs/reg-contramano.png",
+      "img/signs/reg-prohibido-estacionar-y-detenerse.png",
+      "img/signs/reg-zona-de-carga.png",
+      "img/signs/reg-prohibido-girar-a-la-derecha.png"
+    ],
+    "options": [
+      "Señal A",
+      "Señal B",
+      "Señal C",
+      "Señal D"
+    ],
+    "correct": 1,
+    "explanation": "Prohíbe tanto estacionar como detenerse, aunque sea por un instante.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señales Reglamentarias",
+    "question": "¿Cuál de estas señales indica \"Prohibido girar a la derecha\"?",
+    "optionImages": [
+      "img/signs/reg-prohibido-traccion-a-sangre.png",
+      "img/signs/reg-velocidad-maxima-60.png",
+      "img/signs/reg-prohibido-girar-a-la-derecha.png",
+      "img/signs/reg-solo-bus.png"
+    ],
+    "options": [
+      "Señal A",
+      "Señal B",
+      "Señal C",
+      "Señal D"
+    ],
+    "correct": 2,
+    "explanation": "Prohíbe realizar el giro a la derecha en esa intersección.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señales Reglamentarias",
+    "question": "¿Cuál de estas señales indica \"Prohibido circular camiones\"?",
+    "optionImages": [
+      "img/signs/reg-velocidad-maxima-75.png",
+      "img/signs/reg-prohibido-circular-camiones.png",
+      "img/signs/reg-prohibido-girar-en-u.png",
+      "img/signs/reg-calle-cerrada.png"
+    ],
+    "options": [
+      "Señal A",
+      "Señal B",
+      "Señal C",
+      "Señal D"
+    ],
+    "correct": 1,
+    "explanation": "Prohíbe el paso de camiones.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señales Reglamentarias",
+    "question": "¿Cuál de estas señales indica \"Prohibido girar en U\"?",
+    "optionImages": [
+      "img/signs/reg-prohibido-circular-camiones.png",
+      "img/signs/reg-ceda-el-paso.png",
+      "img/signs/reg-prohibido-girar-en-u.png",
+      "img/signs/reg-contramano.png"
+    ],
+    "options": [
+      "Señal A",
+      "Señal B",
+      "Señal C",
+      "Señal D"
+    ],
+    "correct": 2,
+    "explanation": "Prohíbe realizar el giro en U (cambio de sentido) en ese tramo.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señales Reglamentarias",
+    "question": "¿Cuál de estas señales indica \"Contramano (sentido prohibido)\"?",
+    "optionImages": [
+      "img/signs/reg-prohibido-circular-camiones.png",
+      "img/signs/reg-prohibido-girar-en-u.png",
+      "img/signs/reg-contramano.png",
+      "img/signs/reg-prohibido-circular-ciclistas.png"
+    ],
+    "options": [
+      "Señal A",
+      "Señal B",
+      "Señal C",
+      "Señal D"
+    ],
+    "correct": 2,
+    "explanation": "Prohíbe circular en esa dirección: señala la entrada a una vía de sentido contrario.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señales Reglamentarias",
+    "question": "¿Cuál de estas señales indica \"Prohibido estacionar\"?",
+    "optionImages": [
+      "img/signs/reg-velocidad-maxima-45.png",
+      "img/signs/reg-ceda-el-paso.png",
+      "img/signs/reg-prohibido-girar-a-la-derecha.png",
+      "img/signs/reg-prohibido-estacionar.png"
+    ],
+    "options": [
+      "Señal A",
+      "Señal B",
+      "Señal C",
+      "Señal D"
+    ],
+    "correct": 3,
+    "explanation": "Prohíbe dejar el vehículo detenido y desocupado en esa zona; detenerse brevemente sí está permitido.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señales Reglamentarias",
+    "question": "¿Cuál de estas señales indica \"Prohibido circular ciclistas\"?",
+    "optionImages": [
+      "img/signs/reg-prohibido-traccion-a-sangre.png",
+      "img/signs/reg-prohibido-circular-ciclistas.png",
+      "img/signs/reg-prohibido-cruzar-peatones.png",
+      "img/signs/reg-prohibido-girar-a-la-derecha.png"
+    ],
+    "options": [
+      "Señal A",
+      "Señal B",
+      "Señal C",
+      "Señal D"
+    ],
+    "correct": 1,
+    "explanation": "Prohíbe el paso de bicicletas.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señales de Advertencia",
+    "question": "¿Cuál de estas señales indica \"Peatones\"?",
+    "optionImages": [
+      "img/signs/adv-peatones.png",
+      "img/signs/adv-curva-a-la-derecha.png",
+      "img/signs/adv-escuela.png",
+      "img/signs/adv-animales-sueltos.png"
+    ],
+    "options": [
+      "Señal A",
+      "Señal B",
+      "Señal C",
+      "Señal D"
+    ],
+    "correct": 0,
+    "explanation": "Advierte tránsito frecuente de peatones en la zona.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señales de Advertencia",
+    "question": "¿Cuál de estas señales indica \"Escuela\"?",
+    "optionImages": [
+      "img/signs/adv-calle-sin-veredas.png",
+      "img/signs/adv-escuela.png",
+      "img/signs/adv-peatones.png",
+      "img/signs/adv-baden.png"
+    ],
+    "options": [
+      "Señal A",
+      "Señal B",
+      "Señal C",
+      "Señal D"
+    ],
+    "correct": 1,
+    "explanation": "Advierte la proximidad de una escuela: extremar precaución por posible presencia de niños.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señales de Advertencia",
+    "question": "¿Cuál de estas señales indica \"Badén\"?",
+    "optionImages": [
+      "img/signs/adv-ninos-jugando.png",
+      "img/signs/adv-baden.png",
+      "img/signs/adv-liceo.png",
+      "img/signs/adv-calle-sin-veredas.png"
+    ],
+    "options": [
+      "Señal A",
+      "Señal B",
+      "Señal C",
+      "Señal D"
+    ],
+    "correct": 1,
+    "explanation": "Advierte una depresión o zanja transversal en la calzada (lo opuesto al lomo de burro).",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señales de Advertencia",
+    "question": "¿Cuál de estas señales indica \"Puente angosto\"?",
+    "optionImages": [
+      "img/signs/adv-puente.png",
+      "img/signs/adv-curva-a-la-derecha.png",
+      "img/signs/adv-baden.png",
+      "img/signs/adv-liceo.png"
+    ],
+    "options": [
+      "Señal A",
+      "Señal B",
+      "Señal C",
+      "Señal D"
+    ],
+    "correct": 0,
+    "explanation": "Advierte un puente angosto más adelante.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señales de Advertencia",
+    "question": "¿Cuál de estas señales indica \"Lomo de burro\"?",
+    "optionImages": [
+      "img/signs/adv-lomo-de-burro.png",
+      "img/signs/adv-cruce-de-caminos.png",
+      "img/signs/adv-liceo.png",
+      "img/signs/adv-curva-a-la-derecha.png"
+    ],
+    "options": [
+      "Señal A",
+      "Señal B",
+      "Señal C",
+      "Señal D"
+    ],
+    "correct": 0,
+    "explanation": "Advierte un resalto o reductor de velocidad en la calzada.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señales de Advertencia",
+    "question": "¿Cuál de estas señales indica \"Pavimento resbaladizo\"?",
+    "optionImages": [
+      "img/signs/adv-cruce-de-caminos.png",
+      "img/signs/adv-curva-a-la-izquierda.png",
+      "img/signs/adv-pavimento-resbaladizo.png",
+      "img/signs/adv-puente.png"
+    ],
+    "options": [
+      "Señal A",
+      "Señal B",
+      "Señal C",
+      "Señal D"
+    ],
+    "correct": 2,
+    "explanation": "Advierte riesgo de derrape por piso deslizante (lluvia, aceite, etc.).",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
   }
 ]

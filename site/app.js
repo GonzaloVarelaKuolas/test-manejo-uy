@@ -1,6 +1,7 @@
 "use strict";
 
-const EXAM_SIZE = 25;
+const EXAM_SIZE = 30;
+const MAX_WRONG_TO_PASS = 5; // como en el examen real: hasta 5 errores aprueba.
 const KEYS = ["1", "2", "3", "4", "5", "6"];
 
 const $ = (id) => document.getElementById(id);
@@ -42,8 +43,14 @@ function show(screenId) {
 }
 
 // Prepara una pregunta para la ronda: mezcla las opciones y recuerda cuál es la correcta.
+// Si la pregunta trae "optionImages" (mismo orden que "options"), cada opción se arma
+// con su imagen además de su texto, y se mezclan juntas.
 function prepare(q) {
-  const opts = shuffle(q.options.map((text, idx) => ({ text, ok: idx === q.correct })));
+  const opts = shuffle(q.options.map((text, idx) => ({
+    text,
+    image: q.optionImages ? q.optionImages[idx] : null,
+    ok: idx === q.correct
+  })));
   return { ...q, opts, picked: null };
 }
 
@@ -137,17 +144,33 @@ function renderQuestion() {
   $("q-text").textContent = q.question;
   $("feedback").hidden = true;
 
+  const img = $("q-image");
+  if (q.image) {
+    img.src = q.image;
+    img.alt = q.imageAlt || "Imagen de la pregunta";
+    img.hidden = false;
+  } else {
+    img.removeAttribute("src");
+    img.hidden = true;
+  }
+
   const next = $("next");
   next.disabled = true;
   next.textContent = state.i === state.quiz.length - 1
     ? (state.mode === "exam" ? "Ver resultado" : "Terminar")
     : "Siguiente";
 
+  const hasImages = q.opts.some((o) => o.image);
   const box = $("options");
+  box.classList.toggle("options-img", hasImages);
   box.replaceChildren(...q.opts.map((o, idx) => {
-    const b = el("button", { type: "button", class: "opt", "aria-pressed": "false" },
-      el("span", { class: "opt-key", "aria-hidden": "true", text: KEYS[idx] }),
-      el("span", { text: o.text }));
+    const key = el("span", { class: "opt-key", "aria-hidden": "true", text: KEYS[idx] });
+    const content = hasImages
+      ? el("span", { class: "opt-img-wrap" },
+          el("img", { class: "opt-img", src: o.image, alt: o.text, loading: "lazy" }),
+          el("span", { class: "opt-img-label", text: o.text }))
+      : el("span", { text: o.text });
+    const b = el("button", { type: "button", class: "opt", "aria-pressed": "false" }, key, content);
     b.addEventListener("click", () => pick(idx));
     return b;
   }));
@@ -209,13 +232,27 @@ $("next").addEventListener("click", nextQuestion);
 function showResults() {
   const total = state.quiz.length;
   const right = state.quiz.filter((q) => q.opts[q.picked].ok).length;
+  const wrongCount = total - right;
   const pct = Math.round((right / total) * 100);
 
   $("score-num").textContent = right;
   $("score-of").textContent = `de ${total}`;
-  $("score-text").textContent = right === total
-    ? `Respondiste todo bien (${pct}%).`
-    : `Respondiste bien el ${pct}% de las preguntas.`;
+
+  const sign = $("score-sign");
+  sign.classList.remove("pass", "fail");
+
+  if (state.mode === "exam") {
+    // Igual que el examen real: aprueba con hasta MAX_WRONG_TO_PASS errores.
+    const passed = wrongCount <= MAX_WRONG_TO_PASS;
+    sign.classList.add(passed ? "pass" : "fail");
+    $("score-text").textContent = passed
+      ? `Aprobado. Te equivocaste en ${wrongCount} de ${total} (el máximo permitido es ${MAX_WRONG_TO_PASS}).`
+      : `No aprobado. Te equivocaste en ${wrongCount} de ${total} (el máximo permitido es ${MAX_WRONG_TO_PASS}).`;
+  } else {
+    $("score-text").textContent = right === total
+      ? `Respondiste todo bien (${pct}%).`
+      : `Respondiste bien el ${pct}% de las preguntas.`;
+  }
 
   // Resultado por tema, de peor a mejor.
   const byCat = new Map();
