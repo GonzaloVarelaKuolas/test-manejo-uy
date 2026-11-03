@@ -49,7 +49,7 @@ python3 -m http.server 8080</code></pre>
             <input type="radio" name="mode" value="exam" checked>
             <span class="mode-body">
               <span class="mode-name">Simulacro de examen</span>
-              <span class="mode-desc"><span id="exam-size">25</span> preguntas al azar. Ves el resultado y las explicaciones al final.</span>
+              <span class="mode-desc"><span id="exam-size">30</span> preguntas al azar. Aprobás con hasta 5 errores, igual que el examen real.</span>
             </span>
           </label>
 
@@ -78,6 +78,7 @@ python3 -m http.server 8080</code></pre>
         <span class="q-cat" id="q-cat"></span>
       </div>
       <h1 class="q-text" id="q-text" tabindex="-1"></h1>
+      <img class="q-image" id="q-image" alt="" hidden>
       <div class="options" id="options" role="group" aria-labelledby="q-text"></div>
 
       <div class="feedback" id="feedback" hidden aria-live="polite">

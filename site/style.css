@@ -251,7 +251,35 @@ h2 { font-size: 1.15rem; font-weight: 800; margin: 2.2rem 0 .8rem; }
 .q-text { font-size: clamp(1.3rem, 3.6vw, 1.6rem); font-weight: 600; margin-bottom: 1.4rem; }
 .q-text:focus { outline: none; }
 
+.q-image {
+  display: block;
+  max-width: 100%;
+  max-height: 260px;
+  margin: 0 0 1.4rem;
+  border-radius: var(--radius-lg);
+  border: 2px solid var(--line);
+  background: var(--surface);
+  object-fit: contain;
+}
+.q-image[hidden] { display: none; }
+
 .options { display: grid; gap: .6rem; }
+
+/* Opciones con imagen (p. ej. "¿cuál de estas señales...?"): una grilla de 2 columnas
+   en vez de la lista vertical de texto. */
+.options.options-img {
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+}
+.options.options-img .opt { flex-direction: column; align-items: stretch; text-align: center; }
+.options.options-img .opt-key { align-self: center; margin-bottom: .4rem; }
+
+.opt-img-wrap { display: grid; gap: .5rem; justify-items: center; }
+.opt-img {
+  max-width: 100%;
+  height: 90px;
+  object-fit: contain;
+}
+.opt-img-label { font-size: .92rem; color: var(--muted); }
 
 .opt {
   display: flex;
@@ -331,6 +359,10 @@ h2 { font-size: 1.15rem; font-weight: 800; margin: 2.2rem 0 .8rem; }
 }
 .score-num { font-size: 3.4rem; font-weight: 800; line-height: 1; }
 .score-of { font-size: 1.2rem; opacity: .8; }
+
+/* Simulacro de examen: aprobado/no aprobado */
+.score-sign.pass { background: var(--sign-green); outline-color: var(--sign-green); }
+.score-sign.fail { background: var(--sign-red); outline-color: var(--sign-red); }
 
 .by-topic { list-style: none; padding: 0; margin: 0; display: grid; gap: .45rem; }
 .by-topic li {

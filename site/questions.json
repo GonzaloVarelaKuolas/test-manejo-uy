@@ -1742,5 +1742,43 @@
     "correct": 0,
     "explanation": "En los motores de nafta se recomienda colocar el cambio entre 2.000 y 2.500 r/min; en los gasoleros, entre 1.500 y 2.000 r/min. Se acelera tras realizar el cambio.",
     "source": "Guía Nacional de Conducción, pág. 120"
+  },
+  {
+    "category": "Señalización",
+    "question": "¿Qué indica esta señal?",
+    "image": "img/signs/EJEMPLO-pare.png",
+    "imageAlt": "Señal octogonal roja con la palabra PARE",
+    "options": [
+      "Ceder el paso sin detenerse si no hay tránsito.",
+      "Detención obligatoria antes de cruzar.",
+      "Prohibido el paso de vehículos pesados.",
+      "Fin de una vía prioritaria."
+    ],
+    "correct": 1,
+    "explanation": "La señal de PARE obliga a detener completamente el vehículo antes de la línea de detención o el cruce, exista o no tránsito visible.",
+    "source": "Ley 18.191, art. 17 num. 4; Guía Nacional de Conducción",
+    "verify": true,
+    "verifyNote": "Pregunta de ejemplo del sistema de imágenes: reemplazar \"image\" por un archivo real en site/img/signs/ antes de habilitarla (quitar \"verify\")."
+  },
+  {
+    "category": "Señalización",
+    "question": "¿Cuál de estas señales corresponde a \"Ceda el paso\"?",
+    "optionImages": [
+      "img/signs/EJEMPLO-pare.png",
+      "img/signs/EJEMPLO-ceda.png",
+      "img/signs/EJEMPLO-prohibido.png",
+      "img/signs/EJEMPLO-curva.png"
+    ],
+    "options": [
+      "Señal A (octógono rojo)",
+      "Señal B (triángulo invertido)",
+      "Señal C (círculo rojo)",
+      "Señal D (rombo amarillo)"
+    ],
+    "correct": 1,
+    "explanation": "\"Ceda el paso\" se representa con un triángulo invertido de borde rojo: el conductor debe reducir la velocidad y ceder el paso al tránsito de la vía a la que se incorpora.",
+    "source": "Ley 18.191, art. 17 num. 4; Guía Nacional de Conducción",
+    "verify": true,
+    "verifyNote": "Pregunta de ejemplo del sistema de opciones con imagen: reemplazar los 4 archivos en \"optionImages\" por señales reales antes de habilitarla (quitar \"verify\")."
   }
 ]
