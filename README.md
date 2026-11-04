@@ -18,7 +18,8 @@ examen teórico de manejo en Uruguay.
   proporciones fijas, para que las señales no ocupen todo el examen.
   Aprobás con hasta 5 errores.
 - **Práctica por tema**: hasta 30 preguntas del tema que elijas, con la
-  explicación después de cada una.
+  explicación después de cada una. Hay una opción "Solo imágenes de señales"
+  que junta todas las preguntas con imagen sin importar el tema.
 - **Preguntas de motos opcionales**: una casilla en el inicio las suma al
   simulacro y a la práctica. Sirve si vas a sacar la libreta de moto
   (categoría G); si no, quedan afuera. La elección se recuerda en el navegador.
@@ -30,7 +31,7 @@ examen teórico de manejo en Uruguay.
 | Tema | Qué incluye | Preguntas |
 |------|-------------|-----------|
 | Señalización vial | Señales reglamentarias, de advertencia e informativas, marcas en el pavimento y señales luminosas (semáforos), con 53 imágenes de señales reales | 86 |
-| Normas de tránsito y circulación | Velocidades máximas, preferencia de paso, adelantamiento, giros, estacionamiento, marcha atrás | 52 |
+| Normas de tránsito y circulación | Velocidades máximas (incluida la zona escolar, 20 km/h), preferencia de paso, adelantamiento, giros, estacionamiento, marcha atrás | 53 |
 | Seguridad vial y legislación | Alcohol cero, cinturón, sistemas de retención infantil, casco, luces bajas, Leyes 18.191 y 19.061 | 25 |
 | Factor humano y conducción | Tiempo de reacción, fatiga, distracciones, distancia de frenado, física del vehículo | 22 |
 | Documentación y vehículo | Libreta y documentos, neumáticos, luces, frenos, equipamiento obligatorio | 18 |
@@ -94,7 +95,8 @@ confirmadas (no se muestran).
 
 ### Estado
 
-- 213 preguntas en total: 144 de texto y 69 con señales.
+- 214 preguntas en total: 213 visibles (144 de texto y 69 con señales) y 1
+  marcada para verificar.
 - 1 pregunta marcada para verificar (edad mínima de la categoría G1, que sale
   de la Guía de 2013 y puede estar desactualizada).
 
@@ -118,7 +120,8 @@ written driving exam.
   proportions, so road signs don't take over the exam. You pass with up to
   5 wrong answers.
 - **Practice by topic**: up to 30 questions from the topic you pick, with the
-  explanation after each one.
+  explanation after each one. There's also a "Signs images only" option that
+  pools every question with an image regardless of topic.
 - **Optional motorcycle questions**: a checkbox on the start screen adds them
   to the exam and practice. Useful if you're getting a motorcycle license
   (category G); otherwise they're left out. The choice is remembered in the
@@ -131,7 +134,7 @@ written driving exam.
 | Topic | Covers | Questions |
 |-------|--------|-----------|
 | Señalización vial (road signs) | Regulatory, warning and informational signs, pavement markings and traffic lights, with 53 real sign images | 86 |
-| Normas de tránsito y circulación (traffic rules) | Speed limits, right of way, overtaking, turns, parking, reversing | 52 |
+| Normas de tránsito y circulación (traffic rules) | Speed limits (including the 20 km/h school-zone limit), right of way, overtaking, turns, parking, reversing | 53 |
 | Seguridad vial y legislación (safety and law) | Zero alcohol, seatbelts, child seats, helmets, dipped headlights, Laws 18.191 and 19.061 | 25 |
 | Factor humano y conducción (human factors) | Reaction time, fatigue, distractions, braking distance, vehicle physics | 22 |
 | Documentación y vehículo (documents and vehicle) | License and papers, tires, lights, brakes, required equipment | 18 |
@@ -195,7 +198,8 @@ motorcycle questions and `verify: true` for unconfirmed ones (hidden).
 
 ### Status
 
-- 213 questions: 144 text-only and 69 with road signs.
+- 214 questions in total: 213 visible (144 text-only and 69 with road signs)
+  and 1 flagged for verification.
 - 1 question flagged for verification (minimum age for category G1, taken
   from the 2013 Guide and possibly out of date).
 
