@@ -57,7 +57,7 @@ python3 -m http.server 8080</code></pre>
             <input type="radio" name="mode" value="practice">
             <span class="mode-body">
               <span class="mode-name">Práctica por tema</span>
-              <span class="mode-desc">Ves si acertaste y la explicación después de cada pregunta.</span>
+              <span class="mode-desc">Hasta 30 preguntas del tema que elijas. Ves si acertaste y la explicación después de cada pregunta.</span>
             </span>
           </label>
         </fieldset>
@@ -66,6 +66,11 @@ python3 -m http.server 8080</code></pre>
           <label for="topic">Tema</label>
           <select id="topic"></select>
         </div>
+
+        <label class="check">
+          <input type="checkbox" id="include-moto">
+          <span>Incluir preguntas de motos <span class="muted">(solo si vas a sacar la libreta de moto, categoría G)</span></span>
+        </label>
 
         <button class="btn-primary" type="submit" id="start">Empezar</button>
       </form>

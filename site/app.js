@@ -73,16 +73,62 @@ async function load() {
 
 /* ---------- Inicio ---------- */
 
+// Los cinco temas del examen teórico, en el orden en que se muestran.
+// "Motos" solo entra si se marca la casilla (es para la libreta de moto, categoría G).
+const CATEGORIES = [
+  "Señalización vial",
+  "Normas de tránsito y circulación",
+  "Seguridad vial y legislación",
+  "Factor humano y conducción",
+  "Documentación y vehículo",
+  "Motos"
+];
+
+// Cuántas preguntas de cada tema lleva el simulacro (suman EXAM_SIZE), para que
+// un tema con muchas preguntas (las señales) no se coma el examen.
+const EXAM_MIX = {
+  "Señalización vial": 9,
+  "Normas de tránsito y circulación": 8,
+  "Seguridad vial y legislación": 6,
+  "Factor humano y conducción": 4,
+  "Documentación y vehículo": 3
+};
+const EXAM_MIX_MOTO = { ...EXAM_MIX, "Señalización vial": 8, "Normas de tránsito y circulación": 7, "Factor humano y conducción": 3, "Motos": 3 };
+
+const MOTO_KEY = "manejo-uy:include-moto";
+
+function includeMoto() { return $("include-moto").checked; }
+
+// Preguntas disponibles según la casilla de motos.
+function pool() {
+  return includeMoto() ? state.all : state.all.filter((q) => !q.moto);
+}
+
+function buildTopics() {
+  const qs = pool();
+  const counts = new Map();
+  for (const q of qs) counts.set(q.category, (counts.get(q.category) || 0) + 1);
+  const cats = [...counts.keys()].sort((a, b) => {
+    const ia = CATEGORIES.indexOf(a), ib = CATEGORIES.indexOf(b);
+    return (ia === -1 ? 99 : ia) - (ib === -1 ? 99 : ib) || a.localeCompare(b, "es");
+  });
+
+  const sel = $("topic");
+  const prev = sel.value;
+  sel.replaceChildren(el("option", { value: "", text: `Todos los temas (${qs.length})` }));
+  for (const c of cats) sel.append(el("option", { value: c, text: `${c} (${counts.get(c)})` }));
+  if ([...sel.options].some((o) => o.value === prev)) sel.value = prev;
+}
+
 function setupHome() {
   $("exam-size").textContent = Math.min(EXAM_SIZE, state.all.length);
 
-  const counts = new Map();
-  for (const q of state.all) counts.set(q.category, (counts.get(q.category) || 0) + 1);
-  const cats = [...counts.keys()].sort((a, b) => a.localeCompare(b, "es"));
-
-  const sel = $("topic");
-  sel.replaceChildren(el("option", { value: "", text: `Todos los temas (${state.all.length})` }));
-  for (const c of cats) sel.append(el("option", { value: c, text: `${c} (${counts.get(c)})` }));
+  try { $("include-moto").checked = localStorage.getItem(MOTO_KEY) === "1"; } catch (_) {}
+  $("include-moto").addEventListener("change", () => {
+    try { localStorage.setItem(MOTO_KEY, includeMoto() ? "1" : "0"); } catch (_) {}
+    buildTopics();
+  });
+  buildTopics();
 
   const syncTopic = () => {
     const mode = document.querySelector('input[name="mode"]:checked').value;
@@ -92,15 +138,30 @@ function setupHome() {
   syncTopic();
 }
 
+// Arma el simulacro con la mezcla de EXAM_MIX; si a un tema le faltan preguntas,
+// completa con preguntas al azar del resto.
+function buildExam() {
+  const qs = pool();
+  const mix = includeMoto() ? EXAM_MIX_MOTO : EXAM_MIX;
+  const picked = [];
+  for (const [cat, n] of Object.entries(mix)) {
+    picked.push(...shuffle(qs.filter((q) => q.category === cat)).slice(0, n));
+  }
+  const rest = shuffle(qs.filter((q) => !picked.includes(q)));
+  while (picked.length < EXAM_SIZE && rest.length) picked.push(rest.pop());
+  return shuffle(picked).slice(0, EXAM_SIZE);
+}
+
 $("setup").addEventListener("submit", (e) => {
   e.preventDefault();
   const mode = document.querySelector('input[name="mode"]:checked').value;
   if (mode === "exam") {
-    startQuiz("exam", shuffle(state.all).slice(0, EXAM_SIZE));
+    startQuiz("exam", buildExam());
   } else {
     const topic = $("topic").value;
-    const pool = topic ? state.all.filter((q) => q.category === topic) : state.all;
-    startQuiz("practice", shuffle(pool));
+    const qs = pool();
+    // Toda ronda tiene como máximo EXAM_SIZE preguntas (menos si el tema tiene menos).
+    startQuiz("practice", shuffle(topic ? qs.filter((q) => q.category === topic) : qs).slice(0, EXAM_SIZE));
   }
 });
 
@@ -166,9 +227,9 @@ function renderQuestion() {
   box.replaceChildren(...q.opts.map((o, idx) => {
     const key = el("span", { class: "opt-key", "aria-hidden": "true", text: KEYS[idx] });
     const content = hasImages
+      // Sin etiqueta de texto: "Señal A/B/C/D" quedaría desordenado al mezclar las opciones.
       ? el("span", { class: "opt-img-wrap" },
-          el("img", { class: "opt-img", src: o.image, alt: o.text, loading: "lazy" }),
-          el("span", { class: "opt-img-label", text: o.text }))
+          el("img", { class: "opt-img", src: o.image, alt: `Opción ${idx + 1}`, loading: "lazy" }))
       : el("span", { text: o.text });
     const b = el("button", { type: "button", class: "opt", "aria-pressed": "false" }, key, content);
     b.addEventListener("click", () => pick(idx));
@@ -205,7 +266,11 @@ function pick(idx) {
 
   const fb = $("feedback");
   fb.classList.toggle("bad", !ok);
-  $("fb-verdict").textContent = ok ? "Correcto." : `Incorrecto. La respuesta es: ${q.opts[correctIdx].text}`;
+  $("fb-verdict").textContent = ok
+    ? "Correcto."
+    : q.opts[correctIdx].image
+      ? `Incorrecto. La correcta es la opción ${correctIdx + 1}, marcada en verde.`
+      : `Incorrecto. La respuesta es: ${q.opts[correctIdx].text}`;
   $("fb-text").textContent = q.explanation;
   $("fb-source").textContent = q.source ? `Fuente: ${q.source}` : "";
   fb.hidden = false;
@@ -273,11 +338,19 @@ function showResults() {
   $("review-title").hidden = wrong.length === 0;
   $("retry-wrong").hidden = wrong.length === 0;
   $("review").replaceChildren(...wrong.map((q) => {
-    const correct = q.opts.find((o) => o.ok).text;
+    const correctOpt = q.opts.find((o) => o.ok);
+    const pickedOpt = q.opts[q.picked];
+    const reviewImg = (src, alt) => el("img", { class: "review-img", src, alt, loading: "lazy" });
+    // Opciones con imagen: se muestran las señales elegida y correcta en vez de su texto.
+    const answerLines = correctOpt.image
+      ? [el("p", { class: "yours" }, "Tu respuesta: ", reviewImg(pickedOpt.image, "Señal elegida")),
+         el("p", { class: "right" }, "Correcta: ", reviewImg(correctOpt.image, "Señal correcta"))]
+      : [el("p", { class: "yours", text: `Tu respuesta: ${pickedOpt.text}` }),
+         el("p", { class: "right", text: `Correcta: ${correctOpt.text}` })];
     return el("li", {},
       el("p", { class: "rq", text: q.question }),
-      el("p", { class: "yours", text: `Tu respuesta: ${q.opts[q.picked].text}` }),
-      el("p", { class: "right", text: `Correcta: ${correct}` }),
+      q.image ? reviewImg(q.image, q.imageAlt || "Imagen de la pregunta") : "",
+      ...answerLines,
       el("p", { class: "why", text: q.explanation }),
       el("p", { class: "source", text: q.source ? `Fuente: ${q.source}` : "" }));
   }));

@@ -1,6 +1,7 @@
 [
   {
-    "category": "Documentación y Normativa",
+    "category": "Documentación y vehículo",
+    "topic": "Documentación y Normativa",
     "question": "¿Cuál es la vigencia máxima del Permiso de Conducir otorgado por primera vez en Uruguay?",
     "options": [
       "5 años.",
@@ -13,7 +14,8 @@
     "source": "Guía Nacional de Conducción, pág. 6"
   },
   {
-    "category": "Velocidad",
+    "category": "Normas de tránsito y circulación",
+    "topic": "Velocidad",
     "question": "¿Cuál es la velocidad máxima permitida en zonas urbanas, salvo que exista señalización en contrario?",
     "options": [
       "30 km/h.",
@@ -26,7 +28,8 @@
     "source": "Reglamento Nacional de Circulación Vial, art. 13.3; Guía Nacional de Conducción, pág. 90"
   },
   {
-    "category": "Velocidad",
+    "category": "Normas de tránsito y circulación",
+    "topic": "Velocidad",
     "question": "¿Cuál es la velocidad máxima en carreteras y caminos, fuera de zonas urbanas, para vehículos livianos sin remolque, salvo señalización específica?",
     "options": [
       "70 km/h.",
@@ -39,7 +42,8 @@
     "source": "Reglamento Nacional de Circulación Vial, art. 13.2; Guía Nacional de Conducción, págs. 90 y 112"
   },
   {
-    "category": "Alcohol y Conducción",
+    "category": "Seguridad vial y legislación",
+    "topic": "Alcohol y Conducción",
     "question": "Según la legislación uruguaya, ¿cuál es el límite de concentración de alcohol en sangre para conducir?",
     "options": [
       "0,8 gramos por litro.",
@@ -52,7 +56,8 @@
     "source": "Ley 18.191, art. 45 (redacción dada por Ley 19.360); Guía Nacional de Conducción, págs. 16-17"
   },
   {
-    "category": "Alcohol y Sanciones",
+    "category": "Seguridad vial y legislación",
+    "topic": "Alcohol y Sanciones",
     "question": "Según la Ley 18.191, ante una primera infracción por conducir con alcohol por encima del límite legal, ¿cuál es la sanción sobre la licencia?",
     "options": [
       "Cancelación definitiva e inhabilitación por 5 años.",
@@ -65,7 +70,9 @@
     "source": "Ley 18.191, art. 46; Guía Nacional de Conducción, pág. 18"
   },
   {
-    "category": "Seguridad Pasiva",
+    "category": "Motos",
+    "topic": "Seguridad Pasiva",
+    "moto": true,
     "question": "Según la Guía Nacional de Conducción, ¿en qué porcentaje reduce el casco homologado la probabilidad de morir en un siniestro de tránsito?",
     "options": [
       "Hasta un 75%.",
@@ -78,7 +85,8 @@
     "source": "Guía Nacional de Conducción, pág. 54"
   },
   {
-    "category": "Seguridad Vial",
+    "category": "Seguridad vial y legislación",
+    "topic": "Seguridad Vial",
     "question": "¿Qué luces debe llevar encendidas de forma permanente un vehículo automotor al circular?",
     "options": [
       "Luces de baliza intermitente.",
@@ -91,7 +99,8 @@
     "source": "Ley 18.191, art. 30; Guía Nacional de Conducción, pág. 27"
   },
   {
-    "category": "Preferencia de Paso",
+    "category": "Normas de tránsito y circulación",
+    "topic": "Preferencia de Paso",
     "question": "En una intersección no regulada por señales ni semáforos, ¿quién tiene la preferencia de paso entre dos vehículos?",
     "options": [
       "El vehículo de mayor tamaño.",
@@ -104,7 +113,8 @@
     "source": "Ley 18.191, art. 17 (3); Guía Nacional de Conducción, pág. 100"
   },
   {
-    "category": "Preferencia y Giros",
+    "category": "Normas de tránsito y circulación",
+    "topic": "Preferencia y Giros",
     "question": "Cuando un vehículo gira hacia otra calle en un cruce, ¿quién tiene la preferencia de paso?",
     "options": [
       "Los peatones que cruzan y los vehículos que continúan de frente.",
@@ -117,7 +127,8 @@
     "source": "Ley 18.191, art. 17 (6); Guía Nacional de Conducción, págs. 66 y 100"
   },
   {
-    "category": "Distancia de Seguridad",
+    "category": "Normas de tránsito y circulación",
+    "topic": "Distancia de Seguridad",
     "question": "¿Qué regla se recomienda para mantener la distancia de seguridad con el vehículo de adelante en ruta?",
     "options": [
       "5 metros fijos en todos los casos.",
@@ -130,7 +141,8 @@
     "source": "Guía Nacional de Conducción, pág. 113"
   },
   {
-    "category": "Seguridad Infantil",
+    "category": "Seguridad vial y legislación",
+    "topic": "Seguridad Infantil",
     "question": "Según la Guía, ¿hasta qué edad deben viajar los niños en los asientos traseros con un sistema de retención infantil (SRI)?",
     "options": [
       "No es obligatorio en asientos traseros si usan cinturón.",
@@ -143,7 +155,8 @@
     "source": "Ley 19.061, art. 1; Guía Nacional de Conducción, pág. 34"
   },
   {
-    "category": "SRI e Infantes",
+    "category": "Seguridad vial y legislación",
+    "topic": "SRI e Infantes",
     "question": "Según la Guía, ¿hasta cuándo debe viajar como mínimo un bebé en el SRI en sentido contrario a la marcha (mirando hacia atrás)?",
     "options": [
       "No se recomienda colocar el SRI mirando hacia atrás.",
@@ -156,7 +169,8 @@
     "source": "Guía Nacional de Conducción, pág. 34"
   },
   {
-    "category": "Señales Manuales",
+    "category": "Señalización vial",
+    "topic": "Señales Manuales",
     "question": "Si no funciona la luz señalera, ¿cómo indica un conductor con el brazo que va a girar a la IZQUIERDA?",
     "options": [
       "Brazo extendido horizontalmente hacia afuera del vehículo.",
@@ -169,7 +183,8 @@
     "source": "Ley 18.191, art. 18 (6); Guía Nacional de Conducción, págs. 65 y 98"
   },
   {
-    "category": "Señales Manuales",
+    "category": "Señalización vial",
+    "topic": "Señales Manuales",
     "question": "¿Qué indica un conductor cuando saca el brazo por la ventanilla extendido hacia ARRIBA en ángulo recto?",
     "options": [
       "Pedido de paso por emergencia.",
@@ -182,7 +197,8 @@
     "source": "Ley 18.191, art. 18 (6); Guía Nacional de Conducción, págs. 65 y 98"
   },
   {
-    "category": "Señales Manuales",
+    "category": "Señalización vial",
+    "topic": "Señales Manuales",
     "question": "¿Qué maniobra indica el brazo extendido hacia ABAJO fuera del vehículo?",
     "options": [
       "Estacionamiento en paralelo.",
@@ -195,7 +211,8 @@
     "source": "Ley 18.191, art. 18 (7); Guía Nacional de Conducción, págs. 65 y 98"
   },
   {
-    "category": "Factores de Riesgo",
+    "category": "Factor humano y conducción",
+    "topic": "Factores de Riesgo",
     "question": "¿Cuál es el principal factor contribuyente en los siniestros de tránsito?",
     "options": [
       "El estado de las rutas.",
@@ -208,7 +225,8 @@
     "source": "Guía Nacional de Conducción, pág. 13"
   },
   {
-    "category": "Estacionamiento",
+    "category": "Normas de tránsito y circulación",
+    "topic": "Estacionamiento",
     "question": "¿A qué distancia máxima del cordón de la acera debe quedar un vehículo estacionado?",
     "options": [
       "15 cm.",
@@ -221,7 +239,8 @@
     "source": "Ley 18.191, art. 19 (1); Guía Nacional de Conducción, pág. 104"
   },
   {
-    "category": "Estacionamiento en Pendiente",
+    "category": "Normas de tránsito y circulación",
+    "topic": "Estacionamiento en Pendiente",
     "question": "Al estacionar en bajada junto al cordón, ¿hacia dónde deben quedar giradas las ruedas delanteras?",
     "options": [
       "Hacia el cordón, apuntando a la acera.",
@@ -234,7 +253,8 @@
     "source": "Guía Nacional de Conducción, pág. 103"
   },
   {
-    "category": "Estacionamiento en Pendiente",
+    "category": "Normas de tránsito y circulación",
+    "topic": "Estacionamiento en Pendiente",
     "question": "Al estacionar en subida (cuesta arriba) junto al cordón, ¿hacia dónde se deben orientar las ruedas delanteras?",
     "options": [
       "Hacia la vereda izquierda.",
@@ -247,7 +267,8 @@
     "source": "Guía Nacional de Conducción, pág. 103"
   },
   {
-    "category": "Adelantamiento",
+    "category": "Normas de tránsito y circulación",
+    "topic": "Adelantamiento",
     "question": "¿Por qué lado se realiza, como regla general, el adelantamiento a otro vehículo en marcha?",
     "options": [
       "Por cualquier lado si hay espacio.",
@@ -260,7 +281,8 @@
     "source": "Ley 18.191, arts. 14 y 16; Guía Nacional de Conducción, págs. 101-102"
   },
   {
-    "category": "Adelantamiento",
+    "category": "Normas de tránsito y circulación",
+    "topic": "Adelantamiento",
     "question": "¿En qué caso se permite adelantar por la DERECHA a un vehículo?",
     "options": [
       "Cuando el vehículo de adelante indicó claramente que va a girar a la izquierda.",
@@ -273,7 +295,8 @@
     "source": "Ley 18.191, art. 16 (9); Guía Nacional de Conducción, pág. 101"
   },
   {
-    "category": "Adelantamiento Prohibido",
+    "category": "Normas de tránsito y circulación",
+    "topic": "Adelantamiento Prohibido",
     "question": "¿En cuál de estos lugares está PROHIBIDO adelantar a otro vehículo?",
     "options": [
       "En tramos rectos de rutas nacionales.",
@@ -286,7 +309,8 @@
     "source": "Ley 18.191, art. 16 (5) y (6); Guía Nacional de Conducción, pág. 101"
   },
   {
-    "category": "Líneas de Pavimento",
+    "category": "Señalización vial",
+    "topic": "Líneas de Pavimento",
     "question": "¿Qué indica una LÍNEA CONTINUA AMARILLA en el centro de la calzada?",
     "options": [
       "Separa carriles y se puede adelantar con precaución.",
@@ -299,7 +323,8 @@
     "source": "Guía Nacional de Conducción, pág. 110"
   },
   {
-    "category": "Líneas de Pavimento",
+    "category": "Señalización vial",
+    "topic": "Líneas de Pavimento",
     "question": "¿Qué significan DOS LÍNEAS CONTINUAS amarillas en el eje de la calzada?",
     "options": [
       "Separan los sentidos de circulación y está prohibido traspasarlas o circular sobre ellas.",
@@ -312,7 +337,8 @@
     "source": "Guía Nacional de Conducción, pág. 110"
   },
   {
-    "category": "Fenómenos Climáticos",
+    "category": "Factor humano y conducción",
+    "topic": "Fenómenos Climáticos",
     "question": "¿Qué es el hidroplaneo (aquaplaning)?",
     "options": [
       "El derrape causado por el congelamiento de los frenos.",
@@ -325,7 +351,8 @@
     "source": "Guía Nacional de Conducción, págs. 85-86"
   },
   {
-    "category": "Hidroplaneo",
+    "category": "Factor humano y conducción",
+    "topic": "Hidroplaneo",
     "question": "Si su vehículo entra en hidroplaneo, ¿cuál es la acción correcta?",
     "options": [
       "Accionar el freno de mano.",
@@ -338,7 +365,8 @@
     "source": "Guía Nacional de Conducción, pág. 86"
   },
   {
-    "category": "Cinturón de Seguridad",
+    "category": "Seguridad vial y legislación",
+    "topic": "Cinturón de Seguridad",
     "question": "En automóviles y camionetas, ¿quiénes están obligados a usar el cinturón de seguridad?",
     "options": [
       "Todos los ocupantes, tanto en asientos delanteros como traseros.",
@@ -351,7 +379,8 @@
     "source": "Ley 18.191, art. 31; Guía Nacional de Conducción, pág. 33"
   },
   {
-    "category": "Giro en U",
+    "category": "Normas de tránsito y circulación",
+    "topic": "Giro en U",
     "question": "Según la Guía, ¿dónde se puede realizar la inversión de marcha (giro en U)?",
     "options": [
       "Sobre puentes y pasos a nivel.",
@@ -364,7 +393,8 @@
     "source": "Reglamento Nacional de Circulación Vial, art. 16.4; Guía Nacional de Conducción, pág. 96"
   },
   {
-    "category": "Semáforos",
+    "category": "Señalización vial",
+    "topic": "Semáforos",
     "question": "¿Qué debe hacer un conductor ante una luz AMARILLA fija en el semáforo?",
     "options": [
       "Acelerar para cruzar antes de que cambie a roja.",
@@ -377,7 +407,8 @@
     "source": "Ley 18.191, art. 36 (C); Guía Nacional de Conducción, pág. 108"
   },
   {
-    "category": "Semáforos",
+    "category": "Señalización vial",
+    "topic": "Semáforos",
     "question": "¿Qué indica una luz ROJA INTERMITENTE en un semáforo?",
     "options": [
       "Que el semáforo está descompuesto y hay que avanzar rápido.",
@@ -390,7 +421,8 @@
     "source": "Ley 18.191, art. 36 (B); Guía Nacional de Conducción, pág. 108"
   },
   {
-    "category": "Prioridad de Órdenes",
+    "category": "Señalización vial",
+    "topic": "Prioridad de Órdenes",
     "question": "Si hay un agente de tránsito dando indicaciones en un cruce con semáforo, ¿qué orden prevalece?",
     "options": [
       "La de las señales verticales.",
@@ -403,7 +435,8 @@
     "source": "Ley 18.191, art. 39; Guía Nacional de Conducción, pág. 107"
   },
   {
-    "category": "Agente de Tránsito",
+    "category": "Señalización vial",
+    "topic": "Agente de Tránsito",
     "question": "¿Qué significa que el agente de tránsito esté de FRENTE o de ESPALDAS a su sentido de marcha?",
     "options": [
       "Avanzar con precaución.",
@@ -416,7 +449,8 @@
     "source": "Ley 18.191, art. 40; Guía Nacional de Conducción, pág. 109"
   },
   {
-    "category": "Peatones",
+    "category": "Normas de tránsito y circulación",
+    "topic": "Peatones",
     "question": "¿Qué regla de prioridad se aplica respecto a los peatones en los cruces peatonales (cebras)?",
     "options": [
       "El vehículo solo se detiene si el peatón es menor de edad.",
@@ -429,7 +463,8 @@
     "source": "Ley 18.191, art. 17 (7); Reglamento, art. 15.9; Guía Nacional de Conducción, págs. 80 y 100"
   },
   {
-    "category": "Peatones en Carretera",
+    "category": "Normas de tránsito y circulación",
+    "topic": "Peatones en Carretera",
     "question": "Si no hay acera ni banquina, ¿cómo debe caminar un peatón por una ruta?",
     "options": [
       "Por el medio de la calzada.",
@@ -442,7 +477,8 @@
     "source": "Ley 18.191, art. 22 (3); Guía Nacional de Conducción, pág. 81"
   },
   {
-    "category": "Sistemas del Vehículo",
+    "category": "Documentación y vehículo",
+    "topic": "Sistemas del Vehículo",
     "question": "¿A qué tipo de seguridad pertenecen los frenos, la dirección y los neumáticos?",
     "options": [
       "Seguridad de confort.",
@@ -455,7 +491,8 @@
     "source": "Guía Nacional de Conducción, pág. 23"
   },
   {
-    "category": "Sistemas del Vehículo",
+    "category": "Documentación y vehículo",
+    "topic": "Sistemas del Vehículo",
     "question": "¿A qué tipo de seguridad pertenecen el cinturón, el airbag y los apoyacabezas?",
     "options": [
       "Mecanismo de tracción.",
@@ -468,7 +505,8 @@
     "source": "Guía Nacional de Conducción, pág. 23"
   },
   {
-    "category": "Mecánica y Seguridad",
+    "category": "Documentación y vehículo",
+    "topic": "Mecánica y Seguridad",
     "question": "¿Cuándo debe controlarse la presión de inflado de los neumáticos?",
     "options": [
       "Justo después de manejar varios kilómetros a alta velocidad.",
@@ -481,7 +519,8 @@
     "source": "Guía Nacional de Conducción, pág. 24"
   },
   {
-    "category": "Frenos ABS",
+    "category": "Documentación y vehículo",
+    "topic": "Frenos ABS",
     "question": "¿Cuál es la función principal del sistema ABS en una frenada de emergencia?",
     "options": [
       "Apagar el motor de inmediato.",
@@ -494,7 +533,8 @@
     "source": "Guía Nacional de Conducción, pág. 24"
   },
   {
-    "category": "Siniestros",
+    "category": "Seguridad vial y legislación",
+    "topic": "Siniestros",
     "question": "Ante un siniestro de tránsito con lesionados, ¿a qué número nacional de emergencias se debe llamar?",
     "options": [
       "911",
@@ -507,7 +547,8 @@
     "source": "Guía Nacional de Conducción, pág. 118"
   },
   {
-    "category": "Equipamiento Obligatorio",
+    "category": "Documentación y vehículo",
+    "topic": "Equipamiento Obligatorio",
     "question": "Según la Ley 19.061, ¿qué deben llevar los vehículos automotores de cuatro o más ruedas que circulan por la vía pública?",
     "options": [
       "Un maletín con elementos de primeros auxilios y seguridad vial.",
@@ -520,7 +561,8 @@
     "source": "Ley 19.061, art. 15; Guía Nacional de Conducción, págs. 37 y 118"
   },
   {
-    "category": "Distracciones",
+    "category": "Factor humano y conducción",
+    "topic": "Distracciones",
     "question": "Según la Guía, ¿qué pasa con el uso del celular en modalidad \"manos libres\" mientras se conduce?",
     "options": [
       "Solo es peligroso dentro de la ciudad.",
@@ -533,7 +575,8 @@
     "source": "Guía Nacional de Conducción, pág. 90"
   },
   {
-    "category": "Adelantamiento en Ruta",
+    "category": "Normas de tránsito y circulación",
+    "topic": "Adelantamiento en Ruta",
     "question": "Antes de iniciar un adelantamiento en carretera, ¿qué debe verificar el conductor?",
     "options": [
       "Aumentar la velocidad al máximo.",
@@ -546,7 +589,8 @@
     "source": "Guía Nacional de Conducción, pág. 114"
   },
   {
-    "category": "Puntos Ciegos",
+    "category": "Factor humano y conducción",
+    "topic": "Puntos Ciegos",
     "question": "¿Qué son los \"puntos ciegos\" o \"ángulos muertos\" de un vehículo?",
     "options": [
       "Sectores de la ruta sin señal de GPS.",
@@ -559,7 +603,9 @@
     "source": "Guía Nacional de Conducción, pág. 95"
   },
   {
-    "category": "Motocicletas",
+    "category": "Motos",
+    "topic": "Motocicletas",
+    "moto": true,
     "question": "¿Qué freno aporta la mayor parte de la fuerza de frenado (alrededor del 75%) en una motocicleta?",
     "options": [
       "El freno delantero.",
@@ -572,7 +618,9 @@
     "source": "Guía Nacional de Conducción, pág. 47"
   },
   {
-    "category": "Motocicletas",
+    "category": "Motos",
+    "topic": "Motocicletas",
+    "moto": true,
     "question": "Según la Ley 19.061, ¿qué elemento de visibilidad es obligatorio para quienes conducen motocicletas?",
     "options": [
       "Cinta fluorescente en los tobillos.",
@@ -585,7 +633,9 @@
     "source": "Ley 19.061, art. 7; Guía Nacional de Conducción, pág. 53"
   },
   {
-    "category": "Motocicletas",
+    "category": "Motos",
+    "topic": "Motocicletas",
+    "moto": true,
     "question": "¿Se pueden transportar niños como pasajeros en una moto o ciclomotor?",
     "options": [
       "Sí, a partir de los 3 años.",
@@ -598,7 +648,8 @@
     "source": "Ley 19.061, art. 2; Guía Nacional de Conducción, pág. 70"
   },
   {
-    "category": "Bicicletas",
+    "category": "Seguridad vial y legislación",
+    "topic": "Bicicletas",
     "question": "¿Por dónde deben circular las personas en bicicleta?",
     "options": [
       "Por las veredas, sin importar la zona.",
@@ -611,7 +662,8 @@
     "source": "Guía Nacional de Conducción, pág. 74"
   },
   {
-    "category": "Bicicletas",
+    "category": "Seguridad vial y legislación",
+    "topic": "Bicicletas",
     "question": "Según la Guía y la Ley 19.061, ¿es obligatorio el casco para quienes andan en bicicleta en la vía pública?",
     "options": [
       "Solo para menores de 12 años.",
@@ -624,7 +676,8 @@
     "source": "Ley 19.061, art. 9; Guía Nacional de Conducción, pág. 74"
   },
   {
-    "category": "Emergencias",
+    "category": "Normas de tránsito y circulación",
+    "topic": "Emergencias",
     "question": "Si un vehículo queda detenido por fuerza mayor sobre la senda de circulación en una carretera, ¿a qué distancia se colocan las balizas?",
     "options": [
       "A 5 metros, solo atrás.",
@@ -637,7 +690,8 @@
     "source": "Reglamento Nacional de Circulación Vial, art. 7.23; Guía Nacional de Conducción, pág. 113"
   },
   {
-    "category": "Conducción Eficiente",
+    "category": "Factor humano y conducción",
+    "topic": "Conducción Eficiente",
     "question": "¿Qué hábito favorece un menor consumo de combustible al circular?",
     "options": [
       "Acelerar fuerte en cada esquina.",
@@ -650,7 +704,8 @@
     "source": "Guía Nacional de Conducción, pág. 120"
   },
   {
-    "category": "Señales de Tránsito",
+    "category": "Señalización vial",
+    "topic": "Señales de Tránsito",
     "question": "¿Qué finalidad tienen las señales de reglamentación en la vía pública?",
     "options": [
       "Informar sobre la ubicación de talleres mecánicos.",
@@ -663,7 +718,8 @@
     "source": "Ley 18.191, art. 35 (A); Guía Nacional de Conducción, pág. 124"
   },
   {
-    "category": "Señales de Tránsito",
+    "category": "Señalización vial",
+    "topic": "Señales de Tránsito",
     "question": "¿Qué forma y colores caracterizan generalmente a las señales de advertencia de peligro?",
     "options": [
       "Rectangulares de fondo verde y letras blancas.",
@@ -676,7 +732,8 @@
     "source": "Ley 18.191, art. 35 (B); Guía Nacional de Conducción, págs. 124 y 126"
   },
   {
-    "category": "Leyes Físicas y Velocidad",
+    "category": "Factor humano y conducción",
+    "topic": "Leyes Físicas y Velocidad",
     "question": "¿De qué se compone principalmente la denominada distancia total de detención o parada de un vehículo?",
     "options": [
       "Únicamente de la distancia de frenado.",
@@ -689,7 +746,8 @@
     "source": "Guía Nacional de Conducción, pág. 92"
   },
   {
-    "category": "Leyes Físicas y Velocidad",
+    "category": "Factor humano y conducción",
+    "topic": "Leyes Físicas y Velocidad",
     "question": "¿Cómo influyen el alcohol, la fatiga y ciertos medicamentos en el tiempo de reacción de un conductor?",
     "options": [
       "Solo lo afecta la velocidad a la que se circula.",
@@ -702,7 +760,8 @@
     "source": "Guía Nacional de Conducción, pág. 92"
   },
   {
-    "category": "Medicina y Conducción",
+    "category": "Factor humano y conducción",
+    "topic": "Medicina y Conducción",
     "question": "¿Qué efecto secundario frecuente de los antihistamínicos más antiguos, usados contra las alergias, afecta la conducción?",
     "options": [
       "Aumento drástico de la agudeza visual nocturna.",
@@ -715,7 +774,8 @@
     "source": "Guía Nacional de Conducción, pág. 14"
   },
   {
-    "category": "Maniobras en General",
+    "category": "Normas de tránsito y circulación",
+    "topic": "Maniobras en General",
     "question": "Según la Guía, ¿con qué anticipación mínima se debe indicar la intención de girar?",
     "options": [
       "100 metros antes.",
@@ -728,7 +788,8 @@
     "source": "Guía Nacional de Conducción, pág. 65"
   },
   {
-    "category": "Maniobras en General",
+    "category": "Normas de tránsito y circulación",
+    "topic": "Maniobras en General",
     "question": "Según la Guía, para realizar un giro a la IZQUIERDA en una calle de doble sentido, ¿dónde debe ubicarse previamente el conductor?",
     "options": [
       "Bien contra el cordón derecho.",
@@ -741,7 +802,8 @@
     "source": "Guía Nacional de Conducción, pág. 65; Ley 18.191, art. 18 (4)"
   },
   {
-    "category": "Medio Ambiente",
+    "category": "Factor humano y conducción",
+    "topic": "Medio Ambiente",
     "question": "¿Qué debe hacer un conductor al circular con niebla densa o lluvia intensa?",
     "options": [
       "Aumentar la distancia con el vehículo de adelante y adecuar la velocidad a la poca visibilidad.",
@@ -754,7 +816,8 @@
     "source": "Guía Nacional de Conducción, pág. 87"
   },
   {
-    "category": "Conducción en Ruta",
+    "category": "Normas de tránsito y circulación",
+    "topic": "Conducción en Ruta",
     "question": "Según la Guía, si lo encandila otro vehículo que viene de frente con las luces altas, ¿cómo debe actuar?",
     "options": [
       "Frenar de golpe en medio de la ruta.",
@@ -767,7 +830,8 @@
     "source": "Guía Nacional de Conducción, pág. 115"
   },
   {
-    "category": "Siniestros",
+    "category": "Seguridad vial y legislación",
+    "topic": "Siniestros",
     "question": "Según la Ley 18.191, todo conductor implicado en un siniestro de tránsito con lesionados debe:",
     "options": [
       "Detenerse sin crear un nuevo peligro, permanecer en el lugar, socorrer a los lesionados y señalizar.",
@@ -780,7 +844,8 @@
     "source": "Ley 18.191, art. 43; Guía Nacional de Conducción, págs. 9 y 117"
   },
   {
-    "category": "Seguridad Pasiva",
+    "category": "Seguridad vial y legislación",
+    "topic": "Seguridad Pasiva",
     "question": "¿A qué altura aproximada deben colocarse los apoyacabezas de los asientos para que cumplan su función protectora?",
     "options": [
       "A la misma altura que la cabeza, nunca por debajo de la nuca.",
@@ -793,7 +858,8 @@
     "source": "Guía Nacional de Conducción, pág. 35"
   },
   {
-    "category": "Estacionamiento",
+    "category": "Normas de tránsito y circulación",
+    "topic": "Estacionamiento",
     "question": "En zonas urbanas, ¿a qué distancia antes de un símbolo de PARE, CEDA EL PASO o de advertencia está prohibido estacionar?",
     "options": [
       "A menos de 5 metros.",
@@ -806,7 +872,9 @@
     "source": "Reglamento Nacional de Circulación Vial, art. 18.2 (f); Guía Nacional de Conducción, pág. 103"
   },
   {
-    "category": "Motos y Similares",
+    "category": "Motos",
+    "topic": "Motos y Similares",
+    "moto": true,
     "question": "En una motocicleta, ¿cómo se compensa habitualmente la acción de la fuerza centrífuga al tomar una curva?",
     "options": [
       "Inclinando la motocicleta y el cuerpo hacia el interior de la curva.",
@@ -819,7 +887,8 @@
     "source": "Guía Nacional de Conducción, pág. 39"
   },
   {
-    "category": "Motos y Similares",
+    "category": "Factor humano y conducción",
+    "topic": "Motos y Similares",
     "question": "¿Por qué se considera \"vulnerables\" a quienes conducen motos y bicicletas?",
     "options": [
       "Porque las leyes de tránsito no los contemplan.",
@@ -832,7 +901,9 @@
     "source": "Guía Nacional de Conducción, págs. 39 y 73"
   },
   {
-    "category": "Cuatriciclos",
+    "category": "Motos",
+    "topic": "Cuatriciclos",
+    "moto": true,
     "question": "Según la Guía, ¿qué se recomienda sobre llevar acompañantes o cargas en un cuatriciclo?",
     "options": [
       "Pueden circular por cualquier autopista sin restricciones.",
@@ -845,7 +916,8 @@
     "source": "Guía Nacional de Conducción, pág. 76"
   },
   {
-    "category": "El Peatón",
+    "category": "Normas de tránsito y circulación",
+    "topic": "El Peatón",
     "question": "¿Qué probabilidad tiene de sobrevivir un peatón atropellado por un vehículo que lo impacta a 30 km/h o menos?",
     "options": [
       "Menos del 10%.",
@@ -858,7 +930,8 @@
     "source": "Guía Nacional de Conducción, pág. 79"
   },
   {
-    "category": "Conducción Ecológica",
+    "category": "Factor humano y conducción",
+    "topic": "Conducción Ecológica",
     "question": "En un motor de nafta, ¿cómo se recomienda hacer el arranque y la puesta en marcha según los principios de conducción eficiente?",
     "options": [
       "Dejar calentar el vehículo en punto muerto durante 15 minutos.",
@@ -871,7 +944,8 @@
     "source": "Guía Nacional de Conducción, pág. 119"
   },
   {
-    "category": "Conducción en Ruta",
+    "category": "Normas de tránsito y circulación",
+    "topic": "Conducción en Ruta",
     "question": "Según el Reglamento y la Guía, ¿cuál es el uso de la banquina en una ruta nacional para los vehículos?",
     "options": [
       "Estacionar para descansar o comer de forma prolongada.",
@@ -884,7 +958,8 @@
     "source": "Reglamento Nacional de Circulación Vial, art. 2.3; Guía Nacional de Conducción, pág. 112"
   },
   {
-    "category": "Seguridad Vial",
+    "category": "Seguridad vial y legislación",
+    "topic": "Seguridad Vial",
     "question": "¿Qué establece el principio de \"abstenerse ante la duda\" de la Ley 18.191?",
     "options": [
       "Que ante una duda en un cruce conviene acelerar para despejarlo rápido.",
@@ -897,7 +972,8 @@
     "source": "Ley 18.191, art. 6; Guía Nacional de Conducción, pág. 11"
   },
   {
-    "category": "Documentación y Normativa",
+    "category": "Documentación y vehículo",
+    "topic": "Documentación y Normativa",
     "question": "Además del permiso de conducir, ¿qué documentos debe portar quien conduce un vehículo?",
     "options": [
       "Únicamente la cédula de identidad.",
@@ -910,7 +986,8 @@
     "source": "Guía Nacional de Conducción, pág. 8; Ley 18.191, art. 26 (1)"
   },
   {
-    "category": "Sistemas del Vehículo",
+    "category": "Documentación y vehículo",
+    "topic": "Sistemas del Vehículo",
     "question": "¿Qué consecuencia tiene circular con los neumáticos con una presión de aire NOTABLEMENTE INFERIOR a la recomendada?",
     "options": [
       "Mejora notable de la adherencia en curvas cerradas.",
@@ -923,7 +1000,8 @@
     "source": "Guía Nacional de Conducción, págs. 24 y 26"
   },
   {
-    "category": "Sistemas del Vehículo",
+    "category": "Documentación y vehículo",
+    "topic": "Sistemas del Vehículo",
     "question": "Según la Guía, ¿cada cuántos años se aconseja cambiar los neumáticos, aunque conserven dibujo y no hayan rodado en exceso?",
     "options": [
       "Cada 10 años.",
@@ -936,7 +1014,8 @@
     "source": "Guía Nacional de Conducción, pág. 24"
   },
   {
-    "category": "Maniobras en General",
+    "category": "Normas de tránsito y circulación",
+    "topic": "Maniobras en General",
     "question": "¿Qué indican las líneas diagonales entre líneas continuas en la calzada (zonas o áreas neutrales)?",
     "options": [
       "Áreas donde está prohibido circular y también estacionar.",
@@ -949,7 +1028,8 @@
     "source": "Guía Nacional de Conducción, pág. 111"
   },
   {
-    "category": "Drogas y Conducción",
+    "category": "Seguridad vial y legislación",
+    "topic": "Drogas y Conducción",
     "question": "Respecto al consumo de sustancias como la marihuana o las drogas estimulantes (cocaína, pasta base) al conducir:",
     "options": [
       "Están permitidas si se consumen en dosis bajas.",
@@ -962,7 +1042,8 @@
     "source": "Guía Nacional de Conducción, pág. 19"
   },
   {
-    "category": "Conducción en Ruta",
+    "category": "Normas de tránsito y circulación",
+    "topic": "Conducción en Ruta",
     "question": "Ante un \"banderillero\" en la calzada (por ejemplo, en obras viales), el conductor debe:",
     "options": [
       "Ignorarlo si el semáforo cercano está en verde.",
@@ -975,7 +1056,8 @@
     "source": "Guía Nacional de Conducción, pág. 116"
   },
   {
-    "category": "Generalidades",
+    "category": "Normas de tránsito y circulación",
+    "topic": "Generalidades",
     "question": "Según la Guía, ¿qué se establece sobre el uso de la bocina?",
     "options": [
       "Su uso se limita a casos de emergencia o para prevenir un posible siniestro.",
@@ -988,7 +1070,8 @@
     "source": "Ley 18.191, art. 29 (6); Guía Nacional de Conducción, págs. 30 y 47"
   },
   {
-    "category": "Siniestros",
+    "category": "Seguridad vial y legislación",
+    "topic": "Siniestros",
     "question": "Ante un desperfecto mecánico o una colisión sin heridos en la vía pública, ¿qué debe hacer el conductor con el vehículo?",
     "options": [
       "Empujarlo hacia la vereda.",
@@ -1001,7 +1084,8 @@
     "source": "Guía Nacional de Conducción, pág. 104"
   },
   {
-    "category": "Normativa y Vehículos",
+    "category": "Seguridad vial y legislación",
+    "topic": "Normativa y Vehículos",
     "question": "Según la Ley 19.061, ¿qué se establece sobre el transporte de personas en la caja de un vehículo?",
     "options": [
       "Está prohibido en la caja de cualquier tipo de vehículo que no haya sido diseñado para ese fin.",
@@ -1014,7 +1098,8 @@
     "source": "Ley 19.061, art. 14 (redacción dada por Ley 19.824); Guía Nacional de Conducción, pág. 38"
   },
   {
-    "category": "Velocidad y Percepción",
+    "category": "Factor humano y conducción",
+    "topic": "Velocidad y Percepción",
     "question": "¿Qué efecto tiene la conducción a alta velocidad sobre el campo visual, conocido como \"efecto túnel\"?",
     "options": [
       "No genera ningún cambio en la visión.",
@@ -1027,7 +1112,8 @@
     "source": "Guía Nacional de Conducción, pág. 90"
   },
   {
-    "category": "Intersecciones",
+    "category": "Normas de tránsito y circulación",
+    "topic": "Intersecciones",
     "question": "Al llegar a una rotonda, ¿en qué sentido se circula alrededor de ella, salvo señalización en contrario?",
     "options": [
       "Por la izquierda, dejando la isleta a la derecha.",
@@ -1040,7 +1126,8 @@
     "source": "Ley 18.191, art. 14 (5); Guía Nacional de Conducción, pág. 106"
   },
   {
-    "category": "Semáforos",
+    "category": "Señalización vial",
+    "topic": "Semáforos",
     "question": "En una calle de doble sentido con semáforo, ¿qué ocurre con el giro a la izquierda con luz verde?",
     "options": [
       "Está permitido si se usa la luz señalera.",
@@ -1053,7 +1140,8 @@
     "source": "Ley 18.191, art. 36 (E)"
   },
   {
-    "category": "Semáforos",
+    "category": "Señalización vial",
+    "topic": "Semáforos",
     "question": "¿Qué significa una luz AMARILLA INTERMITENTE en un semáforo?",
     "options": [
       "Los conductores pueden continuar la marcha con las precauciones necesarias.",
@@ -1066,7 +1154,8 @@
     "source": "Ley 18.191, art. 36 (D)"
   },
   {
-    "category": "Semáforos",
+    "category": "Señalización vial",
+    "topic": "Semáforos",
     "question": "¿Qué indica una luz ROJA acompañada de una FLECHA VERDE?",
     "options": [
       "Que se debe esperar a que se apague la flecha.",
@@ -1079,7 +1168,8 @@
     "source": "Ley 18.191, art. 36 (F)"
   },
   {
-    "category": "Señales de Tránsito",
+    "category": "Señalización vial",
+    "topic": "Señales de Tránsito",
     "question": "¿Qué debe hacer un conductor ante una señal de CEDA EL PASO?",
     "options": [
       "Reducir la velocidad, detenerse si es necesario y permitir el paso a quienes se aproximan por la otra vía.",
@@ -1092,7 +1182,8 @@
     "source": "Ley 18.191, art. 41"
   },
   {
-    "category": "Señales de Tránsito",
+    "category": "Señalización vial",
+    "topic": "Señales de Tránsito",
     "question": "¿Qué obliga a hacer una señal de PARE?",
     "options": [
       "Detenerse solo si hay peatones.",
@@ -1105,7 +1196,8 @@
     "source": "Ley 18.191, art. 41"
   },
   {
-    "category": "Señales de Tránsito",
+    "category": "Señalización vial",
+    "topic": "Señales de Tránsito",
     "question": "¿Qué finalidad tienen las señales de información?",
     "options": [
       "Advertir sobre un peligro próximo.",
@@ -1118,7 +1210,8 @@
     "source": "Ley 18.191, art. 35 (C)"
   },
   {
-    "category": "Cruces Ferroviarios",
+    "category": "Normas de tránsito y circulación",
+    "topic": "Cruces Ferroviarios",
     "question": "Al llegar a un cruce ferroviario a nivel, ¿qué deben hacer los conductores?",
     "options": [
       "Detenerse únicamente si se ve venir el tren.",
@@ -1131,7 +1224,9 @@
     "source": "Ley 18.191, art. 20"
   },
   {
-    "category": "Motocicletas",
+    "category": "Motos",
+    "topic": "Motocicletas",
+    "moto": true,
     "question": "Según la Ley 18.191, ¿qué casco deben usar las personas que viajan en motocicleta?",
     "options": [
       "Es obligatorio solo para quien conduce, no para el acompañante.",
@@ -1144,7 +1239,9 @@
     "source": "Ley 18.191, art. 33"
   },
   {
-    "category": "Motocicletas",
+    "category": "Motos",
+    "topic": "Motocicletas",
+    "moto": true,
     "question": "Según la Ley 19.061, ¿quiénes deben usar chaleco o campera reflectivos (o bandas reflectivas) en una moto?",
     "options": [
       "Solo quienes circulan por rutas.",
@@ -1157,7 +1254,9 @@
     "source": "Ley 19.061, art. 7"
   },
   {
-    "category": "Motocicletas",
+    "category": "Motos",
+    "topic": "Motocicletas",
+    "moto": true,
     "question": "Según la Ley 19.061, ¿qué debe acompañar la venta de una moto o ciclomotor cero kilómetro?",
     "options": [
       "Un chaleco reflectivo de regalo.",
@@ -1170,7 +1269,8 @@
     "source": "Ley 19.061, art. 12"
   },
   {
-    "category": "Bicicletas",
+    "category": "Seguridad vial y legislación",
+    "topic": "Bicicletas",
     "question": "Según la Ley 19.061, ¿cuál de estos elementos forma parte del equipamiento obligatorio de seguridad de una bicicleta?",
     "options": [
       "Guardabarros metálicos.",
@@ -1183,7 +1283,8 @@
     "source": "Ley 19.061, art. 10"
   },
   {
-    "category": "Seguridad Pasiva",
+    "category": "Seguridad vial y legislación",
+    "topic": "Seguridad Pasiva",
     "question": "Según la Ley 19.061, ¿qué deben incluir los vehículos cero kilómetro de cuatro o más ruedas que se comercializan en el país?",
     "options": [
       "ABS, apoyacabezas, cinturones de seguridad en todas las plazas y airbags frontales (cuando el vehículo lo admita).",
@@ -1196,7 +1297,8 @@
     "source": "Ley 19.061, art. 5; Guía Nacional de Conducción, pág. 35"
   },
   {
-    "category": "Distracciones",
+    "category": "Factor humano y conducción",
+    "topic": "Distracciones",
     "question": "Según la Ley 19.061, ¿cuándo se permite comunicarse por teléfono o por otro medio mientras se conduce?",
     "options": [
       "Nunca, bajo ninguna circunstancia.",
@@ -1209,7 +1311,8 @@
     "source": "Ley 19.061, art. 13; Guía Nacional de Conducción, pág. 90"
   },
   {
-    "category": "Normativa y Vehículos",
+    "category": "Documentación y vehículo",
+    "topic": "Normativa y Vehículos",
     "question": "¿Qué establece la Ley 18.191 sobre las placas de matrícula de un vehículo automotor?",
     "options": [
       "Las placas pueden estar tapadas si se cubre la carga.",
@@ -1222,7 +1325,8 @@
     "source": "Ley 18.191, art. 28 (4)"
   },
   {
-    "category": "Normativa y Vehículos",
+    "category": "Documentación y vehículo",
+    "topic": "Normativa y Vehículos",
     "question": "Según la Ley 18.191, ¿cuántos sistemas de frenos de acción independiente debe tener todo vehículo automotor para circular?",
     "options": [
       "Uno.",
@@ -1235,7 +1339,8 @@
     "source": "Ley 18.191, art. 29 (1)(C)"
   },
   {
-    "category": "Seguro Obligatorio",
+    "category": "Documentación y vehículo",
+    "topic": "Seguro Obligatorio",
     "question": "Según la Ley 18.191, ¿qué seguro debe tener todo vehículo automotor que circula por las vías de tránsito?",
     "options": [
       "Un seguro de responsabilidad civil por daños a terceros.",
@@ -1248,7 +1353,8 @@
     "source": "Ley 18.191, art. 44; Guía Nacional de Conducción, págs. 8 y 10"
   },
   {
-    "category": "Licencia de Conducir",
+    "category": "Documentación y vehículo",
+    "topic": "Licencia de Conducir",
     "question": "Según la Ley 18.191, ¿qué debe aprobar quien quiere obtener la habilitación para conducir?",
     "options": [
       "Solo un examen práctico.",
@@ -1261,7 +1367,8 @@
     "source": "Ley 18.191, art. 26 (3)"
   },
   {
-    "category": "Licencia de Conducir",
+    "category": "Documentación y vehículo",
+    "topic": "Licencia de Conducir",
     "question": "Según la Guía, ¿qué organismos expiden el Permiso de Conducir en Uruguay?",
     "options": [
       "El Ministerio del Interior.",
@@ -1274,7 +1381,8 @@
     "source": "Guía Nacional de Conducción, pág. 6"
   },
   {
-    "category": "Licencia de Conducir",
+    "category": "Documentación y vehículo",
+    "topic": "Licencia de Conducir",
     "question": "Según la Guía, ¿a quiénes no se les expide Permiso de Conducir ni se les exigen condiciones de edad o conocimientos?",
     "options": [
       "A los conductores mayores de 65 años.",
@@ -1287,7 +1395,9 @@
     "source": "Guía Nacional de Conducción, pág. 7"
   },
   {
-    "category": "Licencia de Conducir",
+    "category": "Motos",
+    "topic": "Licencia de Conducir",
+    "moto": true,
     "question": "Según la Guía (edición 2013), ¿cuál es la edad mínima para obtener la categoría G1 (ciclomotores de hasta 50 cc sin cambios)?",
     "options": [
       "21 años.",
@@ -1302,7 +1412,8 @@
     "verifyNote": "La tabla es de la edición de 2013. Confirmar si las categorías y edades siguen vigentes."
   },
   {
-    "category": "Reglas de Circulación",
+    "category": "Normas de tránsito y circulación",
+    "topic": "Reglas de Circulación",
     "question": "En una calzada con tránsito en doble sentido, ¿por dónde deben circular los vehículos, en general?",
     "options": [
       "Por el centro de la calzada.",
@@ -1315,7 +1426,8 @@
     "source": "Ley 18.191, art. 14 (1)"
   },
   {
-    "category": "Reglas de Circulación",
+    "category": "Normas de tránsito y circulación",
+    "topic": "Reglas de Circulación",
     "question": "Según la Ley 18.191, ¿qué está prohibido hacer sobre las marcas delimitadoras de carriles, los ejes separadores y las islas canalizadoras?",
     "options": [
       "Estacionar por menos de 5 minutos.",
@@ -1328,7 +1440,8 @@
     "source": "Ley 18.191, art. 14 (4)"
   },
   {
-    "category": "Reglas de Circulación",
+    "category": "Normas de tránsito y circulación",
+    "topic": "Reglas de Circulación",
     "question": "En una vía de dos o más carriles en el mismo sentido, ¿por qué carriles deben circular los vehículos pesados y los más lentos?",
     "options": [
       "Por la banquina.",
@@ -1341,7 +1454,8 @@
     "source": "Ley 18.191, art. 15 (2)"
   },
   {
-    "category": "Velocidad",
+    "category": "Normas de tránsito y circulación",
+    "topic": "Velocidad",
     "question": "Según la Ley 18.191, ¿qué ocurre si se conduce a una velocidad tan baja que obstruye la circulación?",
     "options": [
       "Solo está prohibido de noche.",
@@ -1354,7 +1468,8 @@
     "source": "Ley 18.191, art. 15 (3); Reglamento, art. 13.5"
   },
   {
-    "category": "Velocidad",
+    "category": "Normas de tránsito y circulación",
+    "topic": "Velocidad",
     "question": "En carreteras y caminos fuera de zonas urbanas, ¿cuál es la velocidad máxima para los vehículos que no son livianos sin remolque (por ejemplo, camiones)?",
     "options": [
       "70 km/h.",
@@ -1367,7 +1482,8 @@
     "source": "Reglamento Nacional de Circulación Vial, art. 13.2"
   },
   {
-    "category": "Velocidad",
+    "category": "Normas de tránsito y circulación",
+    "topic": "Velocidad",
     "question": "¿Cuál es la velocidad máxima que el Ministerio de Transporte y Obras Públicas puede autorizar, en tramos adecuados y señalizados, para vehículos livianos sin remolque?",
     "options": [
       "110 km/h.",
@@ -1380,7 +1496,8 @@
     "source": "Reglamento Nacional de Circulación Vial, art. 13.4"
   },
   {
-    "category": "Velocidad",
+    "category": "Normas de tránsito y circulación",
+    "topic": "Velocidad",
     "question": "En zonas urbanas, además de los 45 km/h generales, ¿qué velocidades máximas puede autorizar la autoridad departamental?",
     "options": [
       "Hasta 60 km/h señalizados y, en vías especialmente adecuadas, hasta 75 km/h para vehículos livianos sin remolque.",
@@ -1393,7 +1510,8 @@
     "source": "Reglamento Nacional de Circulación Vial, art. 13.3"
   },
   {
-    "category": "Adelantamiento",
+    "category": "Normas de tránsito y circulación",
+    "topic": "Adelantamiento",
     "question": "Si un vehículo lo alcanza y quiere adelantarlo, ¿qué debe hacer usted?",
     "options": [
       "Frenar bruscamente.",
@@ -1406,7 +1524,8 @@
     "source": "Ley 18.191, art. 16 (3)"
   },
   {
-    "category": "Adelantamiento",
+    "category": "Normas de tránsito y circulación",
+    "topic": "Adelantamiento",
     "question": "En una vía de tres carriles con tránsito en doble sentido, ¿qué carril se usa para adelantar?",
     "options": [
       "El carril izquierdo.",
@@ -1419,7 +1538,8 @@
     "source": "Ley 18.191, art. 16 (7)"
   },
   {
-    "category": "Adelantamiento",
+    "category": "Normas de tránsito y circulación",
+    "topic": "Adelantamiento",
     "question": "¿Se puede adelantar a otro vehículo invadiendo la banquina?",
     "options": [
       "Sí, siempre que se use la baliza.",
@@ -1432,7 +1552,8 @@
     "source": "Ley 18.191, art. 16 (8); Reglamento, art. 14.5"
   },
   {
-    "category": "Preferencia de Paso",
+    "category": "Normas de tránsito y circulación",
+    "topic": "Preferencia de Paso",
     "question": "Según la Ley 18.191, ¿qué deben hacer los conductores cuando se acerca un vehículo de emergencia con sus señales audibles y visuales?",
     "options": [
       "Mantener su lugar sin importar nada.",
@@ -1445,7 +1566,8 @@
     "source": "Ley 18.191, arts. 14 (9) y 17 (8)"
   },
   {
-    "category": "Preferencia de Paso",
+    "category": "Normas de tránsito y circulación",
+    "topic": "Preferencia de Paso",
     "question": "Si el semáforo le da paso pero hay tránsito detenido adelante, ¿puede avanzar y quedarse en medio del cruce?",
     "options": [
       "Sí, si toca la bocina.",
@@ -1458,7 +1580,8 @@
     "source": "Ley 18.191, art. 17 (9)"
   },
   {
-    "category": "Giros",
+    "category": "Normas de tránsito y circulación",
+    "topic": "Giros",
     "question": "Para girar a la DERECHA, ¿cómo debe ubicarse y por dónde debe ingresar el conductor a la nueva vía?",
     "options": [
       "Desde el carril de la derecha, poniendo las señales de giro e ingresando por el carril de la derecha.",
@@ -1471,7 +1594,8 @@
     "source": "Ley 18.191, art. 18 (3); Reglamento, art. 16.1"
   },
   {
-    "category": "Maniobras en General",
+    "category": "Normas de tránsito y circulación",
+    "topic": "Maniobras en General",
     "question": "¿Cuándo se permite circular marcha atrás?",
     "options": [
       "Libremente, si la calle está vacía.",
@@ -1484,7 +1608,8 @@
     "source": "Ley 18.191, art. 23 (3)"
   },
   {
-    "category": "Peatones",
+    "category": "Normas de tránsito y circulación",
+    "topic": "Peatones",
     "question": "Según la Ley 18.191, ¿cómo deben cruzar la calzada los peatones?",
     "options": [
       "En diagonal y corriendo.",
@@ -1497,7 +1622,8 @@
     "source": "Ley 18.191, art. 22 (2) y (4)"
   },
   {
-    "category": "Estacionamiento",
+    "category": "Normas de tránsito y circulación",
+    "topic": "Estacionamiento",
     "question": "En zonas urbanas, ¿dónde está prohibido detener o estacionar un vehículo?",
     "options": [
       "Frente a la entrada o salida de un garaje.",
@@ -1510,7 +1636,8 @@
     "source": "Reglamento Nacional de Circulación Vial, art. 18.2; Guía Nacional de Conducción, pág. 103"
   },
   {
-    "category": "Estacionamiento",
+    "category": "Normas de tránsito y circulación",
+    "topic": "Estacionamiento",
     "question": "Fuera de zonas urbanas, ¿qué se prohíbe respecto a detener o estacionar sobre la faja de circulación?",
     "options": [
       "Solo está prohibido en las curvas.",
@@ -1523,7 +1650,8 @@
     "source": "Ley 18.191, art. 19 (4)"
   },
   {
-    "category": "Emergencias",
+    "category": "Normas de tránsito y circulación",
+    "topic": "Emergencias",
     "question": "Si el vehículo queda detenido por fuerza mayor sobre la senda de circulación en una zona urbana con poca iluminación, ¿a qué distancia se colocan las balizas?",
     "options": [
       "A 5 metros.",
@@ -1536,7 +1664,8 @@
     "source": "Reglamento Nacional de Circulación Vial, art. 7.23"
   },
   {
-    "category": "Alcohol y Sanciones",
+    "category": "Seguridad vial y legislación",
+    "topic": "Alcohol y Sanciones",
     "question": "Según la Ley 18.191, ¿qué consecuencias tiene negarse a realizar los exámenes de alcohol u otras drogas?",
     "options": [
       "Se retiene la licencia, la negativa constituye presunción de culpabilidad y puede aplicarse una multa.",
@@ -1549,7 +1678,8 @@
     "source": "Ley 18.191, art. 46"
   },
   {
-    "category": "Alcohol y Sanciones",
+    "category": "Seguridad vial y legislación",
+    "topic": "Alcohol y Sanciones",
     "question": "Según la Ley 18.191, si un conductor reincide en conducir con alcohol por encima del límite, ¿qué sanción corresponde?",
     "options": [
       "Una multa sin suspensión.",
@@ -1562,7 +1692,8 @@
     "source": "Ley 18.191, art. 46; Guía Nacional de Conducción, pág. 18"
   },
   {
-    "category": "Siniestros",
+    "category": "Seguridad vial y legislación",
+    "topic": "Siniestros",
     "question": "Según la Ley 18.191, ¿qué es un siniestro de tránsito?",
     "options": [
       "Una falla mecánica en ruta.",
@@ -1575,7 +1706,8 @@
     "source": "Ley 18.191, art. 42"
   },
   {
-    "category": "Organismos",
+    "category": "Seguridad vial y legislación",
+    "topic": "Organismos",
     "question": "Según el art. 5 de la Ley 18.113, ¿cuál es un objetivo de la Unidad Nacional de Seguridad Vial?",
     "options": [
       "Expedir los permisos de conducir en todo el país.",
@@ -1588,7 +1720,8 @@
     "source": "Ley 18.113, art. 5"
   },
   {
-    "category": "Factores de Riesgo",
+    "category": "Factor humano y conducción",
+    "topic": "Factores de Riesgo",
     "question": "Según la Guía, ¿cuál es el elemento central del problema de los traumatismos por siniestros de tránsito?",
     "options": [
       "El color del vehículo.",
@@ -1601,7 +1734,8 @@
     "source": "Guía Nacional de Conducción, pág. 12"
   },
   {
-    "category": "Factores de Riesgo",
+    "category": "Factor humano y conducción",
+    "topic": "Factores de Riesgo",
     "question": "Según la Guía, ¿cuánto suele tardar más la reacción a estímulos simples a los 70 años?",
     "options": [
       "No cambia con la edad.",
@@ -1614,7 +1748,8 @@
     "source": "Guía Nacional de Conducción, pág. 6"
   },
   {
-    "category": "Medicina y Conducción",
+    "category": "Factor humano y conducción",
+    "topic": "Medicina y Conducción",
     "question": "Según la Guía, ¿qué ocurre con la mezcla de alcohol y medicamentos?",
     "options": [
       "Es segura si la dosis es baja.",
@@ -1627,7 +1762,8 @@
     "source": "Guía Nacional de Conducción, pág. 15"
   },
   {
-    "category": "Conducción en Ruta",
+    "category": "Normas de tránsito y circulación",
+    "topic": "Conducción en Ruta",
     "question": "Según la Guía, si se maneja por períodos de más de cuatro horas, ¿qué se sugiere?",
     "options": [
       "Seguir sin parar mientras no se tenga sueño.",
@@ -1640,7 +1776,8 @@
     "source": "Guía Nacional de Conducción, pág. 113"
   },
   {
-    "category": "Distancia de Seguridad",
+    "category": "Normas de tránsito y circulación",
+    "topic": "Distancia de Seguridad",
     "question": "La regla de los 3 segundos se aplica en condiciones ideales. ¿Qué ocurre con pavimento resbaloso, según la Guía?",
     "options": [
       "Se necesita menos distancia.",
@@ -1653,7 +1790,8 @@
     "source": "Guía Nacional de Conducción, pág. 113"
   },
   {
-    "category": "Medio Ambiente",
+    "category": "Factor humano y conducción",
+    "topic": "Medio Ambiente",
     "question": "Según la Guía, ¿cuándo se pueden usar los faros de niebla en simultáneo con los faros principales?",
     "options": [
       "Solo de día.",
@@ -1666,7 +1804,8 @@
     "source": "Guía Nacional de Conducción, pág. 87"
   },
   {
-    "category": "Conducción en Ruta",
+    "category": "Normas de tránsito y circulación",
+    "topic": "Conducción en Ruta",
     "question": "Según la Guía, ¿qué debe hacer un conductor ante la presencia de animales sueltos en la ruta?",
     "options": [
       "Acelerar para pasar rápido.",
@@ -1679,7 +1818,8 @@
     "source": "Guía Nacional de Conducción, pág. 116"
   },
   {
-    "category": "Seguridad Pasiva",
+    "category": "Seguridad vial y legislación",
+    "topic": "Seguridad Pasiva",
     "question": "Según la Guía, ¿a qué distancia aproximada del volante conviene sentarse para evitar que el airbag golpee a quien conduce al inflarse?",
     "options": [
       "Entre 25 y 30 cm.",
@@ -1692,7 +1832,8 @@
     "source": "Guía Nacional de Conducción, pág. 35"
   },
   {
-    "category": "Seguridad Infantil",
+    "category": "Seguridad vial y legislación",
+    "topic": "Seguridad Infantil",
     "question": "Según la Guía, ¿qué se debe verificar en un sistema de retención infantil (SRI) que cumple con la norma técnica?",
     "options": [
       "Que sea de segunda mano.",
@@ -1705,7 +1846,8 @@
     "source": "Guía Nacional de Conducción, pág. 34"
   },
   {
-    "category": "Conducción Ecológica",
+    "category": "Factor humano y conducción",
+    "topic": "Conducción Ecológica",
     "question": "En un motor gasolero (diésel), ¿qué recomienda la Guía al arrancar, según la conducción eficiente?",
     "options": [
       "Arrancar sin pisar el acelerador y esperar unos segundos antes de comenzar la marcha.",
@@ -1718,7 +1860,8 @@
     "source": "Guía Nacional de Conducción, pág. 119"
   },
   {
-    "category": "Conducción Ecológica",
+    "category": "Factor humano y conducción",
+    "topic": "Conducción Ecológica",
     "question": "Según la Guía, ¿cuándo se debe cambiar de primera a segunda al arrancar?",
     "options": [
       "A los 30 segundos.",
@@ -1731,7 +1874,8 @@
     "source": "Guía Nacional de Conducción, pág. 119"
   },
   {
-    "category": "Conducción Ecológica",
+    "category": "Factor humano y conducción",
+    "topic": "Conducción Ecológica",
     "question": "En un motor de nafta, según la Guía, ¿entre qué revoluciones se recomienda colocar el cambio?",
     "options": [
       "Entre 2.000 y 2.500 r/min.",
@@ -1744,7 +1888,8 @@
     "source": "Guía Nacional de Conducción, pág. 120"
   },
   {
-    "category": "Señales Reglamentarias",
+    "category": "Señalización vial",
+    "topic": "Señales Reglamentarias",
     "question": "¿Qué indica esta señal?",
     "image": "img/signs/reg-ceda-el-paso.png",
     "imageAlt": "Señal: Ceda el paso",
@@ -1759,7 +1904,8 @@
     "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
   },
   {
-    "category": "Señales Reglamentarias",
+    "category": "Señalización vial",
+    "topic": "Señales Reglamentarias",
     "question": "¿Qué indica esta señal?",
     "image": "img/signs/reg-contramano.png",
     "imageAlt": "Señal: Contramano (sentido prohibido)",
@@ -1774,7 +1920,8 @@
     "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
   },
   {
-    "category": "Señales Reglamentarias",
+    "category": "Señalización vial",
+    "topic": "Señales Reglamentarias",
     "question": "¿Qué indica esta señal?",
     "image": "img/signs/reg-direccion-obligatoria.png",
     "imageAlt": "Señal: Dirección obligatoria",
@@ -1789,7 +1936,8 @@
     "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
   },
   {
-    "category": "Señales Reglamentarias",
+    "category": "Señalización vial",
+    "topic": "Señales Reglamentarias",
     "question": "¿Qué indica esta señal?",
     "image": "img/signs/reg-zona-de-carga.png",
     "imageAlt": "Señal: Zona de carga",
@@ -1804,7 +1952,8 @@
     "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
   },
   {
-    "category": "Señales Reglamentarias",
+    "category": "Señalización vial",
+    "topic": "Señales Reglamentarias",
     "question": "¿Qué indica esta señal?",
     "image": "img/signs/reg-circular-por-la-derecha.png",
     "imageAlt": "Señal: Circular por la derecha",
@@ -1819,7 +1968,8 @@
     "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
   },
   {
-    "category": "Señales Reglamentarias",
+    "category": "Señalización vial",
+    "topic": "Señales Reglamentarias",
     "question": "¿Qué indica esta señal?",
     "image": "img/signs/reg-velocidad-maxima-45.png",
     "imageAlt": "Señal: Velocidad máxima 45 km/h",
@@ -1834,7 +1984,8 @@
     "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
   },
   {
-    "category": "Señales Reglamentarias",
+    "category": "Señalización vial",
+    "topic": "Señales Reglamentarias",
     "question": "¿Qué indica esta señal?",
     "image": "img/signs/reg-velocidad-maxima-60.png",
     "imageAlt": "Señal: Velocidad máxima 60 km/h",
@@ -1849,7 +2000,8 @@
     "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
   },
   {
-    "category": "Señales Reglamentarias",
+    "category": "Señalización vial",
+    "topic": "Señales Reglamentarias",
     "question": "¿Qué indica esta señal?",
     "image": "img/signs/reg-velocidad-maxima-75.png",
     "imageAlt": "Señal: Velocidad máxima 75 km/h",
@@ -1864,7 +2016,8 @@
     "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
   },
   {
-    "category": "Señales Reglamentarias",
+    "category": "Señalización vial",
+    "topic": "Señales Reglamentarias",
     "question": "¿Qué indica esta señal?",
     "image": "img/signs/reg-calle-cerrada.png",
     "imageAlt": "Señal: Calle cerrada",
@@ -1879,7 +2032,8 @@
     "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
   },
   {
-    "category": "Señales Reglamentarias",
+    "category": "Señalización vial",
+    "topic": "Señales Reglamentarias",
     "question": "¿Qué indica esta señal?",
     "image": "img/signs/reg-prohibido-cruzar-peatones.png",
     "imageAlt": "Señal: Prohibido cruzar peatones",
@@ -1894,7 +2048,8 @@
     "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
   },
   {
-    "category": "Señales Reglamentarias",
+    "category": "Señalización vial",
+    "topic": "Señales Reglamentarias",
     "question": "¿Qué indica esta señal?",
     "image": "img/signs/reg-prohibido-estacionar.png",
     "imageAlt": "Señal: Prohibido estacionar",
@@ -1909,7 +2064,8 @@
     "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
   },
   {
-    "category": "Señales Reglamentarias",
+    "category": "Señalización vial",
+    "topic": "Señales Reglamentarias",
     "question": "¿Qué indica esta señal?",
     "image": "img/signs/reg-prohibido-estacionar-y-detenerse.png",
     "imageAlt": "Señal: Prohibido estacionar y detenerse",
@@ -1924,7 +2080,8 @@
     "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
   },
   {
-    "category": "Señales Reglamentarias",
+    "category": "Señalización vial",
+    "topic": "Señales Reglamentarias",
     "question": "¿Qué indica esta señal?",
     "image": "img/signs/reg-prohibido-girar-a-la-izquierda.png",
     "imageAlt": "Señal: Prohibido girar a la izquierda",
@@ -1939,7 +2096,8 @@
     "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
   },
   {
-    "category": "Señales Reglamentarias",
+    "category": "Señalización vial",
+    "topic": "Señales Reglamentarias",
     "question": "¿Qué indica esta señal?",
     "image": "img/signs/reg-prohibido-girar-a-la-derecha.png",
     "imageAlt": "Señal: Prohibido girar a la derecha",
@@ -1954,7 +2112,8 @@
     "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
   },
   {
-    "category": "Señales Reglamentarias",
+    "category": "Señalización vial",
+    "topic": "Señales Reglamentarias",
     "question": "¿Qué indica esta señal?",
     "image": "img/signs/reg-prohibido-girar-en-u.png",
     "imageAlt": "Señal: Prohibido girar en U",
@@ -1969,7 +2128,8 @@
     "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
   },
   {
-    "category": "Señales Reglamentarias",
+    "category": "Señalización vial",
+    "topic": "Señales Reglamentarias",
     "question": "¿Qué indica esta señal?",
     "image": "img/signs/reg-prohibido-traccion-a-sangre.png",
     "imageAlt": "Señal: Prohibido tracción a sangre",
@@ -1984,7 +2144,8 @@
     "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
   },
   {
-    "category": "Señales Reglamentarias",
+    "category": "Señalización vial",
+    "topic": "Señales Reglamentarias",
     "question": "¿Qué indica esta señal?",
     "image": "img/signs/reg-prohibido-circular-ciclistas.png",
     "imageAlt": "Señal: Prohibido circular ciclistas",
@@ -1999,7 +2160,8 @@
     "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
   },
   {
-    "category": "Señales Reglamentarias",
+    "category": "Señalización vial",
+    "topic": "Señales Reglamentarias",
     "question": "¿Qué indica esta señal?",
     "image": "img/signs/reg-prohibido-adelantar.png",
     "imageAlt": "Señal: Prohibido adelantar",
@@ -2014,7 +2176,8 @@
     "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
   },
   {
-    "category": "Señales Reglamentarias",
+    "category": "Señalización vial",
+    "topic": "Señales Reglamentarias",
     "question": "¿Qué indica esta señal?",
     "image": "img/signs/reg-prohibido-circular-camiones.png",
     "imageAlt": "Señal: Prohibido circular camiones",
@@ -2029,7 +2192,8 @@
     "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
   },
   {
-    "category": "Señales Reglamentarias",
+    "category": "Señalización vial",
+    "topic": "Señales Reglamentarias",
     "question": "¿Qué indica esta señal?",
     "image": "img/signs/reg-solo-bus.png",
     "imageAlt": "Señal: Solo bus (carril exclusivo)",
@@ -2044,7 +2208,8 @@
     "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
   },
   {
-    "category": "Señales de Advertencia",
+    "category": "Señalización vial",
+    "topic": "Señales de Advertencia",
     "question": "¿Qué indica esta señal?",
     "image": "img/signs/adv-escuela.png",
     "imageAlt": "Señal: Escuela",
@@ -2059,7 +2224,8 @@
     "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
   },
   {
-    "category": "Señales de Advertencia",
+    "category": "Señalización vial",
+    "topic": "Señales de Advertencia",
     "question": "¿Qué indica esta señal?",
     "image": "img/signs/adv-liceo.png",
     "imageAlt": "Señal: Liceo",
@@ -2074,7 +2240,8 @@
     "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
   },
   {
-    "category": "Señales de Advertencia",
+    "category": "Señalización vial",
+    "topic": "Señales de Advertencia",
     "question": "¿Qué indica esta señal?",
     "image": "img/signs/adv-ninos-jugando.png",
     "imageAlt": "Señal: Niños jugando",
@@ -2089,7 +2256,8 @@
     "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
   },
   {
-    "category": "Señales de Advertencia",
+    "category": "Señalización vial",
+    "topic": "Señales de Advertencia",
     "question": "¿Qué indica esta señal?",
     "image": "img/signs/adv-peatones.png",
     "imageAlt": "Señal: Peatones",
@@ -2104,7 +2272,8 @@
     "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
   },
   {
-    "category": "Señales de Advertencia",
+    "category": "Señalización vial",
+    "topic": "Señales de Advertencia",
     "question": "¿Qué indica esta señal?",
     "image": "img/signs/adv-proximidad-de-semaforos.png",
     "imageAlt": "Señal: Proximidad de semáforos",
@@ -2119,7 +2288,8 @@
     "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
   },
   {
-    "category": "Señales de Advertencia",
+    "category": "Señalización vial",
+    "topic": "Señales de Advertencia",
     "question": "¿Qué indica esta señal?",
     "image": "img/signs/adv-curva-a-la-izquierda.png",
     "imageAlt": "Señal: Curva a la izquierda",
@@ -2134,7 +2304,8 @@
     "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
   },
   {
-    "category": "Señales de Advertencia",
+    "category": "Señalización vial",
+    "topic": "Señales de Advertencia",
     "question": "¿Qué indica esta señal?",
     "image": "img/signs/adv-curva-a-la-derecha.png",
     "imageAlt": "Señal: Curva a la derecha",
@@ -2149,7 +2320,8 @@
     "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
   },
   {
-    "category": "Señales de Advertencia",
+    "category": "Señalización vial",
+    "topic": "Señales de Advertencia",
     "question": "¿Qué indica esta señal?",
     "image": "img/signs/adv-curvas-en-forma-de-s.png",
     "imageAlt": "Señal: Curvas en forma de \"S\"",
@@ -2164,7 +2336,8 @@
     "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
   },
   {
-    "category": "Señales de Advertencia",
+    "category": "Señalización vial",
+    "topic": "Señales de Advertencia",
     "question": "¿Qué indica esta señal?",
     "image": "img/signs/adv-lomo-de-burro.png",
     "imageAlt": "Señal: Lomo de burro",
@@ -2179,7 +2352,8 @@
     "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
   },
   {
-    "category": "Señales de Advertencia",
+    "category": "Señalización vial",
+    "topic": "Señales de Advertencia",
     "question": "¿Qué indica esta señal?",
     "image": "img/signs/adv-baden.png",
     "imageAlt": "Señal: Badén",
@@ -2194,7 +2368,8 @@
     "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
   },
   {
-    "category": "Señales de Advertencia",
+    "category": "Señalización vial",
+    "topic": "Señales de Advertencia",
     "question": "¿Qué indica esta señal?",
     "image": "img/signs/adv-cruce-de-caminos.png",
     "imageAlt": "Señal: Cruce de caminos",
@@ -2209,7 +2384,8 @@
     "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
   },
   {
-    "category": "Señales de Advertencia",
+    "category": "Señalización vial",
+    "topic": "Señales de Advertencia",
     "question": "¿Qué indica esta señal?",
     "image": "img/signs/adv-puente.png",
     "imageAlt": "Señal: Puente angosto",
@@ -2224,7 +2400,8 @@
     "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
   },
   {
-    "category": "Señales de Advertencia",
+    "category": "Señalización vial",
+    "topic": "Señales de Advertencia",
     "question": "¿Qué indica esta señal?",
     "image": "img/signs/adv-animales-sueltos.png",
     "imageAlt": "Señal: Animales sueltos",
@@ -2239,7 +2416,8 @@
     "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
   },
   {
-    "category": "Señales de Advertencia",
+    "category": "Señalización vial",
+    "topic": "Señales de Advertencia",
     "question": "¿Qué indica esta señal?",
     "image": "img/signs/adv-pavimento-resbaladizo.png",
     "imageAlt": "Señal: Pavimento resbaladizo",
@@ -2254,7 +2432,8 @@
     "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
   },
   {
-    "category": "Señales de Advertencia",
+    "category": "Señalización vial",
+    "topic": "Señales de Advertencia",
     "question": "¿Qué indica esta señal?",
     "image": "img/signs/adv-calle-sin-veredas.png",
     "imageAlt": "Señal: Calle sin veredas",
@@ -2269,7 +2448,8 @@
     "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
   },
   {
-    "category": "Señales Reglamentarias",
+    "category": "Señalización vial",
+    "topic": "Señales Reglamentarias",
     "question": "¿Cuál de estas señales indica \"Prohibido estacionar y detenerse\"?",
     "optionImages": [
       "img/signs/reg-contramano.png",
@@ -2288,7 +2468,8 @@
     "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
   },
   {
-    "category": "Señales Reglamentarias",
+    "category": "Señalización vial",
+    "topic": "Señales Reglamentarias",
     "question": "¿Cuál de estas señales indica \"Prohibido girar a la derecha\"?",
     "optionImages": [
       "img/signs/reg-prohibido-traccion-a-sangre.png",
@@ -2307,7 +2488,8 @@
     "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
   },
   {
-    "category": "Señales Reglamentarias",
+    "category": "Señalización vial",
+    "topic": "Señales Reglamentarias",
     "question": "¿Cuál de estas señales indica \"Prohibido circular camiones\"?",
     "optionImages": [
       "img/signs/reg-velocidad-maxima-75.png",
@@ -2326,7 +2508,8 @@
     "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
   },
   {
-    "category": "Señales Reglamentarias",
+    "category": "Señalización vial",
+    "topic": "Señales Reglamentarias",
     "question": "¿Cuál de estas señales indica \"Prohibido girar en U\"?",
     "optionImages": [
       "img/signs/reg-prohibido-circular-camiones.png",
@@ -2345,7 +2528,8 @@
     "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
   },
   {
-    "category": "Señales Reglamentarias",
+    "category": "Señalización vial",
+    "topic": "Señales Reglamentarias",
     "question": "¿Cuál de estas señales indica \"Contramano (sentido prohibido)\"?",
     "optionImages": [
       "img/signs/reg-prohibido-circular-camiones.png",
@@ -2364,7 +2548,8 @@
     "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
   },
   {
-    "category": "Señales Reglamentarias",
+    "category": "Señalización vial",
+    "topic": "Señales Reglamentarias",
     "question": "¿Cuál de estas señales indica \"Prohibido estacionar\"?",
     "optionImages": [
       "img/signs/reg-velocidad-maxima-45.png",
@@ -2383,7 +2568,8 @@
     "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
   },
   {
-    "category": "Señales Reglamentarias",
+    "category": "Señalización vial",
+    "topic": "Señales Reglamentarias",
     "question": "¿Cuál de estas señales indica \"Prohibido circular ciclistas\"?",
     "optionImages": [
       "img/signs/reg-prohibido-traccion-a-sangre.png",
@@ -2402,7 +2588,8 @@
     "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
   },
   {
-    "category": "Señales de Advertencia",
+    "category": "Señalización vial",
+    "topic": "Señales de Advertencia",
     "question": "¿Cuál de estas señales indica \"Peatones\"?",
     "optionImages": [
       "img/signs/adv-peatones.png",
@@ -2421,7 +2608,8 @@
     "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
   },
   {
-    "category": "Señales de Advertencia",
+    "category": "Señalización vial",
+    "topic": "Señales de Advertencia",
     "question": "¿Cuál de estas señales indica \"Escuela\"?",
     "optionImages": [
       "img/signs/adv-calle-sin-veredas.png",
@@ -2440,7 +2628,8 @@
     "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
   },
   {
-    "category": "Señales de Advertencia",
+    "category": "Señalización vial",
+    "topic": "Señales de Advertencia",
     "question": "¿Cuál de estas señales indica \"Badén\"?",
     "optionImages": [
       "img/signs/adv-ninos-jugando.png",
@@ -2459,7 +2648,8 @@
     "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
   },
   {
-    "category": "Señales de Advertencia",
+    "category": "Señalización vial",
+    "topic": "Señales de Advertencia",
     "question": "¿Cuál de estas señales indica \"Puente angosto\"?",
     "optionImages": [
       "img/signs/adv-puente.png",
@@ -2478,7 +2668,8 @@
     "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
   },
   {
-    "category": "Señales de Advertencia",
+    "category": "Señalización vial",
+    "topic": "Señales de Advertencia",
     "question": "¿Cuál de estas señales indica \"Lomo de burro\"?",
     "optionImages": [
       "img/signs/adv-lomo-de-burro.png",
@@ -2497,7 +2688,8 @@
     "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
   },
   {
-    "category": "Señales de Advertencia",
+    "category": "Señalización vial",
+    "topic": "Señales de Advertencia",
     "question": "¿Cuál de estas señales indica \"Pavimento resbaladizo\"?",
     "optionImages": [
       "img/signs/adv-cruce-de-caminos.png",
@@ -2514,5 +2706,493 @@
     "correct": 2,
     "explanation": "Advierte riesgo de derrape por piso deslizante (lluvia, aceite, etc.).",
     "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señalización vial",
+    "topic": "Señales Reglamentarias",
+    "question": "¿Qué indica esta señal?",
+    "image": "img/signs/reg-pare.png",
+    "imageAlt": "Señal: Pare: detención obligatoria",
+    "options": [
+      "Pare: detención obligatoria",
+      "Prohibido estacionar",
+      "Ceda el paso sin detenerse",
+      "Fin de zona de velocidad reducida"
+    ],
+    "correct": 0,
+    "explanation": "Obliga a detener completamente el vehículo antes de la línea de detención o del cruce, haya o no tránsito, y recién después avanzar cediendo el paso.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señalización vial",
+    "topic": "Señales de Advertencia",
+    "question": "¿Qué indica esta señal?",
+    "image": "img/signs/adv-zona-escolar.png",
+    "imageAlt": "Señal: Zona escolar",
+    "options": [
+      "Parada de ómnibus escolar exclusiva",
+      "Fin de zona urbana",
+      "Zona escolar",
+      "Zona de carga y descarga"
+    ],
+    "correct": 2,
+    "explanation": "Señala una zona escolar: hay que reducir la velocidad y extremar la precaución por la presencia de niños.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señalización vial",
+    "topic": "Señales Informativas",
+    "question": "¿Qué indica esta señal?",
+    "image": "img/signs/inf-ciclovia.png",
+    "imageAlt": "Señal: Ciclovía (senda para bicicletas)",
+    "options": [
+      "Taller de bicicletas",
+      "Prohibido circular ciclistas",
+      "Ciclovía (senda para bicicletas)",
+      "Alquiler de bicicletas"
+    ],
+    "correct": 2,
+    "explanation": "Señala una vía o senda destinada a la circulación de bicicletas.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señalización vial",
+    "topic": "Señales Informativas",
+    "question": "¿Qué información da este cartel?",
+    "image": "img/signs/inf-destinos.png",
+    "imageAlt": "Señal: Dirección hacia distintos destinos",
+    "options": [
+      "Dirección hacia distintos destinos",
+      "Prohibido girar",
+      "Desvío obligatorio por obras",
+      "Calles de sentido único"
+    ],
+    "correct": 0,
+    "explanation": "Las señales informativas verdes orientan: indican hacia dónde quedan distintos destinos.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señalización vial",
+    "topic": "Señales Informativas",
+    "question": "¿Qué indica esta señal?",
+    "image": "img/signs/inf-hospital.png",
+    "imageAlt": "Señal: Hospital a 500 metros",
+    "options": [
+      "Puesto de primeros auxilios en la ruta a 500 km",
+      "Farmacia de turno",
+      "Prohibido tocar bocina",
+      "Hospital a 500 metros"
+    ],
+    "correct": 3,
+    "explanation": "Señal informativa de servicio: hay un hospital a 500 metros.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señalización vial",
+    "topic": "Señales Informativas",
+    "question": "¿Qué indica esta señal?",
+    "image": "img/signs/inf-estacion-de-servicio.png",
+    "imageAlt": "Señal: Estación de servicio (combustible)",
+    "options": [
+      "Zona de carga",
+      "Estación de servicio (combustible)",
+      "Taller mecánico",
+      "Prohibido cargar combustible"
+    ],
+    "correct": 1,
+    "explanation": "Señal informativa de servicio: indica una estación de servicio.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señalización vial",
+    "topic": "Señales Informativas",
+    "question": "¿Qué indica esta señal?",
+    "image": "img/signs/inf-desvio.png",
+    "imageAlt": "Señal: Desvío en la dirección de la flecha",
+    "options": [
+      "Curva peligrosa a la derecha",
+      "Desvío en la dirección de la flecha",
+      "Fin de la vía",
+      "Dirección obligatoria permanente"
+    ],
+    "correct": 1,
+    "explanation": "Indica un desvío del recorrido habitual: hay que seguir la flecha.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señalización vial",
+    "topic": "Señales Informativas",
+    "question": "¿Qué indica esta señal?",
+    "image": "img/signs/inf-restaurante.png",
+    "imageAlt": "Señal: Restaurante",
+    "options": [
+      "Restaurante",
+      "Zona de picnic",
+      "Estación de servicio",
+      "Prohibido comer al volante"
+    ],
+    "correct": 0,
+    "explanation": "Señal informativa de servicio: indica un restaurante o servicio de comidas.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señalización vial",
+    "topic": "Señales Informativas",
+    "question": "¿Qué indica esta señal?",
+    "image": "img/signs/inf-estacionamiento-tarifado.png",
+    "imageAlt": "Señal: Estacionamiento tarifado",
+    "options": [
+      "Estacionamiento reservado",
+      "Parada de taxis",
+      "Prohibido estacionar",
+      "Estacionamiento tarifado"
+    ],
+    "correct": 3,
+    "explanation": "Indica que se puede estacionar pagando la tarifa, en los días y horarios del cartel.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señalización vial",
+    "topic": "Señales Informativas",
+    "question": "¿Qué indica esta señal?",
+    "image": "img/signs/inf-estacionamiento-reservado.png",
+    "imageAlt": "Señal: Estacionamiento reservado",
+    "options": [
+      "Estacionamiento libre",
+      "Estacionamiento reservado",
+      "Prohibido estacionar y detenerse",
+      "Estacionamiento tarifado"
+    ],
+    "correct": 1,
+    "explanation": "Indica un espacio reservado por resolución: el cartel complementario muestra la resolución, los metros y el horario.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señalización vial",
+    "topic": "Señales Informativas",
+    "question": "¿Qué indica esta señal?",
+    "image": "img/signs/inf-estacionamiento-motos.png",
+    "imageAlt": "Señal: Estacionamiento exclusivo para motos",
+    "options": [
+      "Estacionamiento exclusivo para motos",
+      "Prohibido circular motos",
+      "Taller de motos",
+      "Estacionamiento libre para todos los vehículos"
+    ],
+    "correct": 0,
+    "explanation": "Indica un espacio de estacionamiento solo para motos: los autos no pueden estacionar allí.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señalización vial",
+    "topic": "Semáforos",
+    "question": "¿Qué indica el semáforo?",
+    "image": "img/signs/lum-verde.png",
+    "imageAlt": "Señal: Luz verde: se puede avanzar",
+    "options": [
+      "Luz verde: se puede avanzar",
+      "Detención obligatoria",
+      "Semáforo fuera de servicio",
+      "Atención: la luz va a cambiar"
+    ],
+    "correct": 0,
+    "explanation": "Con luz verde se puede avanzar, cediendo el paso a peatones y vehículos que ya estén cruzando.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señalización vial",
+    "topic": "Semáforos",
+    "question": "¿Qué indica el semáforo?",
+    "image": "img/signs/lum-amarillo.png",
+    "imageAlt": "Señal: Luz amarilla: atención",
+    "options": [
+      "Luz amarilla: atención",
+      "Semáforo fuera de servicio",
+      "Se puede avanzar sin precaución",
+      "Detención obligatoria aunque ya se esté en el cruce"
+    ],
+    "correct": 0,
+    "explanation": "La luz amarilla anuncia el cambio a rojo: hay que detenerse si se puede hacerlo con seguridad.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señalización vial",
+    "topic": "Semáforos",
+    "question": "¿Qué indica el semáforo?",
+    "image": "img/signs/lum-rojo.png",
+    "imageAlt": "Señal: Luz roja: no se puede cruzar",
+    "options": [
+      "Atención: la luz va a cambiar a verde",
+      "Luz roja: no se puede cruzar",
+      "Se puede avanzar con precaución",
+      "Solo pueden avanzar los que giran"
+    ],
+    "correct": 1,
+    "explanation": "Con luz roja hay que detenerse antes de la línea de detención y esperar la luz verde.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señalización vial",
+    "topic": "Señales Luminosas",
+    "question": "¿Qué indica este elemento?",
+    "image": "img/signs/lum-baliza.png",
+    "imageAlt": "Señal: Baliza: lugar con potencial peligro",
+    "options": [
+      "Inicio de ciclovía",
+      "Baliza: lugar con potencial peligro",
+      "Estación de servicio",
+      "Parada de ómnibus"
+    ],
+    "correct": 1,
+    "explanation": "La baliza señaliza un lugar con potencial peligro (obras, obstáculos): hay que reducir la velocidad y extremar la precaución.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señalización vial",
+    "topic": "Señales Luminosas",
+    "question": "¿Qué indica este semáforo amarillo destellante?",
+    "image": "img/signs/lum-destellante.png",
+    "imageAlt": "Señal: Semáforo destellante: centro de enseñanza cerca",
+    "options": [
+      "Cruce de ferrocarril",
+      "Semáforo fuera de servicio, avanzar sin precaución",
+      "Fin de zona urbana",
+      "Semáforo destellante: centro de enseñanza cerca"
+    ],
+    "correct": 3,
+    "explanation": "Este semáforo amarillo destellante señaliza la cercanía de un centro de enseñanza: reducir la velocidad y atender a los niños.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señalización vial",
+    "topic": "Semáforos",
+    "question": "¿Qué señalizan los semáforos con flechas?",
+    "image": "img/signs/lum-direccionales.png",
+    "imageAlt": "Señal: Hacia dónde se puede avanzar y hacia dónde no",
+    "options": [
+      "Que los peatones pueden cruzar",
+      "Hacia dónde se puede avanzar y hacia dónde no",
+      "Que el semáforo está fuera de servicio",
+      "La velocidad máxima de la vía"
+    ],
+    "correct": 1,
+    "explanation": "Los semáforos direccionales usan flechas para señalizar hacia dónde se puede avanzar y hacia dónde no.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señalización vial",
+    "topic": "Semáforos",
+    "question": "¿A quién se dirigen estos semáforos y qué indican?",
+    "image": "img/signs/lum-peatonales.png",
+    "imageAlt": "Señal: A los peatones, cuándo pueden cruzar y cuándo no",
+    "options": [
+      "A los peatones, cuándo pueden cruzar y cuándo no",
+      "A los ciclistas, por qué carril circular",
+      "A los conductores, la velocidad máxima",
+      "A los ómnibus, cuándo salir de la parada"
+    ],
+    "correct": 0,
+    "explanation": "Los semáforos peatonales indican a los peatones cuándo pueden cruzar y cuándo no; algunos muestran los segundos que quedan.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señalización vial",
+    "topic": "Señales Reglamentarias",
+    "question": "¿Cuál de estas señales indica \"Pare\"?",
+    "optionImages": [
+      "img/signs/reg-pare.png",
+      "img/signs/reg-ceda-el-paso.png",
+      "img/signs/reg-calle-cerrada.png",
+      "img/signs/reg-contramano.png"
+    ],
+    "options": [
+      "Señal A",
+      "Señal B",
+      "Señal C",
+      "Señal D"
+    ],
+    "correct": 0,
+    "explanation": "La señal de PARE es octogonal y roja: obliga a detenerse por completo.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señalización vial",
+    "topic": "Señales Informativas",
+    "question": "¿Cuál de estas señales indica \"Estacionamiento tarifado\"?",
+    "optionImages": [
+      "img/signs/inf-estacionamiento-tarifado.png",
+      "img/signs/inf-estacionamiento-motos.png",
+      "img/signs/reg-prohibido-estacionar.png",
+      "img/signs/inf-estacionamiento-reservado.png"
+    ],
+    "options": [
+      "Señal A",
+      "Señal B",
+      "Señal C",
+      "Señal D"
+    ],
+    "correct": 0,
+    "explanation": "El estacionamiento tarifado se indica con la E en círculo azul y la leyenda TARIFADO.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Señalización vial",
+    "topic": "Señales Informativas",
+    "question": "¿Cuál de estas señales indica \"Hospital\"?",
+    "optionImages": [
+      "img/signs/inf-estacion-de-servicio.png",
+      "img/signs/inf-ciclovia.png",
+      "img/signs/inf-restaurante.png",
+      "img/signs/inf-hospital.png"
+    ],
+    "options": [
+      "Señal A",
+      "Señal B",
+      "Señal C",
+      "Señal D"
+    ],
+    "correct": 3,
+    "explanation": "Las señales informativas de servicio son azules; la del hospital muestra una cruz roja.",
+    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+  },
+  {
+    "category": "Normas de tránsito y circulación",
+    "topic": "Velocidad",
+    "question": "En carreteras, ¿a qué velocidad máxima hay que reducir cerca de un cruce peatonal señalizado o de un ómnibus detenido para ascenso o descenso de pasajeros?",
+    "options": [
+      "60 km/h.",
+      "40 km/h.",
+      "30 km/h.",
+      "No hay que reducir si no hay peatones a la vista."
+    ],
+    "correct": 1,
+    "explanation": "Fuera de zona urbana la máxima se reduce a 40 km/h cerca de pasos a nivel con barreras, cruces sin buena visibilidad, cruces peatonales señalizados, curvas en ángulo recto y ómnibus detenidos.",
+    "source": "Reglamento Nacional de Circulación Vial, art. 13.2"
+  },
+  {
+    "category": "Normas de tránsito y circulación",
+    "topic": "Velocidad",
+    "question": "En carreteras, ¿a cuánto se reduce la velocidad máxima cerca de una señal de advertencia de peligro que no indica velocidad?",
+    "options": [
+      "60 km/h.",
+      "75 km/h.",
+      "40 km/h.",
+      "Se mantiene la máxima de la ruta."
+    ],
+    "correct": 0,
+    "explanation": "Cerca de señales de advertencia de peligro sin indicación de velocidad, y al circular con luces bajas, la máxima en carretera baja a 60 km/h.",
+    "source": "Reglamento Nacional de Circulación Vial, art. 13.2"
+  },
+  {
+    "category": "Seguridad vial y legislación",
+    "topic": "Seguridad Infantil",
+    "question": "Según la Ley 19.061, además de los niños de hasta 12 años, ¿quiénes deben viajar en el asiento trasero con sistema de sujeción?",
+    "options": [
+      "Nadie más: la regla es solo hasta los 12 años.",
+      "Adolescentes de hasta 18 años que midan menos de 1,50 m.",
+      "Todos los menores de 16 años, sin importar la estatura.",
+      "Adolescentes de menos de 40 kg, sin importar la edad."
+    ],
+    "correct": 1,
+    "explanation": "La ley extiende la obligación de viajar atrás con sujeción a los adolescentes de hasta 18 años que midan menos de 1,50 metros.",
+    "source": "Ley 19.061, art. 1"
+  },
+  {
+    "category": "Seguridad vial y legislación",
+    "topic": "Seguridad Vial",
+    "question": "Si el auto viene de fábrica con luces diurnas (DRL), ¿puede usarlas en lugar de las luces bajas obligatorias?",
+    "options": [
+      "No, siempre hay que llevar las luces bajas.",
+      "Sí, las DRL de origen pueden sustituir a las luces bajas.",
+      "Solo de noche.",
+      "Solo en rutas nacionales."
+    ],
+    "correct": 1,
+    "explanation": "La ley exige luces bajas encendidas en forma permanente, pero los vehículos equipados en origen con luces diurnas (DRL) pueden usarlas en su lugar.",
+    "source": "Ley 18.191, art. 30 (redacción dada por la Ley 19.824, art. 43)"
+  },
+  {
+    "category": "Documentación y vehículo",
+    "topic": "Mecánica y Seguridad",
+    "question": "Según el Reglamento Nacional de Circulación Vial, ¿cómo se sabe que una cubierta llegó a su máximo desgaste?",
+    "options": [
+      "Cuando pierde presión de aire más de una vez por semana.",
+      "Por el indicador normalizado de desgaste que tiene la banda de rodamiento.",
+      "Cuando cumple cinco años de uso, sin importar su estado.",
+      "Solo lo puede determinar el inspector en la revisión anual."
+    ],
+    "correct": 1,
+    "explanation": "Las cubiertas deben tener en la banda de rodamiento un indicador normalizado que permita ver cuándo llegan al máximo desgaste. Si no lo tienen, no pueden usarse cuando la profundidad del dibujo sea menor a la reglamentada.",
+    "source": "Reglamento Nacional de Circulación Vial, art. 10.8"
+  },
+  {
+    "category": "Documentación y vehículo",
+    "topic": "Equipamiento Obligatorio",
+    "question": "¿Qué deben llevar obligatoriamente los vehículos automotores de más de dos ruedas para reemplazar una cubierta dañada?",
+    "options": [
+      "Un kit de inflado, que sustituye a la rueda auxiliar.",
+      "Nada: se debe llamar a un servicio de auxilio.",
+      "Una rueda auxiliar en condiciones de sustituir a las demás.",
+      "Solo un gato y una llave de ruedas."
+    ],
+    "correct": 2,
+    "explanation": "Los vehículos automotores de más de dos ruedas deben llevar una rueda auxiliar en condiciones de sustituir a las otras cuando sufran daños.",
+    "source": "Reglamento Nacional de Circulación Vial, art. 10.8"
+  },
+  {
+    "category": "Documentación y vehículo",
+    "topic": "Equipamiento Obligatorio",
+    "question": "¿Cuántos espejos retrovisores debe llevar como mínimo un automóvil?",
+    "options": [
+      "Dos: uno en el interior de la cabina y otro externo del lado del volante.",
+      "Uno solo, en el interior de la cabina.",
+      "Tres: uno interior y uno externo de cada lado.",
+      "Ninguno es obligatorio si el auto tiene cámara de retroceso."
+    ],
+    "correct": 0,
+    "explanation": "Los automóviles deben llevar dos espejos: uno en el interior de la cabina y otro externo del lado del volante. Ómnibus, camiones y tractores deben llevar uno a cada lado.",
+    "source": "Reglamento Nacional de Circulación Vial, art. 10.16"
+  },
+  {
+    "category": "Normas de tránsito y circulación",
+    "topic": "Maniobras en General",
+    "question": "Cuando un vehículo automotor es remolcado por estricta necesidad, ¿cuántas personas pueden ir en el vehículo remolcado?",
+    "options": [
+      "Ninguna.",
+      "Las que quepan con cinturón de seguridad.",
+      "Hasta dos, si una es mayor de edad.",
+      "Solo una persona."
+    ],
+    "correct": 3,
+    "explanation": "El remolque solo puede hacerse por estricta necesidad, sin crear dificultades ni peligro, y en el vehículo remolcado solo puede ir una persona.",
+    "source": "Reglamento Nacional de Circulación Vial, art. 17.3"
+  },
+  {
+    "category": "Normas de tránsito y circulación",
+    "topic": "Reglas de Circulación",
+    "question": "¿Se puede viajar dentro de una casa rodante o un remolque mientras circula remolcado por la vía pública?",
+    "options": [
+      "Sí, si los pasajeros llevan cinturón.",
+      "No, nadie puede viajar en remolques ni casas rodantes remolcadas.",
+      "Sí, pero solo en rutas nacionales.",
+      "Sí, si son mayores de 12 años."
+    ],
+    "correct": 1,
+    "explanation": "Nadie puede viajar en remolques ni en casas rodantes remolcadas cuando circulan por la vía pública.",
+    "source": "Reglamento Nacional de Circulación Vial, art. 17.4"
+  },
+  {
+    "category": "Factor humano y conducción",
+    "topic": "Medicina y Conducción",
+    "question": "Según el Reglamento Nacional de Circulación Vial, ¿en qué condición deben estar los conductores en todo momento?",
+    "options": [
+      "Física y psíquicamente aptos para conducir de modo seguro y eficiente.",
+      "Con al menos ocho horas de sueño en las últimas 24 horas.",
+      "Acompañados por otro conductor habilitado en viajes largos.",
+      "Sin haber comido en la última hora."
+    ],
+    "correct": 0,
+    "explanation": "Los conductores deben hallarse en todo momento física y psíquicamente aptos para conducir de modo seguro y eficiente.",
+    "source": "Reglamento Nacional de Circulación Vial, art. 4.2"
   }
 ]
