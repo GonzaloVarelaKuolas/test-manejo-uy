@@ -2736,8 +2736,8 @@
       "Zona de carga y descarga"
     ],
     "correct": 2,
-    "explanation": "Señala una zona escolar: hay que reducir la velocidad y extremar la precaución por la presencia de niños.",
-    "source": "Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
+    "explanation": "Señala una zona escolar: fuera de zona urbana, la velocidad máxima baja a 20 km/h donde se junta gente, especialmente a la entrada y salida de alumnos; en zona urbana, igual hay que reducir y extremar la precaución por la presencia de niños.",
+    "source": "Reglamento Nacional de Circulación Vial, art. 13.2.3.a; Montevideo Tránsito — material educativo oficial de la Intendencia de Montevideo (mecopa.montevideo.gub.uy)"
   },
   {
     "category": "Señalización vial",
@@ -3194,5 +3194,19 @@
     "correct": 0,
     "explanation": "Los conductores deben hallarse en todo momento física y psíquicamente aptos para conducir de modo seguro y eficiente.",
     "source": "Reglamento Nacional de Circulación Vial, art. 4.2"
+  },
+  {
+    "category": "Normas de tránsito y circulación",
+    "topic": "Velocidad",
+    "question": "Fuera de zona urbana, ¿a qué velocidad máxima hay que reducir cerca de una escuela, especialmente a la entrada y salida de alumnos?",
+    "options": [
+      "20 km/h.",
+      "40 km/h.",
+      "60 km/h.",
+      "No hay un límite especial, solo precaución."
+    ],
+    "correct": 0,
+    "explanation": "El Reglamento exige bajar a 20 km/h donde haya aglomeración de personas, en particular a la entrada y salida de alumnos de las escuelas.",
+    "source": "Reglamento Nacional de Circulación Vial, art. 13.2.3.a"
   }
 ]

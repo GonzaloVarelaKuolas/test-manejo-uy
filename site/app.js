@@ -97,12 +97,18 @@ const EXAM_MIX_MOTO = { ...EXAM_MIX, "Señalización vial": 8, "Normas de tráns
 
 const MOTO_KEY = "manejo-uy:include-moto";
 
+// Valor especial del selector de tema: no es un "category" real, junta todas las
+// preguntas que tienen imagen (de cualquier tema) para practicar solo señales.
+const IMAGES_TOPIC = "__images__";
+
 function includeMoto() { return $("include-moto").checked; }
 
 // Preguntas disponibles según la casilla de motos.
 function pool() {
   return includeMoto() ? state.all : state.all.filter((q) => !q.moto);
 }
+
+function hasImage(q) { return Boolean(q.image || q.optionImages); }
 
 function buildTopics() {
   const qs = pool();
@@ -116,6 +122,8 @@ function buildTopics() {
   const sel = $("topic");
   const prev = sel.value;
   sel.replaceChildren(el("option", { value: "", text: `Todos los temas (${qs.length})` }));
+  const imgCount = qs.filter(hasImage).length;
+  if (imgCount) sel.append(el("option", { value: IMAGES_TOPIC, text: `Solo imágenes de señales (${imgCount})` }));
   for (const c of cats) sel.append(el("option", { value: c, text: `${c} (${counts.get(c)})` }));
   if ([...sel.options].some((o) => o.value === prev)) sel.value = prev;
 }
@@ -160,8 +168,11 @@ $("setup").addEventListener("submit", (e) => {
   } else {
     const topic = $("topic").value;
     const qs = pool();
+    const filtered = topic === IMAGES_TOPIC
+      ? qs.filter(hasImage)
+      : topic ? qs.filter((q) => q.category === topic) : qs;
     // Toda ronda tiene como máximo EXAM_SIZE preguntas (menos si el tema tiene menos).
-    startQuiz("practice", shuffle(topic ? qs.filter((q) => q.category === topic) : qs).slice(0, EXAM_SIZE));
+    startQuiz("practice", shuffle(filtered).slice(0, EXAM_SIZE));
   }
 });
 
