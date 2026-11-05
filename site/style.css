@@ -164,6 +164,8 @@ main {
 }
 
 .screen[hidden] { display: none; }
+/* Reglas como ".topic { display: grid }" le ganan al atributo hidden; esto lo respeta siempre. */
+[hidden] { display: none !important; }
 
 h1, h2 { line-height: 1.2; }
 

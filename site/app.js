@@ -97,9 +97,8 @@ const EXAM_MIX_MOTO = { ...EXAM_MIX, "Señalización vial": 8, "Normas de tráns
 
 const MOTO_KEY = "manejo-uy:include-moto";
 
-// Valor especial del selector de tema: no es un "category" real, junta todas las
-// preguntas que tienen imagen (de cualquier tema) para practicar solo señales.
-const IMAGES_TOPIC = "__images__";
+// La opción "Señales de tránsito" junta las preguntas con imagen de cualquier tema.
+const SIGNS_SIZE = 10;
 
 function includeMoto() { return $("include-moto").checked; }
 
@@ -121,15 +120,14 @@ function buildTopics() {
 
   const sel = $("topic");
   const prev = sel.value;
-  sel.replaceChildren(el("option", { value: "", text: `Todos los temas (${qs.length})` }));
-  const imgCount = qs.filter(hasImage).length;
-  if (imgCount) sel.append(el("option", { value: IMAGES_TOPIC, text: `Solo imágenes de señales (${imgCount})` }));
-  for (const c of cats) sel.append(el("option", { value: c, text: `${c} (${counts.get(c)})` }));
+  sel.replaceChildren(el("option", { value: "", text: "Todos los temas" }));
+  for (const c of cats) sel.append(el("option", { value: c, text: c }));
   if ([...sel.options].some((o) => o.value === prev)) sel.value = prev;
 }
 
 function setupHome() {
   $("exam-size").textContent = Math.min(EXAM_SIZE, state.all.length);
+  $("signs-size").textContent = Math.min(SIGNS_SIZE, state.all.filter(hasImage).length);
 
   try { $("include-moto").checked = localStorage.getItem(MOTO_KEY) === "1"; } catch (_) {}
   $("include-moto").addEventListener("change", () => {
@@ -163,14 +161,15 @@ function buildExam() {
 $("setup").addEventListener("submit", (e) => {
   e.preventDefault();
   const mode = document.querySelector('input[name="mode"]:checked').value;
+  const qs = pool();
   if (mode === "exam") {
     startQuiz("exam", buildExam());
+  } else if (mode === "signs") {
+    // Se juega como una práctica: explicación después de cada pregunta.
+    startQuiz("practice", shuffle(qs.filter(hasImage)).slice(0, SIGNS_SIZE));
   } else {
     const topic = $("topic").value;
-    const qs = pool();
-    const filtered = topic === IMAGES_TOPIC
-      ? qs.filter(hasImage)
-      : topic ? qs.filter((q) => q.category === topic) : qs;
+    const filtered = topic ? qs.filter((q) => q.category === topic) : qs;
     // Toda ronda tiene como máximo EXAM_SIZE preguntas (menos si el tema tiene menos).
     startQuiz("practice", shuffle(filtered).slice(0, EXAM_SIZE));
   }
