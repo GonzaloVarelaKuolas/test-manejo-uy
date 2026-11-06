@@ -247,6 +247,9 @@ function renderQuestion() {
   }));
 
   paintRoad();
+  // En el celular, después de bajar a leer la explicación, la siguiente pregunta
+  // tiene que empezar arriba, no a mitad de pantalla.
+  window.scrollTo(0, 0);
   $("q-text").focus({ preventScroll: true });
 }
 
@@ -284,6 +287,9 @@ function pick(idx) {
   $("fb-text").textContent = q.explanation;
   $("fb-source").textContent = q.source ? `Fuente: ${q.source}` : "";
   fb.hidden = false;
+  // En pantallas chicas la explicación queda debajo de las opciones: la traemos a la vista.
+  const calm = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  fb.scrollIntoView({ block: "nearest", behavior: calm ? "auto" : "smooth" });
 
   $("next").disabled = false;
   $("next").focus({ preventScroll: true });

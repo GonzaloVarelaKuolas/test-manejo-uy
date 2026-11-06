@@ -178,7 +178,9 @@ h2 { font-size: 1.15rem; font-weight: 800; margin: 2.2rem 0 .8rem; }
 .muted { color: var(--muted); }
 
 /* Selección de modo */
-.setup { display: grid; gap: 1.4rem; }
+/* minmax(0, 1fr): sin esto el selector se estira al largo del tema más largo y
+   se sale de la pantalla en celulares angostos. */
+.setup { display: grid; grid-template-columns: minmax(0, 1fr); gap: 1.4rem; }
 
 .modes { border: 0; padding: 0; margin: 0; display: grid; gap: .7rem; }
 .modes legend { font-weight: 600; margin-bottom: .6rem; padding: 0; }
@@ -216,7 +218,8 @@ h2 { font-size: 1.15rem; font-weight: 800; margin: 2.2rem 0 .8rem; }
 .topic { display: grid; gap: .4rem; max-width: 420px; }
 .topic label { font-weight: 600; }
 .topic select {
-  font: inherit;
+  width: 100%;
+  font: inherit; /* 17px: con menos de 16px, iOS hace zoom al tocar el selector */
   padding: .6rem .7rem;
   border: 2px solid var(--line);
   border-radius: var(--radius-sm);
@@ -357,7 +360,9 @@ h2 { font-size: 1.15rem; font-weight: 800; margin: 2.2rem 0 .8rem; }
   gap: .8rem 1.2rem;
 }
 .hint { color: var(--muted); font-size: .85rem; }
-@media (hover: none) { .hint { display: none; } }
+@media (hover: none), (pointer: coarse) { .hint { display: none; } }
+
+.feedback { scroll-margin-bottom: 6rem; } /* que la barra fija de abajo no la tape */
 
 /* ---------- Resultado ---------- */
 .score-sign {
@@ -417,4 +422,52 @@ h2 { font-size: 1.15rem; font-weight: 800; margin: 2.2rem 0 .8rem; }
 
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; }
+}
+
+/* ---------- Celulares ---------- */
+html { -webkit-text-size-adjust: 100%; }
+button, .mode, .check, select { touch-action: manipulation; } /* sin demora de doble toque */
+
+/* iPhone con notch acostado: que el contenido no quede debajo del recorte. */
+.band-inner, .road, main, .foot p {
+  padding-left: max(16px, env(safe-area-inset-left));
+  padding-right: max(16px, env(safe-area-inset-right));
+}
+
+@media (max-width: 560px) {
+  main { padding-top: 1.4rem; }
+  .band-inner { padding-top: .75rem; }
+  .mode { padding: .85rem .9rem; }
+
+  /* La pregunta y las opciones entran mejor si la imagen no ocupa media pantalla. */
+  .q-image { max-height: 170px; margin-inline: auto; margin-bottom: 1.1rem; }
+  .q-text { margin-bottom: 1.1rem; }
+
+  /* Señales como opciones: siempre 2 columnas, aunque el teléfono sea angosto. */
+  .options.options-img { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .options.options-img .opt { padding: .6rem .5rem; }
+  .opt-img { height: 76px; }
+
+  /* "Siguiente" queda fijo abajo, siempre a mano con el pulgar. */
+  .q-actions {
+    position: sticky;
+    bottom: 0;
+    z-index: 5;
+    margin: 1.2rem -16px 0;
+    padding: .7rem 16px calc(.7rem + env(safe-area-inset-bottom));
+    background: var(--bg);
+    border-top: 1px solid var(--line);
+  }
+  .q-actions .btn-primary { flex: 1; }
+  .q-actions .hint { display: none; }
+
+  .btn-primary, .btn-secondary { min-height: 48px; }
+  .r-actions { display: grid; }
+  .r-actions > * { justify-self: stretch; }
+  #start { justify-self: stretch; }
+}
+
+@media (max-width: 360px) {
+  .brand-uy { display: none; } /* que el título no se parta en dos líneas */
+  .home-title { font-size: 1.65rem; }
 }
