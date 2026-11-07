@@ -18,8 +18,9 @@ examen teórico de manejo en Uruguay.
   proporciones fijas, para que las señales no ocupen todo el examen.
   Aprobás con hasta 5 errores.
 - **Práctica por tema**: hasta 30 preguntas del tema que elijas, con la
-  explicación después de cada una. Hay una opción "Solo imágenes de señales"
-  que junta todas las preguntas con imagen sin importar el tema.
+  explicación después de cada una.
+- **Señales de tránsito**: 10 preguntas con imágenes de señales, de cualquier
+  tema, para practicar solo las señales.
 - **Preguntas de motos opcionales**: una casilla en el inicio las suma al
   simulacro y a la práctica. Sirve si vas a sacar la libreta de moto
   (categoría G); si no, quedan afuera. La elección se recuerda en el navegador.
@@ -120,8 +121,9 @@ written driving exam.
   proportions, so road signs don't take over the exam. You pass with up to
   5 wrong answers.
 - **Practice by topic**: up to 30 questions from the topic you pick, with the
-  explanation after each one. There's also a "Signs images only" option that
-  pools every question with an image regardless of topic.
+  explanation after each one.
+- **Road signs**: 10 questions with road-sign images, from any topic, for
+  practicing just the signs.
 - **Optional motorcycle questions**: a checkbox on the start screen adds them
   to the exam and practice. Useful if you're getting a motorcycle license
   (category G); otherwise they're left out. The choice is remembered in the
