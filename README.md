@@ -26,6 +26,8 @@ examen teórico de manejo en Uruguay.
   (categoría G); si no, quedan afuera. La elección se recuerda en el navegador.
 - Al terminar, el resultado se ve por tema y se pueden repasar o volver a
   practicar las preguntas falladas.
+- Pensado para el celular: funciona bien de 320px para arriba, con el botón
+  "Siguiente" siempre a mano.
 
 ### Temas
 
@@ -130,6 +132,8 @@ written driving exam.
   browser.
 - At the end you get a per-topic breakdown and can review or retry the
   questions you missed.
+- Built for phones: works well from 320px wide up, with the Next button
+  always within thumb's reach.
 
 ### Topics
 
