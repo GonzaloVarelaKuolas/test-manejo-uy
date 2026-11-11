@@ -5,9 +5,25 @@ múltiple con explicación y fuente legal en cada respuesta.
 
 *(English version below / versión en inglés más abajo)*
 
+## Capturas
+
+| | |
+|---|---|
+| ![Pantalla de inicio](docs/screenshots/home.png) | ![Pregunta de señales](docs/screenshots/quiz-signs.png) |
+| ![Guía de estudio](docs/screenshots/estudiar.png) | ![Página de donación](docs/screenshots/donar.png) |
+
+![Demo: elegir tema, practicar y ver la explicación](docs/screenshots/demo.gif)
+
+<details>
+<summary>Vista en celular</summary>
+
+<img src="docs/screenshots/mobile-home.png" alt="Pantalla de inicio en celular" width="320">
+
+</details>
+
 ---
 
-## 🇺🇾 Español
+## Español
 
 ### Qué es
 
@@ -95,6 +111,7 @@ site/               # el sitio (estático)
   img/signs/        # imágenes de señales (ver COMO-AGREGAR-SENALES.md)
   Dockerfile
 infra/              # Terraform para levantarlo con Docker localmente
+docs/screenshots/   # capturas y gif usados en este README
 ```
 
 Cada pregunta en `questions.json` tiene `category` (uno de los temas de
@@ -105,10 +122,7 @@ confirmadas (no se muestran).
 
 ### Estado
 
-- 214 preguntas en total: 213 visibles (144 de texto y 69 con señales) y 1
-  marcada para verificar.
-- 1 pregunta marcada para verificar (edad mínima de la categoría G1, que sale
-  de la Guía de 2013 y puede estar desactualizada).
+- 225 preguntas en total: 156 de texto y 69 con imágenes de señales.
 
 ### Aviso
 
@@ -119,7 +133,7 @@ Verificá siempre con la Intendencia de tu departamento.
 
 ---
 
-## 🇬🇧 English
+## English
 
 ### What this is
 
@@ -209,6 +223,7 @@ site/               # the static site
   img/signs/        # road-sign images (see COMO-AGREGAR-SENALES.md)
   Dockerfile
 infra/              # Terraform config to run it locally via Docker
+docs/screenshots/   # screenshots and gif used in this README
 ```
 
 Each question in `questions.json` has `category` (one of the topics above),
@@ -218,10 +233,7 @@ motorcycle questions and `verify: true` for unconfirmed ones (hidden).
 
 ### Status
 
-- 214 questions in total: 213 visible (144 text-only and 69 with road signs)
-  and 1 flagged for verification.
-- 1 question flagged for verification (minimum age for category G1, taken
-  from the 2013 Guide and possibly out of date).
+- 225 questions in total: 156 text-only and 69 with road-sign images.
 
 ### Disclaimer
 
