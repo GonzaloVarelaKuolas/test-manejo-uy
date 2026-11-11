@@ -105,10 +105,7 @@ confirmadas (no se muestran).
 
 ### Estado
 
-- 214 preguntas en total: 213 visibles (144 de texto y 69 con señales) y 1
-  marcada para verificar.
-- 1 pregunta marcada para verificar (edad mínima de la categoría G1, que sale
-  de la Guía de 2013 y puede estar desactualizada).
+- 225 preguntas en total: 156 de texto y 69 con imágenes de señales.
 
 ### Aviso
 
@@ -218,10 +215,7 @@ motorcycle questions and `verify: true` for unconfirmed ones (hidden).
 
 ### Status
 
-- 214 questions in total: 213 visible (144 text-only and 69 with road signs)
-  and 1 flagged for verification.
-- 1 question flagged for verification (minimum age for category G1, taken
-  from the 2013 Guide and possibly out of date).
+- 225 questions in total: 156 text-only and 69 with road-sign images.
 
 ### Disclaimer
 

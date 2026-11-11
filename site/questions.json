@@ -1406,10 +1406,8 @@
       "14 años."
     ],
     "correct": 2,
-    "explanation": "La tabla de categorías de la Guía indica 16 años como edad mínima para la categoría G1.",
-    "source": "Guía Nacional de Conducción, pág. 8",
-    "verify": true,
-    "verifyNote": "La tabla es de la edición de 2013. Confirmar si las categorías y edades siguen vigentes."
+    "explanation": "La tabla de categorías de la Guía indica 16 años como edad mínima para la categoría G1. La misma tabla fija 18 para G2, 21 para G3, 18 para A y B, 19 para C, 21 para D y E, 23 para F y 18 para H.",
+    "source": "Guía Nacional de Conducción, pág. 8"
   },
   {
     "category": "Normas de tránsito y circulación",
@@ -3208,5 +3206,161 @@
     "correct": 0,
     "explanation": "El Reglamento exige bajar a 20 km/h donde haya aglomeración de personas, en particular a la entrada y salida de alumnos de las escuelas.",
     "source": "Reglamento Nacional de Circulación Vial, art. 13.2.3.a"
+  },
+  {
+    "category": "Documentación y vehículo",
+    "topic": "Equipamiento Obligatorio",
+    "question": "Según la Ley 18.191, además de las balizas o reflectores, ¿qué otro elemento de emergencia debe llevar todo vehículo automotor?",
+    "options": [
+      "Un matafuego (extintor de incendios).",
+      "Un botiquín con medicamentos recetados.",
+      "Una rueda de auxilio de igual tamaño que las demás.",
+      "Un teléfono celular con batería de repuesto."
+    ],
+    "correct": 0,
+    "explanation": "Entre el equipamiento obligatorio, la ley exige un matafuego y balizas o reflectores para situaciones de emergencia.",
+    "source": "Ley 18.191, art. 29 (1)(E)"
+  },
+  {
+    "category": "Documentación y vehículo",
+    "topic": "Equipamiento Obligatorio",
+    "question": "¿Qué característica debe tener la bocina de un vehículo, según la Ley 18.191?",
+    "options": [
+      "Debe ser audible en condiciones normales de circulación, pero no estridente.",
+      "Debe escucharse a más de 300 metros de distancia.",
+      "Debe tener un sonido grave, similar al de los vehículos de emergencia.",
+      "La ley no establece ningún requisito sobre la bocina."
+    ],
+    "correct": 0,
+    "explanation": "Entre el equipamiento obligatorio, la bocina debe ser audible en condiciones normales, pero no estridente.",
+    "source": "Ley 18.191, art. 29 (1)(J)"
+  },
+  {
+    "category": "Documentación y vehículo",
+    "topic": "Sistemas del Vehículo",
+    "question": "Según la Ley 18.191, ¿qué deben garantizar el parabrisas y los demás vidrios de un vehículo?",
+    "options": [
+      "Mantenerse transparentes con el uso y reducir el riesgo de lesiones si se rompen.",
+      "Ser polarizados para disminuir el encandilamiento.",
+      "Poder abrirse por completo para mejorar la ventilación.",
+      "Estar hechos del mismo vidrio que las ventanas de un edificio."
+    ],
+    "correct": 0,
+    "explanation": "El equipamiento obligatorio exige vidrios que se mantengan transparentes con el uso y que, si se rompen, reduzcan el riesgo de lesiones para los ocupantes.",
+    "source": "Ley 18.191, art. 29 (1)(I)"
+  },
+  {
+    "category": "Documentación y vehículo",
+    "topic": "Sistemas del Vehículo",
+    "question": "Según la Ley 18.191, ¿qué debe permitir el sistema de dirección de un vehículo?",
+    "options": [
+      "Que el conductor domine la trayectoria del vehículo con facilidad y seguridad.",
+      "Que el vehículo gire únicamente hacia la derecha en caso de falla.",
+      "Que el conductor pueda desconectarlo mientras el motor está apagado.",
+      "Que el vehículo se detenga automáticamente al girar el volante."
+    ],
+    "correct": 0,
+    "explanation": "El equipamiento obligatorio exige una dirección que permita al conductor dominar la trayectoria del vehículo con facilidad y seguridad.",
+    "source": "Ley 18.191, art. 29 (1)(A)"
+  },
+  {
+    "category": "Normas de tránsito y circulación",
+    "topic": "Preferencia de Paso",
+    "question": "Además de darles preferencia de paso, ¿qué más prohíbe la Ley 18.191 respecto a los vehículos de emergencia con sus señales activadas?",
+    "options": [
+      "Seguirlos: está prohibido circular detrás de un vehículo de emergencia.",
+      "Adelantarlos por la izquierda.",
+      "Estacionar en la misma cuadra donde circulan.",
+      "Usar la bocina mientras están cerca."
+    ],
+    "correct": 0,
+    "explanation": "Además de la obligación de ceder el paso, la ley prohíbe expresamente seguir a los vehículos de emergencia.",
+    "source": "Ley 18.191, art. 14 (9)"
+  },
+  {
+    "category": "Normas de tránsito y circulación",
+    "topic": "Distancia de Seguridad",
+    "question": "Más allá de técnicas como la de los 3 segundos, ¿qué exige concretamente la Ley 18.191 sobre la distancia con el vehículo de adelante?",
+    "options": [
+      "Una distancia suficiente, sin fijar una cifra exacta en la ley.",
+      "Exactamente 3 segundos en cualquier circunstancia.",
+      "Al menos 50 metros, sin importar la velocidad.",
+      "La ley no dice nada: es solo una recomendación de manejo."
+    ],
+    "correct": 0,
+    "explanation": "La ley obliga a mantener una distancia suficiente con el vehículo que precede, sin cuantificarla; la regla de los 3 segundos (o 4 con piso resbaloso) es la forma práctica que da la Guía para cumplir esa obligación.",
+    "source": "Ley 18.191, art. 14 (6); Guía Nacional de Conducción, pág. 113-114"
+  },
+  {
+    "category": "Normas de tránsito y circulación",
+    "topic": "Generalidades",
+    "question": "Según la Ley 18.191, ¿está permitido correr picadas o competir en velocidad con otro vehículo en la vía pública?",
+    "options": [
+      "No, está expresamente prohibido.",
+      "Sí, siempre que sea de madrugada.",
+      "Sí, si ambos conductores están de acuerdo.",
+      "Solo en rutas nacionales, nunca en zonas urbanas."
+    ],
+    "correct": 0,
+    "explanation": "La ley prohíbe expresamente las competencias de velocidad no autorizadas entre vehículos en la vía pública.",
+    "source": "Ley 18.191, art. 16 (1)"
+  },
+  {
+    "category": "Motos",
+    "topic": "Licencia de Conducir",
+    "moto": true,
+    "question": "Según la Guía, ¿cuál es la edad mínima para la categoría G2 (motos y ciclomotores de hasta 200 cc)?",
+    "options": [
+      "16 años.",
+      "18 años.",
+      "21 años.",
+      "23 años."
+    ],
+    "correct": 1,
+    "explanation": "La tabla de categorías de la Guía fija 18 años como edad mínima para la categoría G2.",
+    "source": "Guía Nacional de Conducción, pág. 8"
+  },
+  {
+    "category": "Motos",
+    "topic": "Licencia de Conducir",
+    "moto": true,
+    "question": "Según la Guía, ¿cuál es la edad mínima para la categoría G3 (motocicletas sin límite de cilindrada)?",
+    "options": [
+      "18 años.",
+      "19 años.",
+      "21 años.",
+      "23 años."
+    ],
+    "correct": 2,
+    "explanation": "La tabla de categorías de la Guía fija 21 años como edad mínima para la categoría G3, la de mayor cilindrada entre las motos.",
+    "source": "Guía Nacional de Conducción, pág. 8"
+  },
+  {
+    "category": "Documentación y vehículo",
+    "topic": "Licencia de Conducir",
+    "question": "¿Cuál es la edad mínima para obtener la categoría B (automóviles particulares)?",
+    "options": [
+      "16 años.",
+      "18 años.",
+      "19 años.",
+      "21 años."
+    ],
+    "correct": 1,
+    "explanation": "La tabla de categorías de la Guía fija 18 años como edad mínima para las categorías A y B.",
+    "source": "Guía Nacional de Conducción, pág. 8"
+  },
+  {
+    "category": "Documentación y vehículo",
+    "topic": "Licencia de Conducir",
+    "question": "¿Cuál es la edad mínima para la categoría D (transporte de pasajeros)?",
+    "options": [
+      "18 años.",
+      "19 años.",
+      "21 años.",
+      "23 años."
+    ],
+    "correct": 2,
+    "explanation": "La tabla de categorías de la Guía fija 21 años como edad mínima para las categorías D y E (transporte de pasajeros y de carga pesada).",
+    "source": "Guía Nacional de Conducción, pág. 8"
   }
 ]
