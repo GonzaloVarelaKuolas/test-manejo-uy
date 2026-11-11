@@ -119,6 +119,25 @@ pre {
 }
 .link-btn:hover { border-color: #fff; }
 
+.band-support {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 16px .5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .3rem 1.2rem;
+}
+.support-link {
+  color: rgba(255,255,255,.75);
+  font-size: .82rem;
+  text-decoration: none;
+  border-bottom: 1px dotted rgba(255,255,255,.4);
+}
+.support-link:hover { color: #fff; border-bottom-color: #fff; }
+.support-link[aria-current] { color: #fff; font-weight: 600; border-bottom: 2px solid var(--sign-yellow); }
+
+.study-cta { margin: -.8rem 0 1.6rem; font-weight: 600; }
+
 /* Progreso como línea central de la ruta: cada tramo es una pregunta */
 .road {
   max-width: 720px;

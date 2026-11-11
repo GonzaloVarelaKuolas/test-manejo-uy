@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es-UY">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#2a2e33">
+  <title>Apoyá el proyecto · Examen de manejo Uruguay</title>
+  <meta name="description" content="Si el simulacro de examen de manejo te sirvió, podés colaborar con el proyecto.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .donate-main { max-width: 640px; margin: 0 auto; padding: 2rem 16px 3rem; }
+    .donate-main h1 { margin-bottom: .6rem; }
+    .donate-main .lead { margin-bottom: 2rem; }
+    .donate-card {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-lg);
+      padding: 1.4rem;
+      margin-bottom: 1.4rem;
+    }
+    .donate-card h2 { margin: 0 0 .5rem; font-size: 1.1rem; }
+    .donate-card p { margin: 0 0 1rem; color: var(--muted); }
+    .alias-box {
+      display: flex;
+      align-items: center;
+      gap: .6rem;
+      background: var(--bg);
+      border: 1px dashed var(--line);
+      border-radius: var(--radius-sm);
+      padding: .8rem 1rem;
+      font-size: 1.1rem;
+      font-weight: 600;
+      letter-spacing: .02em;
+      cursor: pointer;
+      width: 100%;
+      text-align: left;
+      color: var(--text);
+      font-family: inherit;
+    }
+    .alias-box:hover { border-color: var(--focus); }
+    .alias-box .copy-hint { margin-left: auto; font-size: .8rem; font-weight: 400; color: var(--muted); white-space: nowrap; }
+    .alias-box.copied { border-color: var(--sign-green); }
+    .donate-steps { margin: 1rem 0 0; padding-left: 1.2rem; color: var(--muted); }
+    .donate-steps li { margin-bottom: .3rem; }
+    .back-link { display: inline-block; margin-top: .5rem; }
+  </style>
+</head>
+<body>
+  <header class="band">
+    <div class="band-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-sign" aria-hidden="true"></span>
+        <span>Examen de manejo <span class="brand-uy">Uruguay</span></span>
+      </a>
+    </div>
+    <div class="road" aria-hidden="true"></div>
+  </header>
+
+  <main class="donate-main">
+    <h1>Apoyá el proyecto</h1>
+    <p class="lead">Esta práctica es gratis y lo va a seguir siendo. Si te sirvió para el examen y querés invitarme un café, podés hacerlo por Mercado Pago.</p>
+
+    <div class="donate-card">
+      <h2>Mercado Pago</h2>
+      <p>Transferí a este número de cuenta desde la app de Mercado Pago:</p>
+      <button type="button" class="alias-box" id="mp-copy" data-value="1008420316160">
+        <span>1008420316160</span>
+        <span class="copy-hint" id="mp-hint">Tocá para copiar</span>
+      </button>
+      <ol class="donate-steps">
+        <li>Abrí tu app de Mercado Pago.</li>
+        <li>Elegí "Transferir" o "Enviar dinero".</li>
+        <li>Pegá el número de cuenta de arriba.</li>
+      </ol>
+    </div>
+
+    <a class="back-link" href="index.html">&larr; Volver al inicio</a>
+  </main>
+
+  <footer class="foot">
+    <p>Gracias por practicar acá. Cualquier aporte es opcional y no afecta el acceso al simulacro.</p>
+  </footer>
+
+  <script>
+    const btn = document.getElementById("mp-copy");
+    const hint = document.getElementById("mp-hint");
+    btn.addEventListener("click", async () => {
+      const value = btn.dataset.value;
+      try {
+        await navigator.clipboard.writeText(value);
+      } catch {
+        // Sin acceso al portapapeles (http sin TLS, permiso denegado): el número ya está a la vista para copiar a mano.
+      }
+      btn.classList.add("copied");
+      hint.textContent = "¡Copiado!";
+      setTimeout(() => { btn.classList.remove("copied"); hint.textContent = "Tocá para copiar"; }, 2000);
+    });
+  </script>
+</body>
+</html>
