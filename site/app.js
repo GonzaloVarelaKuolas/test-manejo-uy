@@ -136,6 +136,17 @@ function setupHome() {
   });
   buildTopics();
 
+  // Enlaces desde la guía de estudio: index.html?tema=<tema> o index.html?modo=signs
+  const params = new URLSearchParams(location.search);
+  const tema = params.get("tema");
+  if (tema === "Motos" && !includeMoto()) { $("include-moto").checked = true; buildTopics(); }
+  if (tema && [...$("topic").options].some((o) => o.value === tema)) {
+    document.querySelector('input[name="mode"][value="practice"]').checked = true;
+    $("topic").value = tema;
+  } else if (params.get("modo") === "signs") {
+    document.querySelector('input[name="mode"][value="signs"]').checked = true;
+  }
+
   const syncTopic = () => {
     const mode = document.querySelector('input[name="mode"]:checked').value;
     $("topic-wrap").hidden = mode !== "practice";

@@ -21,6 +21,10 @@ examen teórico de manejo en Uruguay.
   explicación después de cada una.
 - **Señales de tránsito**: 10 preguntas con imágenes de señales, de cualquier
   tema, para practicar solo las señales.
+- **Guía de estudio** (`estudiar.html`): el resumen de los cinco temas (y motos)
+  con las 53 señales con su imagen, diagramas y la fuente de cada dato. Cada
+  tema tiene un botón que lleva directo a practicarlo
+  (`index.html?tema=<tema>` o `index.html?modo=signs`).
 - **Preguntas de motos opcionales**: una casilla en el inicio las suma al
   simulacro y a la práctica. Sirve si vas a sacar la libreta de moto
   (categoría G); si no, quedan afuera. La elección se recuerda en el navegador.
@@ -81,7 +85,10 @@ aplicar (o reiniciar el contenedor) para verlo en Docker.
 
 ```
 site/               # el sitio (estático)
-  index.html
+  index.html        # práctica y simulacro
+  estudiar.html     # guía de estudio
+  estudiar.css
+  donar.html        # página para apoyar el proyecto
   style.css
   app.js
   questions.json    # banco de preguntas
@@ -126,6 +133,10 @@ written driving exam.
   explanation after each one.
 - **Road signs**: 10 questions with road-sign images, from any topic, for
   practicing just the signs.
+- **Study guide** (`estudiar.html`): a summary of the five topics (plus
+  motorcycles) with all 53 sign images, diagrams and the source of every
+  fact. Each topic has a button that jumps straight into practicing it
+  (`index.html?tema=<topic>` or `index.html?modo=signs`).
 - **Optional motorcycle questions**: a checkbox on the start screen adds them
   to the exam and practice. Useful if you're getting a motorcycle license
   (category G); otherwise they're left out. The choice is remembered in the
@@ -188,7 +199,10 @@ restart the container) to see it in Docker.
 
 ```
 site/               # the static site
-  index.html
+  index.html        # practice and exam simulation
+  estudiar.html     # study guide
+  estudiar.css
+  donar.html        # donation page
   style.css
   app.js
   questions.json    # question bank

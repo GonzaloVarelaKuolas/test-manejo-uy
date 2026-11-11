@@ -1,0 +1,204 @@
+/* Guía de estudio (estudiar.html). Usa las variables de style.css. */
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+.study section { scroll-margin-top: 1rem; }
+.study h2 {
+  font-size: 1.45rem;
+  margin: 3rem 0 .5rem;
+  padding-top: 1.6rem;
+  border-top: 4px solid var(--sign-yellow);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .6rem;
+}
+.study h3 { font-size: 1.05rem; font-weight: 800; margin: 0 0 .6rem; line-height: 1.3; }
+.study h4 { font-size: .95rem; font-weight: 600; margin: 1.2rem 0 .5rem; }
+.sec-lead { color: var(--muted); margin: 0 0 1.4rem; max-width: 60ch; }
+.gal-title { margin: 2rem 0 .8rem !important; }
+.small { font-size: .9rem; }
+.opt { font-size: .8rem; font-weight: 400; color: var(--muted); }
+
+/* Número de tema */
+.num {
+  flex: none;
+  display: inline-grid;
+  place-items: center;
+  width: 1.7em;
+  height: 1.7em;
+  border-radius: 50%;
+  background: var(--sign-yellow);
+  color: #1a1d21;
+  font-weight: 800;
+  font-size: .8em;
+  line-height: 1;
+}
+
+/* Índice */
+.toc { display: flex; flex-wrap: wrap; gap: .5rem; margin: 0 0 1rem; }
+.toc a {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  padding: .45rem .8rem .45rem .5rem;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: .92rem;
+}
+.toc a:hover { border-color: var(--text); }
+
+/* Tarjetas de contenido */
+.card, .callout {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  padding: 1.1rem 1.2rem;
+  margin: 0 0 1rem;
+}
+.card ul { margin: 0; padding-left: 1.15rem; display: grid; gap: .45rem; }
+.card p { margin: 0 0 .5rem; }
+.callout { border-left: 6px solid var(--sign-red); }
+.callout p { margin: 0 0 .5rem; }
+.src { font-size: .82rem; color: var(--muted); margin: .8rem 0 0; }
+section > .src { margin: -.2rem 0 1.2rem; }
+.two { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; }
+.two .card { margin: 0; }
+.two + .src { margin-top: .8rem; }
+
+/* Familias de señales */
+.families { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: .8rem; }
+.fam {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-top: 6px solid;
+  border-radius: var(--radius-lg);
+  padding: .9rem 1rem;
+  display: grid;
+  gap: .3rem;
+  align-content: start;
+}
+.fam span { font-size: .92rem; color: var(--muted); }
+.fam-reg { border-top-color: var(--sign-red); }
+.fam-adv { border-top-color: var(--sign-yellow); }
+.fam-inf { border-top-color: #1f5fbf; }
+.families + .src { margin: .8rem 0 1.2rem; }
+
+/* Galería de señales */
+.signs {
+  list-style: none;
+  margin: 0 0 1rem;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: .7rem;
+}
+.sign {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  padding: .7rem;
+  display: grid;
+  grid-template-columns: 72px minmax(0, 1fr);
+  gap: .8rem;
+  align-items: center;
+}
+.sign img {
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
+  border-radius: var(--radius-sm);
+  background: #a6a4a5; /* el gris de fondo de las imágenes */
+}
+.sign div { display: grid; gap: .15rem; }
+.sign strong { line-height: 1.25; }
+.sign span { font-size: .85rem; color: var(--muted); line-height: 1.4; }
+
+/* Velocidades: disco de señal de máxima */
+.speeds { width: 100%; border-collapse: collapse; }
+.speeds td { padding: .5rem 0; vertical-align: middle; border-top: 1px solid var(--line); }
+.speeds tr:first-child td { border-top: 0; }
+.speeds td:first-child { width: 4.2rem; }
+.vmax {
+  display: inline-grid;
+  place-items: center;
+  width: 3.2rem;
+  height: 3.2rem;
+  border-radius: 50%;
+  border: .4rem solid #d32f2f;
+  background: #fff;
+  color: #111;
+  font-weight: 800;
+  font-size: 1.05rem;
+  line-height: 1;
+}
+
+/* Datos clave */
+.keys { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: .8rem; margin: 0 0 1rem; }
+.key {
+  background: var(--asphalt);
+  color: #fff;
+  border-radius: var(--radius-lg);
+  padding: 1rem;
+  display: grid;
+  gap: .2rem;
+}
+.key b { font-size: 1.7rem; font-weight: 800; color: var(--sign-yellow); line-height: 1.1; }
+.key span { font-size: .88rem; opacity: .85; }
+
+/* Diagramas */
+.fig { margin: 0 0 1rem; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-lg); padding: 1rem; }
+.fig svg { display: block; width: 100%; height: auto; max-width: 600px; margin: 0 auto; overflow: visible; }
+.panels { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(0, 1fr); gap: .8rem; max-width: 600px; margin: 0 auto; }
+.panel { display: grid; gap: .15rem; text-align: center; align-content: start; }
+.panel svg { margin-bottom: .45rem; }
+.panel strong { font-size: .92rem; line-height: 1.25; }
+.panel span { font-size: .85rem; color: var(--muted); line-height: 1.3; }
+.fig figcaption strong { color: var(--text); }
+.fig.narrow svg { max-width: 340px; }
+.fig figcaption { font-size: .88rem; color: var(--muted); margin-top: .8rem; text-align: center; }
+.fig .d-road { fill: #3a4047; }
+.fig .d-mark { stroke: #f2b705; stroke-width: 4; fill: none; }
+.fig .d-mark.d-thin { stroke-width: 2.5; opacity: .8; }
+.fig .d-kerb { fill: #9aa2ab; }
+.fig .d-walk { fill: var(--line); }
+.fig .d-car { fill: #e8ebee; stroke: #1a1d21; stroke-width: 2; }
+.fig .d-car.d-hi { fill: #f2b705; }
+.fig .d-glass { fill: #6f8fb0; }
+.fig .d-tyre { fill: #111; }
+.fig .d-lamp { fill: #c62828; }
+.fig .d-arm { stroke: var(--sign-red); stroke-width: 9; stroke-linecap: round; stroke-linejoin: round; fill: none; }
+.fig .d-go { stroke: #3fae74; stroke-width: 5; fill: none; stroke-linecap: round; }
+.fig .d-gofill { fill: #3fae74; }
+.fig .d-tri { fill: #c62828; stroke: #fff; stroke-width: 2; stroke-linejoin: round; }
+.fig .d-brace { stroke: var(--muted); stroke-width: 2; fill: none; }
+.fig .d-seg1 { fill: #f2b705; }
+.fig .d-seg2 { fill: #c62828; }
+.fig .d-t { fill: var(--text); font-size: 14px; font-family: inherit; }
+.fig .d-t.d-b { font-weight: 800; }
+.fig .d-tl { fill: #fff; font-size: 14px; font-weight: 800; font-family: inherit; }
+.fig .d-tl.d-dark { fill: #1a1d21; }
+
+/* Botones de práctica */
+.practice { display: flex; flex-wrap: wrap; gap: .6rem; margin: 1.4rem 0 0; }
+.practice a, .final a { text-decoration: none; display: inline-flex; align-items: center; }
+.practice .up { margin-left: auto; font-size: .9rem; color: var(--muted); text-decoration: underline; }
+.final { text-align: center; margin-top: 3rem; padding: 2rem 1rem; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-lg); }
+.final h2 { border: 0; padding: 0; margin: 0 0 .4rem; justify-content: center; }
+.final p { margin: 0 0 1rem; color: var(--muted); }
+.final p:last-child { margin: 0; }
+
+@media (max-width: 560px) {
+  .study h2 { font-size: 1.25rem; }
+  .signs { grid-template-columns: minmax(0, 1fr); }
+  .fig { padding: .7rem; }
+  .fig.wide .d-t, .fig.wide .d-tl { font-size: 25px; } /* el SVG se achica a la mitad: letra más grande para que se lea */
+  .panels { gap: .5rem; }
+  .panel strong { font-size: .85rem; }
+  .panel span { font-size: .78rem; }
+  .practice a { flex: 1 1 100%; justify-content: center; }
+  .practice .up { margin: .4rem 0 0; }
+}
