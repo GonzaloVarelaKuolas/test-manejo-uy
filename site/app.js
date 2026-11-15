@@ -97,8 +97,10 @@ const EXAM_MIX_MOTO = { ...EXAM_MIX, "Señalización vial": 8, "Normas de tráns
 
 const MOTO_KEY = "manejo-uy:include-moto";
 
-// La opción "Señales de tránsito" junta las preguntas con imagen de cualquier tema.
+// La opción "Señales de tránsito" junta las preguntas con imágenes de señales de cualquier tema.
 const SIGNS_SIZE = 10;
+// La opción "Situaciones de tránsito" junta los casos prácticos (scenario: true), con o sin diagrama.
+const SITUATIONS_SIZE = 10;
 
 function includeMoto() { return $("include-moto").checked; }
 
@@ -108,6 +110,10 @@ function pool() {
 }
 
 function hasImage(q) { return Boolean(q.image || q.optionImages); }
+function isDiagram(src) { return Boolean(src) && src.includes("/diagrams/"); }
+// Señales: preguntas con imagen que no son diagramas de situaciones.
+function isSign(q) { return hasImage(q) && !isDiagram(q.image || q.optionImages[0]); }
+function isSituation(q) { return Boolean(q.scenario); }
 
 function buildTopics() {
   const qs = pool();
@@ -127,7 +133,8 @@ function buildTopics() {
 
 function setupHome() {
   $("exam-size").textContent = Math.min(EXAM_SIZE, state.all.length);
-  $("signs-size").textContent = Math.min(SIGNS_SIZE, state.all.filter(hasImage).length);
+  $("signs-size").textContent = Math.min(SIGNS_SIZE, state.all.filter(isSign).length);
+  $("situations-size").textContent = Math.min(SITUATIONS_SIZE, state.all.filter(isSituation).length);
 
   try { $("include-moto").checked = localStorage.getItem(MOTO_KEY) === "1"; } catch (_) {}
   $("include-moto").addEventListener("change", () => {
@@ -136,7 +143,7 @@ function setupHome() {
   });
   buildTopics();
 
-  // Enlaces desde la guía de estudio: index.html?tema=<tema> o index.html?modo=signs
+  // Enlaces desde la guía de estudio: index.html?tema=<tema>, ?modo=signs o ?modo=situaciones
   const params = new URLSearchParams(location.search);
   const tema = params.get("tema");
   if (tema === "Motos" && !includeMoto()) { $("include-moto").checked = true; buildTopics(); }
@@ -145,6 +152,8 @@ function setupHome() {
     $("topic").value = tema;
   } else if (params.get("modo") === "signs") {
     document.querySelector('input[name="mode"][value="signs"]').checked = true;
+  } else if (params.get("modo") === "situaciones") {
+    document.querySelector('input[name="mode"][value="situations"]').checked = true;
   }
 
   const syncTopic = () => {
@@ -177,7 +186,9 @@ $("setup").addEventListener("submit", (e) => {
     startQuiz("exam", buildExam());
   } else if (mode === "signs") {
     // Se juega como una práctica: explicación después de cada pregunta.
-    startQuiz("practice", shuffle(qs.filter(hasImage)).slice(0, SIGNS_SIZE));
+    startQuiz("practice", shuffle(qs.filter(isSign)).slice(0, SIGNS_SIZE));
+  } else if (mode === "situations") {
+    startQuiz("practice", shuffle(qs.filter(isSituation)).slice(0, SITUATIONS_SIZE));
   } else {
     const topic = $("topic").value;
     const filtered = topic ? qs.filter((q) => q.category === topic) : qs;
@@ -230,6 +241,7 @@ function renderQuestion() {
   if (q.image) {
     img.src = q.image;
     img.alt = q.imageAlt || "Imagen de la pregunta";
+    img.classList.toggle("is-diagram", isDiagram(q.image));
     img.hidden = false;
   } else {
     img.removeAttribute("src");
@@ -250,7 +262,7 @@ function renderQuestion() {
     const content = hasImages
       // Sin etiqueta de texto: "Señal A/B/C/D" quedaría desordenado al mezclar las opciones.
       ? el("span", { class: "opt-img-wrap" },
-          el("img", { class: "opt-img", src: o.image, alt: `Opción ${idx + 1}`, loading: "lazy" }))
+          el("img", { class: isDiagram(o.image) ? "opt-img is-diagram" : "opt-img", src: o.image, alt: `Opción ${idx + 1}`, loading: "lazy" }))
       : el("span", { text: o.text });
     const b = el("button", { type: "button", class: "opt", "aria-pressed": "false" }, key, content);
     b.addEventListener("click", () => pick(idx));
@@ -367,11 +379,11 @@ function showResults() {
   $("review").replaceChildren(...wrong.map((q) => {
     const correctOpt = q.opts.find((o) => o.ok);
     const pickedOpt = q.opts[q.picked];
-    const reviewImg = (src, alt) => el("img", { class: "review-img", src, alt, loading: "lazy" });
+    const reviewImg = (src, alt) => el("img", { class: isDiagram(src) ? "review-img is-diagram" : "review-img", src, alt, loading: "lazy" });
     // Opciones con imagen: se muestran las señales elegida y correcta en vez de su texto.
     const answerLines = correctOpt.image
-      ? [el("p", { class: "yours" }, "Tu respuesta: ", reviewImg(pickedOpt.image, "Señal elegida")),
-         el("p", { class: "right" }, "Correcta: ", reviewImg(correctOpt.image, "Señal correcta"))]
+      ? [el("p", { class: "yours" }, "Tu respuesta: ", reviewImg(pickedOpt.image, "Opción elegida")),
+         el("p", { class: "right" }, "Correcta: ", reviewImg(correctOpt.image, "Opción correcta"))]
       : [el("p", { class: "yours", text: `Tu respuesta: ${pickedOpt.text}` }),
          el("p", { class: "right", text: `Correcta: ${correctOpt.text}` })];
     return el("li", {},

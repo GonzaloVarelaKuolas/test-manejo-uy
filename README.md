@@ -37,10 +37,14 @@ examen teórico de manejo en Uruguay.
   explicación después de cada una.
 - **Señales de tránsito**: 10 preguntas con imágenes de señales, de cualquier
   tema, para practicar solo las señales.
+- **Situaciones de tránsito**: 10 casos prácticos, varios con diagramas
+  (quién pasa primero en un cruce, qué indica el agente o el brazo del
+  conductor, qué hacer ante una emergencia).
 - **Guía de estudio** (`estudiar.html`): el resumen de los cinco temas (y motos)
   con las 53 señales con su imagen, diagramas y la fuente de cada dato. Cada
   tema tiene un botón que lleva directo a practicarlo
-  (`index.html?tema=<tema>` o `index.html?modo=signs`).
+  (`index.html?tema=<tema>`, `index.html?modo=signs` o
+  `index.html?modo=situaciones`).
 - **Preguntas de motos opcionales**: una casilla en el inicio las suma al
   simulacro y a la práctica. Sirve si vas a sacar la libreta de moto
   (categoría G); si no, quedan afuera. La elección se recuerda en el navegador.
@@ -53,12 +57,12 @@ examen teórico de manejo en Uruguay.
 
 | Tema | Qué incluye | Preguntas |
 |------|-------------|-----------|
-| Señalización vial | Señales reglamentarias, de advertencia e informativas, marcas en el pavimento y señales luminosas (semáforos), con 53 imágenes de señales reales | 86 |
-| Normas de tránsito y circulación | Velocidades máximas (incluida la zona escolar, 20 km/h), preferencia de paso, adelantamiento, giros, estacionamiento, marcha atrás | 53 |
-| Seguridad vial y legislación | Alcohol cero, cinturón, sistemas de retención infantil, casco, luces bajas, Leyes 18.191 y 19.061 | 25 |
-| Factor humano y conducción | Tiempo de reacción, fatiga, distracciones, distancia de frenado, física del vehículo | 22 |
-| Documentación y vehículo | Libreta y documentos, neumáticos, luces, frenos, equipamiento obligatorio | 18 |
-| Motos *(opcional)* | Casco, chaleco reflectivo, frenado y manejo de motos y cuatriciclos | 9 |
+| Señalización vial | Señales reglamentarias, de advertencia e informativas, marcas en el pavimento y señales luminosas (semáforos), con 53 imágenes de señales reales y diagramas de señales con el brazo, del agente y de líneas | 105 |
+| Normas de tránsito y circulación | Velocidades máximas (incluida la zona escolar, 20 km/h), preferencia de paso, adelantamiento, giros, estacionamiento, marcha atrás, con diagramas de cruces | 96 |
+| Seguridad vial y legislación | Alcohol cero, cinturón, sistemas de retención infantil, casco, luces bajas, Leyes 18.191 y 19.061, qué hacer en un siniestro | 33 |
+| Factor humano y conducción | Tiempo de reacción, fatiga, distracciones, distancia de frenado, física del vehículo, emergencias al volante | 29 |
+| Documentación y vehículo | Libreta y documentos, neumáticos, luces, frenos, equipamiento obligatorio | 25 |
+| Motos *(opcional)* | Casco, chaleco reflectivo, frenado y manejo de motos y cuatriciclos | 15 |
 
 Cada pregunta indica de dónde sale: Guía Nacional de Conducción, Ley 18.191
 (Tránsito y Seguridad Vial), Ley 19.061, Ley 18.113, Reglamento Nacional de
@@ -109,6 +113,7 @@ site/               # el sitio (estático)
   app.js
   questions.json    # banco de preguntas
   img/signs/        # imágenes de señales (ver COMO-AGREGAR-SENALES.md)
+  img/diagrams/     # diagramas SVG de las preguntas de situaciones
   Dockerfile
 infra/              # Terraform para levantarlo con Docker localmente
 docs/screenshots/   # capturas y gif usados en este README
@@ -117,12 +122,14 @@ docs/screenshots/   # capturas y gif usados en este README
 Cada pregunta en `questions.json` tiene `category` (uno de los temas de
 arriba), `topic` (subtema), `question`, `options`, `correct` (índice),
 `explanation` y `source`. Opcionales: `image` / `optionImages` para señales,
-`moto: true` para las de moto y `verify: true` para las que todavía no están
+`moto: true` para las de moto, `scenario: true` para los casos prácticos
+(modo "Situaciones de tránsito") y `verify: true` para las que todavía no están
 confirmadas (no se muestran).
 
 ### Estado
 
-- 225 preguntas en total: 156 de texto y 69 con imágenes de señales.
+- 303 preguntas en total: 204 de texto, 69 con imágenes de señales y 30 con
+  diagramas. 78 son casos prácticos (situaciones).
 
 ### Aviso
 
@@ -147,10 +154,14 @@ written driving exam.
   explanation after each one.
 - **Road signs**: 10 questions with road-sign images, from any topic, for
   practicing just the signs.
+- **Traffic situations**: 10 practical cases, several with diagrams (who goes
+  first at an intersection, what the officer's or the driver's arm signal
+  means, what to do in an emergency).
 - **Study guide** (`estudiar.html`): a summary of the five topics (plus
   motorcycles) with all 53 sign images, diagrams and the source of every
   fact. Each topic has a button that jumps straight into practicing it
-  (`index.html?tema=<topic>` or `index.html?modo=signs`).
+  (`index.html?tema=<topic>`, `index.html?modo=signs` or
+  `index.html?modo=situaciones`).
 - **Optional motorcycle questions**: a checkbox on the start screen adds them
   to the exam and practice. Useful if you're getting a motorcycle license
   (category G); otherwise they're left out. The choice is remembered in the
@@ -164,12 +175,12 @@ written driving exam.
 
 | Topic | Covers | Questions |
 |-------|--------|-----------|
-| Señalización vial (road signs) | Regulatory, warning and informational signs, pavement markings and traffic lights, with 53 real sign images | 86 |
-| Normas de tránsito y circulación (traffic rules) | Speed limits (including the 20 km/h school-zone limit), right of way, overtaking, turns, parking, reversing | 53 |
-| Seguridad vial y legislación (safety and law) | Zero alcohol, seatbelts, child seats, helmets, dipped headlights, Laws 18.191 and 19.061 | 25 |
-| Factor humano y conducción (human factors) | Reaction time, fatigue, distractions, braking distance, vehicle physics | 22 |
-| Documentación y vehículo (documents and vehicle) | License and papers, tires, lights, brakes, required equipment | 18 |
-| Motos *(optional)* | Helmets, reflective vests, braking and handling for motorcycles and quads | 9 |
+| Señalización vial (road signs) | Regulatory, warning and informational signs, pavement markings and traffic lights, with 53 real sign images plus diagrams of arm signals, officer gestures and road lines | 105 |
+| Normas de tránsito y circulación (traffic rules) | Speed limits (including the 20 km/h school-zone limit), right of way, overtaking, turns, parking, reversing, with intersection diagrams | 96 |
+| Seguridad vial y legislación (safety and law) | Zero alcohol, seatbelts, child seats, helmets, dipped headlights, Laws 18.191 and 19.061, what to do in a crash | 33 |
+| Factor humano y conducción (human factors) | Reaction time, fatigue, distractions, braking distance, vehicle physics, emergencies at the wheel | 29 |
+| Documentación y vehículo (documents and vehicle) | License and papers, tires, lights, brakes, required equipment | 25 |
+| Motos *(optional)* | Helmets, reflective vests, braking and handling for motorcycles and quads | 15 |
 
 Every question cites its source: the Guía Nacional de Conducción (National
 Driving Guide), Ley 18.191 (Traffic and Road Safety Law), Ley 19.061, Ley
@@ -221,6 +232,7 @@ site/               # the static site
   app.js
   questions.json    # question bank
   img/signs/        # road-sign images (see COMO-AGREGAR-SENALES.md)
+  img/diagrams/     # SVG diagrams for the situation questions
   Dockerfile
 infra/              # Terraform config to run it locally via Docker
 docs/screenshots/   # screenshots and gif used in this README
@@ -229,11 +241,13 @@ docs/screenshots/   # screenshots and gif used in this README
 Each question in `questions.json` has `category` (one of the topics above),
 `topic` (subtopic), `question`, `options`, `correct` (index), `explanation`
 and `source`. Optional: `image` / `optionImages` for signs, `moto: true` for
-motorcycle questions and `verify: true` for unconfirmed ones (hidden).
+motorcycle questions, `scenario: true` for practical cases (the "Situaciones
+de tránsito" mode) and `verify: true` for unconfirmed ones (hidden).
 
 ### Status
 
-- 225 questions in total: 156 text-only and 69 with road-sign images.
+- 303 questions in total: 204 text-only, 69 with road-sign images and 30 with
+  diagrams. 78 are practical cases (situations).
 
 ### Disclaimer
 
