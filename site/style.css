@@ -299,6 +299,8 @@ h2 { font-size: 1.15rem; font-weight: 800; margin: 2.2rem 0 .8rem; }
   object-fit: contain;
 }
 .q-image[hidden] { display: none; }
+/* Diagramas de situaciones: necesitan más alto que una señal para que se lean los autos. */
+.q-image.is-diagram { max-height: 320px; }
 
 .options { display: grid; gap: .6rem; }
 
@@ -316,6 +318,7 @@ h2 { font-size: 1.15rem; font-weight: 800; margin: 2.2rem 0 .8rem; }
   height: 90px;
   object-fit: contain;
 }
+.opt-img.is-diagram { height: 130px; border-radius: var(--radius-sm); }
 .opt-img-label { font-size: .92rem; color: var(--muted); }
 
 .opt {
@@ -423,6 +426,7 @@ h2 { font-size: 1.15rem; font-weight: 800; margin: 2.2rem 0 .8rem; }
 .review { padding-left: 1.3rem; margin: 0; display: grid; gap: 1.1rem; }
 .review li { padding-left: .3rem; }
 .review .rq { font-weight: 600; margin: 0 0 .35rem; }
+.review-img.is-diagram { height: 130px; }
 .review-img { display: block; height: 90px; width: auto; max-width: 100%; object-fit: contain; margin: .2rem 0 .5rem; border-radius: var(--radius-sm); }
 .review p { margin: 0 0 .25rem; }
 .review .yours { color: var(--sign-red); }
@@ -466,6 +470,8 @@ button, .mode, .check, select { touch-action: manipulation; } /* sin demora de d
   .options.options-img { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .options.options-img .opt { padding: .6rem .5rem; }
   .opt-img { height: 76px; }
+  .q-image.is-diagram { max-height: 230px; }
+  .opt-img.is-diagram { height: 104px; }
 
   /* "Siguiente" queda fijo abajo, siempre a mano con el pulgar. */
   .q-actions {

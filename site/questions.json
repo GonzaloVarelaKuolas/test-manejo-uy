@@ -3362,5 +3362,1246 @@
     "correct": 2,
     "explanation": "La tabla de categorías de la Guía fija 21 años como edad mínima para las categorías D y E (transporte de pasajeros y de carga pesada).",
     "source": "Guía Nacional de Conducción, pág. 8"
+  },
+  {
+    "category": "Señalización vial",
+    "topic": "Señales Manuales",
+    "question": "Al auto de adelante no le funcionan los señaleros y el conductor saca el brazo así. ¿Qué le está avisando?",
+    "image": "img/diagrams/brazo-horizontal.svg",
+    "imageAlt": "Auto visto desde atrás: el conductor saca el brazo izquierdo extendido en horizontal",
+    "options": [
+      "Que va a girar a la derecha.",
+      "Que va a frenar o detenerse.",
+      "Que usted puede adelantarlo.",
+      "Que va a girar a la izquierda."
+    ],
+    "correct": 3,
+    "explanation": "El brazo y la mano extendidos en horizontal hacia afuera indican giro (o cambio de carril) hacia la izquierda.",
+    "source": "Ley 18.191, art. 18 (6) y (7); Guía Nacional de Conducción, págs. 65 y 99",
+    "scenario": true
+  },
+  {
+    "category": "Señalización vial",
+    "topic": "Señales Manuales",
+    "question": "Va detrás de este auto y el conductor saca el brazo así. ¿Qué va a hacer?",
+    "image": "img/diagrams/brazo-arriba.svg",
+    "imageAlt": "Auto visto desde atrás: el conductor saca el brazo izquierdo doblado hacia arriba",
+    "options": [
+      "Girar a la izquierda.",
+      "Reducir mucho la velocidad o detenerse.",
+      "Girar a la derecha.",
+      "Dar marcha atrás."
+    ],
+    "correct": 2,
+    "explanation": "El brazo hacia afuera y doblado hacia arriba indica giro (o cambio de carril) hacia la derecha.",
+    "source": "Ley 18.191, art. 18 (6) y (7); Guía Nacional de Conducción, págs. 65 y 99",
+    "scenario": true
+  },
+  {
+    "category": "Señalización vial",
+    "topic": "Señales Manuales",
+    "question": "El conductor de adelante saca el brazo así. ¿Qué debe esperar usted?",
+    "image": "img/diagrams/brazo-abajo.svg",
+    "imageAlt": "Auto visto desde atrás: el conductor saca el brazo izquierdo extendido hacia abajo",
+    "options": [
+      "Que gire a la izquierda en la próxima esquina.",
+      "Que frene o se detenga.",
+      "Que gire a la derecha en la próxima esquina.",
+      "Que acelere para adelantar a otro vehículo."
+    ],
+    "correct": 1,
+    "explanation": "El brazo y la mano extendidos hacia abajo fuera del vehículo avisan una reducción considerable de la velocidad o una detención: hay que prepararse para frenar.",
+    "source": "Ley 18.191, art. 18 (6) y (7); Guía Nacional de Conducción, págs. 65 y 99",
+    "scenario": true
+  },
+  {
+    "category": "Señalización vial",
+    "topic": "Señales Manuales",
+    "question": "Se le quemó el señalero y quiere girar a la DERECHA. ¿Cuál de estas señales con el brazo corresponde?",
+    "optionImages": [
+      "img/diagrams/brazo-arriba.svg",
+      "img/diagrams/brazo-horizontal.svg",
+      "img/diagrams/brazo-abajo.svg"
+    ],
+    "options": [
+      "Señal A",
+      "Señal B",
+      "Señal C"
+    ],
+    "correct": 0,
+    "explanation": "Para girar a la derecha, el brazo se saca hacia afuera y hacia arriba. En horizontal indica giro a la izquierda y hacia abajo, que va a frenar.",
+    "source": "Ley 18.191, art. 18 (6) y (7); Guía Nacional de Conducción, págs. 65 y 99",
+    "scenario": true
+  },
+  {
+    "category": "Señalización vial",
+    "topic": "Señales Manuales",
+    "question": "No le funcionan las luces de freno y tiene que detenerse. ¿Cuál de estas señales con el brazo avisa a los de atrás?",
+    "optionImages": [
+      "img/diagrams/brazo-horizontal.svg",
+      "img/diagrams/brazo-abajo.svg",
+      "img/diagrams/brazo-arriba.svg"
+    ],
+    "options": [
+      "Señal B",
+      "Señal A",
+      "Señal C"
+    ],
+    "correct": 1,
+    "explanation": "Para avisar que se va a reducir mucho la velocidad o detenerse, el brazo se extiende hacia abajo fuera del vehículo.",
+    "source": "Ley 18.191, art. 18 (6) y (7); Guía Nacional de Conducción, págs. 65 y 99",
+    "scenario": true
+  },
+  {
+    "category": "Señalización vial",
+    "topic": "Señales Manuales",
+    "question": "Sin señalero, ¿cuál de estas señales con el brazo indica que va a girar a la IZQUIERDA?",
+    "optionImages": [
+      "img/diagrams/brazo-arriba.svg",
+      "img/diagrams/brazo-abajo.svg",
+      "img/diagrams/brazo-horizontal.svg"
+    ],
+    "options": [
+      "Señal B",
+      "Señal C",
+      "Señal A"
+    ],
+    "correct": 2,
+    "explanation": "El brazo extendido en horizontal indica giro a la izquierda.",
+    "source": "Ley 18.191, art. 18 (6) y (7); Guía Nacional de Conducción, págs. 65 y 99",
+    "scenario": true
+  },
+  {
+    "category": "Señalización vial",
+    "topic": "Agente de Tránsito",
+    "question": "Un agente dirige el tránsito en el cruce y usted lo ve así: de frente, con un brazo en alto. ¿Qué debe hacer?",
+    "image": "img/diagrams/agente-frente.svg",
+    "imageAlt": "Agente de tránsito de frente al conductor, con un brazo en alto",
+    "options": [
+      "Avanzar con precaución.",
+      "Detenerse.",
+      "Girar a la derecha.",
+      "Tocar bocina y seguir."
+    ],
+    "correct": 1,
+    "explanation": "El agente de frente o de espaldas, con uno o ambos brazos en alto, obliga a detenerse a quien lo enfrenta.",
+    "source": "Ley 18.191, art. 40; Guía Nacional de Conducción, pág. 109",
+    "scenario": true
+  },
+  {
+    "category": "Señalización vial",
+    "topic": "Agente de Tránsito",
+    "question": "El agente que dirige el tránsito está así respecto a usted: de perfil, con los brazos bajos. ¿Qué le indica?",
+    "image": "img/diagrams/agente-perfil.svg",
+    "imageAlt": "Agente de tránsito de perfil al conductor, con los brazos bajos",
+    "options": [
+      "Que puede continuar la marcha.",
+      "Que debe detenerse.",
+      "Que debe retroceder.",
+      "Que solo pueden pasar los peatones."
+    ],
+    "correct": 0,
+    "explanation": "El agente de perfil, con los brazos bajos o con un brazo bajo a su costado, permite continuar la marcha.",
+    "source": "Ley 18.191, art. 40; Guía Nacional de Conducción, pág. 109",
+    "scenario": true
+  },
+  {
+    "category": "Señalización vial",
+    "topic": "Agente de Tránsito",
+    "question": "¿Con cuál de estas posiciones el agente le está ordenando DETENERSE?",
+    "optionImages": [
+      "img/diagrams/agente-perfil.svg",
+      "img/diagrams/agente-frente.svg"
+    ],
+    "options": [
+      "Posición B",
+      "Posición A"
+    ],
+    "correct": 1,
+    "explanation": "De frente (o de espaldas) con el brazo en alto: detención obligatoria. De perfil con los brazos bajos: se puede avanzar.",
+    "source": "Ley 18.191, art. 40; Guía Nacional de Conducción, pág. 109",
+    "scenario": true
+  },
+  {
+    "category": "Señalización vial",
+    "topic": "Prioridad de Órdenes",
+    "question": "El semáforo está en VERDE para usted, pero en el cruce hay un agente que lo enfrenta así. ¿Qué hace?",
+    "image": "img/diagrams/agente-frente.svg",
+    "imageAlt": "Agente de tránsito de frente al conductor, con un brazo en alto",
+    "options": [
+      "Avanza: el semáforo prevalece sobre el agente.",
+      "Avanza despacio, tocando bocina para avisar.",
+      "Se detiene: el agente prevalece sobre el semáforo.",
+      "Pasa solo si no viene nadie por la otra calle."
+    ],
+    "correct": 2,
+    "explanation": "Las indicaciones de los agentes prevalecen sobre las señales luminosas. De frente y con el brazo en alto, el agente ordena detenerse aunque la luz esté en verde.",
+    "source": "Ley 18.191, arts. 39 y 40; Guía Nacional de Conducción, págs. 107 y 109",
+    "scenario": true
+  },
+  {
+    "category": "Señalización vial",
+    "topic": "Líneas de Pavimento",
+    "question": "Va por una calzada de doble sentido con esta línea central. ¿Qué le permite?",
+    "image": "img/diagrams/linea-discontinua.svg",
+    "imageAlt": "Calzada de doble sentido con una línea central discontinua",
+    "options": [
+      "Adelantar en cualquier momento, aunque venga un vehículo de frente.",
+      "Adelantar, si hay visibilidad y el carril contrario está libre.",
+      "Nada distinto: prohíbe adelantar igual que una línea continua.",
+      "Circular sobre la línea para dejar más lugar a la derecha."
+    ],
+    "correct": 1,
+    "explanation": "La línea central discontinua separa los carriles y permite adelantar, siempre que haya visibilidad y el carril opuesto esté libre en un tramo suficiente.",
+    "source": "Guía Nacional de Conducción, pág. 110",
+    "scenario": true
+  },
+  {
+    "category": "Señalización vial",
+    "topic": "Líneas de Pavimento",
+    "question": "Va detrás de un camión lento y la línea central de su lado es así. ¿Puede adelantarlo?",
+    "image": "img/diagrams/linea-continua.svg",
+    "imageAlt": "Calzada de doble sentido con una línea central continua",
+    "options": [
+      "No: esa línea prohíbe adelantar.",
+      "Sí, si no viene nadie de frente.",
+      "Sí, pero solamente de día.",
+      "Sí, si el camión le hace señas."
+    ],
+    "correct": 0,
+    "explanation": "La línea central continua prohíbe el adelantamiento a quien la tiene de su lado. Hay que esperar un tramo donde esté permitido.",
+    "source": "Guía Nacional de Conducción, pág. 110; Ley 18.191, art. 16 (5) (A)",
+    "scenario": true
+  },
+  {
+    "category": "Señalización vial",
+    "topic": "Líneas de Pavimento",
+    "question": "¿Qué significa esta marca en el eje de la calzada?",
+    "image": "img/diagrams/linea-doble-continua.svg",
+    "imageAlt": "Calzada de doble sentido con dos líneas centrales continuas",
+    "options": [
+      "Permite cruzarla para adelantar si hay buena visibilidad.",
+      "Marca un carril central exclusivo para motos y bicicletas.",
+      "Indica que se puede girar a la izquierda en cualquier punto.",
+      "Separa los sentidos: no se cruza ni se pisa."
+    ],
+    "correct": 3,
+    "explanation": "La doble línea continua separa los sentidos de circulación como si fuera una separación física: no debe cruzarse ni circularse sobre ella.",
+    "source": "Guía Nacional de Conducción, pág. 110",
+    "scenario": true
+  },
+  {
+    "category": "Señalización vial",
+    "topic": "Líneas de Pavimento",
+    "question": "Hay mucho tránsito y la franja central con líneas diagonales está vacía. ¿Puede usarla para avanzar o para detenerse un momento?",
+    "image": "img/diagrams/zona-neutral.svg",
+    "imageAlt": "Calzada con una franja central de líneas diagonales encerradas entre dos líneas continuas",
+    "options": [
+      "Sí, para adelantar cuando el tránsito está detenido.",
+      "Sí, para detenerse un momento con las balizas.",
+      "No: ahí no se puede circular ni estacionar.",
+      "Sí: es un carril para esperar el giro a la izquierda."
+    ],
+    "correct": 2,
+    "explanation": "Las líneas diagonales entre líneas continuas marcan una zona neutral: está prohibido circular sobre ella y estacionar.",
+    "source": "Guía Nacional de Conducción, pág. 111",
+    "scenario": true
+  },
+  {
+    "category": "Señalización vial",
+    "topic": "Líneas de Pavimento",
+    "question": "Llega a esta cebra y una persona está cruzando. ¿Qué hace?",
+    "image": "img/diagrams/cebra-detencion.svg",
+    "imageAlt": "Un auto llega a una cebra con línea de detención; un peatón está cruzando",
+    "options": [
+      "Avanza despacio y pasa por detrás de la persona, sin detenerse.",
+      "Se detiene en la línea de detención y espera a que cruce.",
+      "Se detiene sobre la cebra, bien cerca, para que la persona lo vea.",
+      "Toca bocina para avisar y sigue si la persona se queda quieta."
+    ],
+    "correct": 1,
+    "explanation": "La cebra reafirma la preferencia de los peatones: hay que reducir la velocidad y detenerse si hay personas cruzando, en la línea de detención y sin invadir el cruce.",
+    "source": "Ley 18.191, art. 17 (7); Guía Nacional de Conducción, págs. 110-111",
+    "scenario": true
+  },
+  {
+    "category": "Señalización vial",
+    "topic": "Líneas de Pavimento",
+    "question": "¿Con cuál de estas líneas centrales está permitido adelantar (si hay visibilidad y el carril contrario está libre)?",
+    "optionImages": [
+      "img/diagrams/linea-discontinua.svg",
+      "img/diagrams/linea-continua.svg",
+      "img/diagrams/linea-doble-continua.svg"
+    ],
+    "options": [
+      "Línea A",
+      "Línea B",
+      "Línea C"
+    ],
+    "correct": 0,
+    "explanation": "Solo la línea discontinua permite adelantar. La continua lo prohíbe y la doble continua no puede cruzarse ni pisarse.",
+    "source": "Guía Nacional de Conducción, pág. 110",
+    "scenario": true
+  },
+  {
+    "category": "Normas de tránsito y circulación",
+    "topic": "Preferencia de Paso",
+    "question": "Cruce sin señales ni semáforo. Los autos A y B llegan al mismo tiempo. ¿Quién pasa primero?",
+    "image": "img/diagrams/cruce-derecha.svg",
+    "imageAlt": "Cruce sin señales: el auto A llega desde abajo y el auto B llega por la derecha de A",
+    "options": [
+      "A, porque sigue derecho.",
+      "El que toque bocina primero.",
+      "A, porque llega por la izquierda de B.",
+      "B, porque llega por la derecha de A."
+    ],
+    "correct": 3,
+    "explanation": "En una intersección no señalizada cede el paso quien ve venir al otro por su derecha. A ve a B por su derecha, así que A espera.",
+    "source": "Ley 18.191, art. 17 (3); Guía Nacional de Conducción, pág. 100",
+    "scenario": true
+  },
+  {
+    "category": "Normas de tránsito y circulación",
+    "topic": "Preferencia de Paso",
+    "question": "Cruce sin señales ni semáforo. Los autos A y B llegan al mismo tiempo. ¿Quién pasa primero?",
+    "image": "img/diagrams/cruce-izquierda.svg",
+    "imageAlt": "Cruce sin señales: el auto A llega desde abajo y el auto B llega por la izquierda de A",
+    "options": [
+      "B, porque llega por la izquierda de A.",
+      "B, porque va por la calle transversal.",
+      "A, porque B lo ve venir por su derecha.",
+      "Ninguno: deben detenerse los dos y esperar a un agente."
+    ],
+    "correct": 2,
+    "explanation": "B tiene a A a su derecha, así que B debe ceder el paso. Mirá siempre quién queda a la derecha de quién.",
+    "source": "Ley 18.191, art. 17 (3); Guía Nacional de Conducción, pág. 100",
+    "scenario": true
+  },
+  {
+    "category": "Normas de tránsito y circulación",
+    "topic": "Preferencia de Paso",
+    "question": "El auto A tiene una señal de PARE. El auto B llega por la izquierda de A y no tiene ninguna señal. ¿Quién pasa primero?",
+    "image": "img/diagrams/cruce-pare.svg",
+    "imageAlt": "Cruce: el auto A tiene una señal de PARE; el auto B llega por la izquierda de A, sin señal",
+    "options": [
+      "A, porque B llega por su izquierda y debe esperarlo.",
+      "B, porque el PARE obliga a A a cederle el paso.",
+      "A, si llegó a la esquina antes que B.",
+      "El que circule a mayor velocidad en ese momento."
+    ],
+    "correct": 1,
+    "explanation": "Donde la prioridad está marcada con señales de PARE o CEDA EL PASO no se aplica la regla de la derecha: A debe detenerse y dejar pasar a B.",
+    "source": "Ley 18.191, art. 17 (4); Guía Nacional de Conducción, págs. 100 y 111",
+    "scenario": true
+  },
+  {
+    "category": "Normas de tránsito y circulación",
+    "topic": "Preferencia de Paso",
+    "question": "El auto B llega por la derecha de A, pero tiene una señal de CEDA EL PASO. ¿Quién pasa primero?",
+    "image": "img/diagrams/cruce-ceda.svg",
+    "imageAlt": "Cruce: el auto B, que llega por la derecha de A, tiene una señal de Ceda el paso; A no tiene señal",
+    "options": [
+      "A, porque la señal obliga a B a ceder el paso.",
+      "B, porque llega por la derecha y eso vale más que la señal.",
+      "B, porque el CEDA EL PASO solo se aplica frente a peatones.",
+      "Los dos al mismo tiempo, cada uno con precaución."
+    ],
+    "correct": 0,
+    "explanation": "La señal manda sobre la regla de la derecha: B debe reducir la velocidad y detenerse si es necesario para dejar pasar a A.",
+    "source": "Ley 18.191, art. 17 (4); Guía Nacional de Conducción, págs. 100 y 111",
+    "scenario": true
+  },
+  {
+    "category": "Normas de tránsito y circulación",
+    "topic": "Preferencia y Giros",
+    "question": "Cruce sin señales. El auto A quiere girar a la izquierda y el auto B viene de frente y sigue derecho. ¿Quién pasa primero?",
+    "image": "img/diagrams/cruce-giro-izquierda.svg",
+    "imageAlt": "Cruce: el auto A va a girar a la izquierda; el auto B viene de frente y sigue derecho",
+    "options": [
+      "A, porque puso el señalero antes de que B llegara al cruce.",
+      "A, porque el que gira a la izquierda tiene siempre prioridad.",
+      "El que llegue primero al centro del cruce, sea A o B.",
+      "B, porque quien gira cede el paso al que sigue de frente."
+    ],
+    "correct": 3,
+    "explanation": "El conductor que cambia de dirección debe ceder el paso a los demás: A espera a que pase B y recién después gira.",
+    "source": "Ley 18.191, art. 17 (6); Guía Nacional de Conducción, págs. 66 y 96",
+    "scenario": true
+  },
+  {
+    "category": "Normas de tránsito y circulación",
+    "topic": "Preferencia y Giros",
+    "question": "El auto A va a girar a la derecha y una persona (P) está cruzando la calle a la que va a entrar. ¿Qué hace A?",
+    "image": "img/diagrams/cruce-giro-peaton.svg",
+    "imageAlt": "Cruce: el auto A va a girar a la derecha; un peatón P cruza por la senda peatonal de la calle a la que A va a entrar",
+    "options": [
+      "Gira primero: los vehículos tienen prioridad al girar.",
+      "Toca bocina para que se apure y gira.",
+      "Espera a que la persona termine de cruzar y después gira.",
+      "Gira pasando por delante del peatón, despacio."
+    ],
+    "correct": 2,
+    "explanation": "Al girar hay que ceder el paso a los peatones que cruzan por la senda peatonal.",
+    "source": "Ley 18.191, art. 17 (6) y (7); Guía Nacional de Conducción, págs. 96 y 100",
+    "scenario": true
+  },
+  {
+    "category": "Normas de tránsito y circulación",
+    "topic": "Preferencia de Paso",
+    "question": "Hubo un apagón y los semáforos del cruce no funcionan. ¿Quién pasa primero?",
+    "image": "img/diagrams/cruce-semaforo-apagado.svg",
+    "imageAlt": "Cruce con los semáforos apagados: el auto A llega desde abajo y el auto B por la derecha de A",
+    "options": [
+      "A, porque va por la calle principal.",
+      "B, que aparece por la derecha de A.",
+      "El que venía con luz verde antes del apagón.",
+      "Nadie puede cruzar hasta que vuelva la luz."
+    ],
+    "correct": 1,
+    "explanation": "Con el semáforo apagado el cruce funciona como uno sin señales: tiene preferencia el vehículo que aparece por la derecha.",
+    "source": "Guía Nacional de Conducción, pág. 108; Ley 18.191, art. 17 (3)",
+    "scenario": true
+  },
+  {
+    "category": "Normas de tránsito y circulación",
+    "topic": "Preferencia de Paso",
+    "question": "El auto A tiene luz verde, pero del otro lado del cruce el tránsito está detenido y no queda lugar. ¿Qué hace A?",
+    "image": "img/diagrams/cruce-bloqueado.svg",
+    "imageAlt": "Cruce con semáforo en verde para el auto A; del otro lado del cruce los autos están detenidos y no queda lugar",
+    "options": [
+      "Espera antes del cruce hasta tener lugar del otro lado.",
+      "Avanza: tiene verde y la culpa sería de los demás.",
+      "Entra al cruce y espera en el medio.",
+      "Pasa por el carril contrario."
+    ],
+    "correct": 0,
+    "explanation": "Está prohibido avanzar en una encrucijada, aunque el semáforo lo permita, si existe la posibilidad de quedar obstruyendo el cruce.",
+    "source": "Ley 18.191, art. 17 (9); Guía Nacional de Conducción, pág. 101",
+    "scenario": true
+  },
+  {
+    "category": "Normas de tránsito y circulación",
+    "topic": "Preferencia de Paso",
+    "question": "El auto A llega por un camino vecinal a una ruta nacional. No hay señales. ¿Quién tiene preferencia?",
+    "image": "img/diagrams/ruta-camino.svg",
+    "imageAlt": "El auto A llega por un camino vecinal a una ruta nacional por la que circula el auto B; no hay señales",
+    "options": [
+      "A, porque B llega por su izquierda.",
+      "A, porque ya está detenido en el cruce.",
+      "El que circule a menor velocidad.",
+      "B, que circula por la ruta nacional."
+    ],
+    "correct": 3,
+    "explanation": "Las rutas nacionales tienen preferencia frente a los caminos que acceden a ellas: A debe esperar a que la ruta esté libre.",
+    "source": "Guía Nacional de Conducción, pág. 112; Ley 18.191, art. 17 (2)",
+    "scenario": true
+  },
+  {
+    "category": "Normas de tránsito y circulación",
+    "topic": "Preferencia de Paso",
+    "question": "El auto A sale de un garaje. ¿A quién debe ceder el paso?",
+    "image": "img/diagrams/salida-garaje.svg",
+    "imageAlt": "El auto A sale de un garaje: tiene que cruzar la vereda, por donde camina un peatón P, y entrar a la calle, por donde circula el auto B",
+    "options": [
+      "Solo al auto B: los peatones deben esperar a que A salga.",
+      "Solo al peatón: en la calle, A pasa antes que B.",
+      "Al peatón (P) y también al auto B.",
+      "A ninguno: quien sale de un garaje tiene preferencia."
+    ],
+    "correct": 2,
+    "explanation": "Quien ingresa a la vía pública debe ceder el paso a los demás usuarios. La vereda es de los peatones: solo se cruza para entrar o salir, dándoles preferencia a ellos y a los vehículos que circulan.",
+    "source": "Ley 18.191, art. 17 (5); Guía Nacional de Conducción, págs. 80 y 105",
+    "scenario": true
+  },
+  {
+    "category": "Normas de tránsito y circulación",
+    "topic": "Adelantamiento",
+    "question": "Ruta de tres carriles con doble sentido. El auto A quiere adelantar al camión. ¿Qué carril puede usar?",
+    "image": "img/diagrams/tres-carriles.svg",
+    "imageAlt": "Ruta de tres carriles con doble sentido. El auto A circula por el carril 3 (derecho) detrás de un camión; por el carril 1 (izquierdo) viene un auto de frente",
+    "options": [
+      "El carril 1 (izquierdo).",
+      "El carril 2 (central), si está libre.",
+      "Cualquiera de los dos, el que esté libre.",
+      "Ninguno: en estas vías no se puede adelantar."
+    ],
+    "correct": 1,
+    "explanation": "En vías de tres carriles con doble sentido se adelanta por el carril central. El carril izquierdo queda reservado exclusivamente para quienes vienen en sentido contrario.",
+    "source": "Ley 18.191, art. 16 (7)",
+    "scenario": true
+  },
+  {
+    "category": "Normas de tránsito y circulación",
+    "topic": "Adelantamiento",
+    "question": "Avenida con dos carriles por sentido. El auto B puso el señalero para girar a la izquierda. ¿Puede el auto A pasarlo por la derecha?",
+    "image": "img/diagrams/adelantar-derecha.svg",
+    "imageAlt": "Avenida con dos carriles por sentido. El auto B, en el carril izquierdo, lleva encendido el señalero izquierdo; el auto A viene por el carril derecho",
+    "options": [
+      "Sí, con las precauciones de todo adelantamiento.",
+      "No: en ningún caso se puede adelantar por la derecha.",
+      "Solo si B está completamente detenido y con balizas.",
+      "Solo si A toca bocina y hace juego de luces antes."
+    ],
+    "correct": 0,
+    "explanation": "En una calzada con dos o más carriles en el mismo sentido se puede adelantar por la derecha cuando el vehículo de adelante indicó que va a girar o detenerse a su izquierda.",
+    "source": "Ley 18.191, art. 16 (9) (A); Guía Nacional de Conducción, pág. 101",
+    "scenario": true
+  },
+  {
+    "category": "Normas de tránsito y circulación",
+    "topic": "Estacionamiento en Pendiente",
+    "question": "Estaciona en una calle en BAJADA, con el cordón a su derecha. ¿Cómo deja las ruedas delanteras?",
+    "optionImages": [
+      "img/diagrams/ruedas-a-la-calzada.svg",
+      "img/diagrams/ruedas-al-cordon.svg"
+    ],
+    "options": [
+      "Opción B",
+      "Opción A"
+    ],
+    "correct": 1,
+    "explanation": "En bajada, las ruedas delanteras se giran hacia el cordón: si falla el freno, el auto se traba contra él. Además se pone el freno de mano.",
+    "source": "Guía Nacional de Conducción, págs. 103-104; Ley 18.191, art. 19 (3)",
+    "scenario": true
+  },
+  {
+    "category": "Normas de tránsito y circulación",
+    "topic": "Estacionamiento en Pendiente",
+    "question": "Estaciona en una calle en SUBIDA, con el cordón a su derecha. ¿Cómo deja las ruedas delanteras?",
+    "optionImages": [
+      "img/diagrams/ruedas-a-la-calzada.svg",
+      "img/diagrams/ruedas-al-cordon.svg"
+    ],
+    "options": [
+      "Opción A",
+      "Opción B"
+    ],
+    "correct": 0,
+    "explanation": "En subida, las ruedas delanteras se giran hacia la calzada: si el auto se va hacia atrás, la parte trasera del neumático hace tope contra el cordón.",
+    "source": "Guía Nacional de Conducción, págs. 103-104; Ley 18.191, art. 19 (3)",
+    "scenario": true
+  },
+  {
+    "category": "Normas de tránsito y circulación",
+    "topic": "Preferencia de Paso",
+    "question": "Va por una calle con bastante tránsito y escucha la sirena de una ambulancia que se acerca por detrás. ¿Qué hace?",
+    "options": [
+      "Acelera todo lo que puede para no demorarla y la deja pasar más adelante.",
+      "Se arrima al borde más próximo y se detiene, sin bloquear una esquina.",
+      "Sigue igual por su carril: es la ambulancia la que tiene que esquivarlo.",
+      "Frena en seco en su carril, donde esté, y espera a que lo pase."
+    ],
+    "correct": 1,
+    "explanation": "Los vehículos de emergencia con señales audibles y visuales tienen preferencia. La Guía indica despejar la calle, acercarse al borde más próximo y detenerse sin bloquear intersecciones.",
+    "source": "Ley 18.191, art. 17 (8); Guía Nacional de Conducción, pág. 104",
+    "scenario": true
+  },
+  {
+    "category": "Normas de tránsito y circulación",
+    "topic": "Velocidad",
+    "question": "Va por la ciudad con lluvia muy fuerte y poca visibilidad. El máximo permitido es 45 km/h. ¿A qué velocidad debe ir?",
+    "options": [
+      "A la que le permita controlar el auto, aunque sea menos de 45.",
+      "A 45 km/h, porque es la velocidad que fija la norma para la ciudad.",
+      "A algo más de 45, para salir cuanto antes de la zona de lluvia.",
+      "A la misma velocidad que el auto de adelante, bien cerca de él."
+    ],
+    "correct": 0,
+    "explanation": "El máximo no es una velocidad obligatoria: la velocidad debe ser compatible con el estado de la vía, el clima, el tránsito y el vehículo.",
+    "source": "Ley 18.191, art. 15; Guía Nacional de Conducción, pág. 91",
+    "scenario": true
+  },
+  {
+    "category": "Normas de tránsito y circulación",
+    "topic": "Distancia de Seguridad",
+    "question": "En ruta, el auto de adelante pasa junto a un poste. Usted empieza a contar y llega al poste cuando va por \"mil ciento dos\". ¿Qué significa?",
+    "options": [
+      "Que la distancia es exactamente la recomendada.",
+      "Que todavía puede acercarse un poco más.",
+      "Que es el momento justo para adelantarlo.",
+      "Que va demasiado cerca y debe alejarse."
+    ],
+    "correct": 3,
+    "explanation": "Con la regla de los 3 segundos, si llega al punto de referencia antes de terminar de contar tres segundos, la distancia es insuficiente.",
+    "source": "Guía Nacional de Conducción, pág. 113",
+    "scenario": true
+  },
+  {
+    "category": "Normas de tránsito y circulación",
+    "topic": "Adelantamiento en Ruta",
+    "question": "Quiere adelantar a un camión en una ruta de doble sentido. Por el espejo ve que el auto de atrás ya salió a adelantarlo a usted. ¿Qué hace?",
+    "options": [
+      "Sale igual, porque usted va más adelante.",
+      "Sale rápido para ganarle el lugar al otro.",
+      "No sale: espera a que el otro termine.",
+      "Frena de golpe para obligarlo a volver."
+    ],
+    "correct": 2,
+    "explanation": "No se puede adelantar si un vehículo que viene detrás ya inició la misma maniobra.",
+    "source": "Ley 18.191, art. 16 (2) (A); Guía Nacional de Conducción, págs. 101 y 114",
+    "scenario": true
+  },
+  {
+    "category": "Normas de tránsito y circulación",
+    "topic": "Adelantamiento en Ruta",
+    "question": "Va detrás de un camión que pone el señalero izquierdo para adelantar a un tractor. ¿Puede usted adelantar al camión en ese momento?",
+    "options": [
+      "Sí, pasando al camión y al tractor en una sola maniobra.",
+      "No: el camión ya indicó que va a adelantar a otro.",
+      "Sí, si antes le hace juego de luces al camión.",
+      "Sí, usando la banquina para no molestar al camión."
+    ],
+    "correct": 1,
+    "explanation": "Una de las condiciones para adelantar es que el vehículo de adelante no haya indicado el propósito de adelantar a un tercero.",
+    "source": "Ley 18.191, art. 16 (2) (B); Guía Nacional de Conducción, pág. 101",
+    "scenario": true
+  },
+  {
+    "category": "Normas de tránsito y circulación",
+    "topic": "Adelantamiento Prohibido",
+    "question": "En una ruta de doble sentido va detrás de un vehículo lento y se acerca a un puente. ¿Qué hace?",
+    "options": [
+      "Espera a pasar el puente para adelantar.",
+      "Adelanta sobre el puente si no viene nadie.",
+      "Empieza antes y termina de pasar sobre el puente.",
+      "Lo pasa por la derecha, pegado a la baranda."
+    ],
+    "correct": 0,
+    "explanation": "En calzadas de doble sentido está prohibido adelantar en puentes, viaductos y túneles.",
+    "source": "Ley 18.191, art. 16 (5) (D); Guía Nacional de Conducción, pág. 101",
+    "scenario": true
+  },
+  {
+    "category": "Normas de tránsito y circulación",
+    "topic": "Adelantamiento Prohibido",
+    "question": "Un auto se detuvo delante de una cebra para dejar cruzar a unas personas. Usted viene por el carril de al lado. ¿Qué hace?",
+    "options": [
+      "Lo pasa despacio, mirando hacia la cebra.",
+      "Lo pasa tocando bocina para avisar.",
+      "Lo pasa y frena recién si ve a alguien.",
+      "Se detiene también, sin adelantarlo."
+    ],
+    "correct": 3,
+    "explanation": "Está prohibido adelantar a un vehículo detenido momentáneamente en una cebra: puede estar tapando a un peatón que cruza.",
+    "source": "Guía Nacional de Conducción, pág. 101; Ley 18.191, art. 16 (5) (E)",
+    "scenario": true
+  },
+  {
+    "category": "Normas de tránsito y circulación",
+    "topic": "Adelantamiento",
+    "question": "Va por un camino angosto y un vehículo que viene detrás quiere adelantarlo. ¿Qué corresponde?",
+    "options": [
+      "Que usted no se mueva del centro.",
+      "Que el otro lo pase por la banquina.",
+      "Que cada conductor ceda la mitad del camino.",
+      "Que usted acelere para que no lo pase."
+    ],
+    "correct": 2,
+    "explanation": "En caminos de ancho insuficiente, cuando un vehículo adelanta a otro que va en el mismo sentido, cada conductor debe ceder la mitad del camino.",
+    "source": "Ley 18.191, art. 16 (4)",
+    "scenario": true
+  },
+  {
+    "category": "Normas de tránsito y circulación",
+    "topic": "Maniobras en General",
+    "question": "Se pasó de la entrada a la que iba, en una avenida con tránsito. ¿Puede volver media cuadra marcha atrás?",
+    "options": [
+      "Sí, si enciende las balizas mientras retrocede.",
+      "No: sigue adelante y da la vuelta donde esté permitido.",
+      "Sí, si va despacio y siempre por el carril derecho.",
+      "Sí, si un acompañante se baja y le va avisando."
+    ],
+    "correct": 1,
+    "explanation": "La circulación marcha atrás solo puede hacerse en casos estrictamente justificados, sin perturbar a los demás usuarios y con las precauciones necesarias.",
+    "source": "Ley 18.191, art. 23 (3)",
+    "scenario": true
+  },
+  {
+    "category": "Normas de tránsito y circulación",
+    "topic": "Giro en U",
+    "question": "Ve un lugar para estacionar del otro lado de la calle, a mitad de cuadra. ¿Puede hacer un giro en U ahí mismo?",
+    "options": [
+      "No: el giro en U se hace en una intersección que lo permita.",
+      "Sí, siempre que en ese momento no venga nadie.",
+      "Sí, si pone el señalero izquierdo con anticipación.",
+      "Sí, si la calle es ancha y lo hace en una sola maniobra."
+    ],
+    "correct": 0,
+    "explanation": "La inversión de marcha solo se hace en intersecciones donde esté permitida y sin señal que la prohíba, nunca en mitad de la calzada.",
+    "source": "Guía Nacional de Conducción, págs. 65 y 96; Reglamento Nacional de Circulación Vial, art. 16.4",
+    "scenario": true
+  },
+  {
+    "category": "Normas de tránsito y circulación",
+    "topic": "Giros",
+    "question": "Va por el carril izquierdo de una calle de dos carriles y a pocos metros de la esquina recuerda que tenía que doblar a la DERECHA. ¿Qué hace?",
+    "options": [
+      "Gira igual desde el carril izquierdo, cruzándose rápido.",
+      "Frena en su carril y espera un hueco para cruzarse a la derecha.",
+      "Gira desde donde está, tocando bocina para avisar a los demás.",
+      "Sigue de largo y gira más adelante, desde el carril derecho."
+    ],
+    "correct": 3,
+    "explanation": "Para girar a la derecha hay que ubicarse previamente en el carril derecho y señalizar con anticipación (al menos 30 metros). Una maniobra solo se hace si no afecta la seguridad ni la fluidez del tránsito.",
+    "source": "Ley 18.191, art. 18 (1) y (3); Guía Nacional de Conducción, pág. 65",
+    "scenario": true
+  },
+  {
+    "category": "Normas de tránsito y circulación",
+    "topic": "Emergencias",
+    "question": "De noche, en una ruta, el auto se le rompe y queda detenido sobre el carril. ¿Qué hace primero?",
+    "options": [
+      "Apaga todas las luces para cuidar la batería y camina a buscar ayuda.",
+      "Coloca una sola baliza pegada al paragolpes trasero y espera adentro.",
+      "Coloca las balizas a 50 metros adelante y atrás y trata de sacarlo de la calzada.",
+      "Se queda adentro con las luces largas encendidas hasta que alguien pare."
+    ],
+    "correct": 2,
+    "explanation": "Si por fuerza mayor el vehículo queda como obstáculo, hay que señalizarlo de inmediato y retirarlo lo antes posible. En carreteras, las balizas van a 50 metros por delante y por detrás.",
+    "source": "Ley 18.191, art. 23 (2); Reglamento Nacional de Circulación Vial, art. 7.23; Guía Nacional de Conducción, pág. 113",
+    "scenario": true
+  },
+  {
+    "category": "Normas de tránsito y circulación",
+    "topic": "Conducción en Ruta",
+    "question": "Pincha una rueda en una ruta que tiene banquina. ¿Dónde se detiene a cambiarla?",
+    "options": [
+      "En su carril, con las balizas puestas.",
+      "En la banquina o en un camino lateral.",
+      "En el carril contrario, donde hay más luz.",
+      "En el centro de la ruta, para que lo vean."
+    ],
+    "correct": 1,
+    "explanation": "Fuera de zonas urbanas está prohibido detenerse sobre la faja de circulación si hay banquina. La banquina se usa justamente para detenciones de emergencia.",
+    "source": "Ley 18.191, art. 19 (4); Guía Nacional de Conducción, págs. 112-113",
+    "scenario": true
+  },
+  {
+    "category": "Normas de tránsito y circulación",
+    "topic": "Cruces Ferroviarios",
+    "question": "Llega a un paso a nivel sin barreras. No ve ni escucha ningún tren. ¿Qué hace?",
+    "options": [
+      "Se detiene antes del cruce y sigue solo si comprueba que no hay riesgo.",
+      "Cruza sin frenar, porque no vio ni escuchó ningún tren acercarse.",
+      "Acelera para pasar el cruce en el menor tiempo posible.",
+      "Cruza despacio, sin llegar a detenerse, tocando bocina."
+    ],
+    "correct": 0,
+    "explanation": "Los conductores deben detener sus vehículos antes de un cruce ferroviario a nivel y continuar solo después de comprobar que no existe riesgo de accidente.",
+    "source": "Ley 18.191, art. 20; Guía Nacional de Conducción, pág. 112",
+    "scenario": true
+  },
+  {
+    "category": "Normas de tránsito y circulación",
+    "topic": "Estacionamiento",
+    "question": "Estaciona apurado y el auto queda a medio metro del cordón. ¿Está bien estacionado?",
+    "options": [
+      "Sí, mientras no llegue a pisar la línea central.",
+      "Sí, siempre que deje las balizas encendidas.",
+      "Sí: se permite hasta un metro de separación.",
+      "No: debe quedar a no más de 30 cm del cordón."
+    ],
+    "correct": 3,
+    "explanation": "En zonas urbanas se estaciona en el sentido de la circulación, paralelo al cordón y a no más de 30 centímetros de él.",
+    "source": "Ley 18.191, art. 19 (1); Guía Nacional de Conducción, pág. 104",
+    "scenario": true
+  },
+  {
+    "category": "Normas de tránsito y circulación",
+    "topic": "Estacionamiento",
+    "question": "Tiene que bajar a comprar algo \"un minuto\" y no hay lugar. ¿Puede dejar el auto en doble fila con las balizas?",
+    "options": [
+      "Sí: las balizas encendidas lo autorizan.",
+      "Sí, si queda alguien adentro del auto.",
+      "No: en doble fila no se puede ni detenerse.",
+      "Sí, mientras no pasen de cinco minutos."
+    ],
+    "correct": 2,
+    "explanation": "En zonas urbanas está prohibido estacionar o detenerse en doble fila. Las balizas no habilitan a estacionar donde no se puede.",
+    "source": "Reglamento Nacional de Circulación Vial, art. 18.2; Guía Nacional de Conducción, pág. 103",
+    "scenario": true
+  },
+  {
+    "category": "Normas de tránsito y circulación",
+    "topic": "Estacionamiento",
+    "question": "Encuentra un lugar libre junto al cordón, 5 metros antes de un cartel de PARE. ¿Puede estacionar ahí?",
+    "options": [
+      "Sí, mientras el auto no llegue a tapar la esquina.",
+      "No: debe haber al menos 10 metros hasta el cartel.",
+      "Sí, si es por poco tiempo y deja las balizas.",
+      "Sí: la distancia mínima exigida es de 3 metros."
+    ],
+    "correct": 1,
+    "explanation": "Está prohibido estacionar o detenerse a menos de diez metros antes de un PARE, un CEDA EL PASO o una señal de advertencia: el auto taparía la señal.",
+    "source": "Reglamento Nacional de Circulación Vial, art. 18.2 (f); Guía Nacional de Conducción, pág. 103",
+    "scenario": true
+  },
+  {
+    "category": "Normas de tránsito y circulación",
+    "topic": "Estacionamiento",
+    "question": "Estaba estacionado junto al cordón y quiere salir. Viene un auto por la calle. ¿Quién tiene preferencia?",
+    "options": [
+      "El auto que viene circulando.",
+      "Usted, porque puso el señalero primero.",
+      "Usted, porque ya empezó a moverse.",
+      "El que vaya más despacio de los dos."
+    ],
+    "correct": 0,
+    "explanation": "Al salir de un estacionamiento tienen preferencia los vehículos que circulan. Quien ingresa a la vía debe ceder el paso.",
+    "source": "Guía Nacional de Conducción, pág. 104; Ley 18.191, art. 17 (5)",
+    "scenario": true
+  },
+  {
+    "category": "Normas de tránsito y circulación",
+    "topic": "Peatones",
+    "question": "Un ómnibus está detenido y están bajando escolares. Usted va a pasar a su lado. ¿Cómo lo hace?",
+    "options": [
+      "A velocidad normal, por el otro carril.",
+      "Tocando bocina para que nadie cruce.",
+      "Acelerando, para pasar antes de que bajen.",
+      "A paso de peatón o deteniéndose."
+    ],
+    "correct": 3,
+    "explanation": "Al pasar junto a un ómnibus detenido hay que reducir a paso de peatón o detenerse: pueden aparecer personas, sobre todo niños, cruzando por delante o por detrás.",
+    "source": "Guía Nacional de Conducción, págs. 80 y 106",
+    "scenario": true
+  },
+  {
+    "category": "Normas de tránsito y circulación",
+    "topic": "Peatones",
+    "question": "Pasa frente a una escuela justo a la hora de salida y hay muchos niños en la vereda. ¿Cómo circula?",
+    "options": [
+      "A 45 km/h, que es el máximo en ciudad.",
+      "Rápido, para despejar la zona cuanto antes.",
+      "A paso de peatón, listo para detenerse.",
+      "Por el centro de la calle, a velocidad normal."
+    ],
+    "correct": 2,
+    "explanation": "Cerca de escuelas, en horas de entrada y salida, hay que reducir la velocidad a paso de peatón: los niños perciben mal el riesgo y pueden cruzar entre autos estacionados.",
+    "source": "Guía Nacional de Conducción, págs. 78, 80 y 106",
+    "scenario": true
+  },
+  {
+    "category": "Normas de tránsito y circulación",
+    "topic": "Peatones",
+    "question": "Una persona con bastón BLANCO empieza a cruzar la calle delante suyo, lejos de la esquina. ¿Qué hace?",
+    "options": [
+      "Toca bocina para avisarle que viene un auto.",
+      "Se detiene y le da tiempo para cruzar.",
+      "La esquiva por detrás sin llegar a frenar.",
+      "Sigue, porque no cruza por la esquina."
+    ],
+    "correct": 1,
+    "explanation": "El bastón blanco identifica a una persona sin visión. El conductor debe reconocerla y darle tiempo suficiente para cruzar.",
+    "source": "Guía Nacional de Conducción, págs. 79-80",
+    "scenario": true
+  },
+  {
+    "category": "Normas de tránsito y circulación",
+    "topic": "Peatones",
+    "question": "Ve a una persona esperando para cruzar con un bastón VERDE. ¿Qué le indica ese bastón?",
+    "options": [
+      "Que es una persona con baja visión.",
+      "Que es un inspector de tránsito.",
+      "Que es una persona sorda.",
+      "Nada en particular: es un bastón de apoyo."
+    ],
+    "correct": 0,
+    "explanation": "El bastón verde identifica a las personas con baja visión y el blanco, a las personas sin visión. En los dos casos hay que darles tiempo suficiente para cruzar.",
+    "source": "Guía Nacional de Conducción, págs. 79-80",
+    "scenario": true
+  },
+  {
+    "category": "Normas de tránsito y circulación",
+    "topic": "Reglas de Circulación",
+    "question": "Va a pasar junto a una persona en bicicleta que circula por el borde de la calle. ¿Cómo lo hace?",
+    "options": [
+      "Tocando bocina fuerte al llegar a su lado.",
+      "Bien pegado, para no invadir el otro carril.",
+      "Acelerando a fondo para pasarla rápido.",
+      "Con distancia prudente y sin tocar bocina de cerca."
+    ],
+    "correct": 3,
+    "explanation": "La Guía pide mantener una distancia prudente con quienes van en bicicleta y no tocar bocina cerca: el susto puede hacerles perder el equilibrio.",
+    "source": "Guía Nacional de Conducción, pág. 75",
+    "scenario": true
+  },
+  {
+    "category": "Normas de tránsito y circulación",
+    "topic": "Conducción en Ruta",
+    "question": "En ruta, un vehículo que viene de frente invade su carril y sigue avanzando hacia usted. ¿Qué hace?",
+    "options": [
+      "Se pasa al carril contrario, que quedó libre, para esquivarlo por la izquierda.",
+      "Mantiene su carril y su velocidad: es el otro quien debe corregir.",
+      "Reduce la velocidad y, si sigue viniendo, sale hacia la banquina derecha.",
+      "Frena en seco, se queda en su carril y le hace juego de luces."
+    ],
+    "correct": 2,
+    "explanation": "Ante un vehículo que invade su senda: reducir la velocidad y, si continúa, salir hacia la banquina o la cuneta derecha. Irse hacia la izquierda puede terminar en un choque frontal si el otro vuelve a su carril.",
+    "source": "Guía Nacional de Conducción, pág. 112",
+    "scenario": true
+  },
+  {
+    "category": "Normas de tránsito y circulación",
+    "topic": "Conducción en Ruta",
+    "question": "De noche va por la ruta con las luces largas y alcanza a un auto que circula adelante. ¿Qué hace con las luces?",
+    "options": [
+      "Mantiene las largas para ver mejor.",
+      "Cambia a luces cortas.",
+      "Le hace juego de luces para que se corra.",
+      "Apaga las luces por un momento."
+    ],
+    "correct": 1,
+    "explanation": "Las luces largas deben cambiarse por las cortas al cruzarse con un vehículo que viene de frente y también al seguir a otro a corta distancia: lo encandilan por los espejos.",
+    "source": "Guía Nacional de Conducción, págs. 27 y 112",
+    "scenario": true
+  },
+  {
+    "category": "Normas de tránsito y circulación",
+    "topic": "Conducción en Ruta",
+    "question": "En ruta alcanza a una maquinaria agrícola que circula muy despacio. ¿Qué hace?",
+    "options": [
+      "Reduce la velocidad y la adelanta con cautela, solo donde está permitido y hay visibilidad.",
+      "La adelanta de inmediato, aunque haya línea continua, porque va muy despacio.",
+      "La pasa por la banquina derecha, que para eso está en estos casos.",
+      "Se le acerca y le toca bocina hasta que se salga de la ruta."
+    ],
+    "correct": 0,
+    "explanation": "Ante animales, maquinaria o convoyes hay que reducir la velocidad y adelantar con extrema cautela, en zona autorizada y con buena visibilidad.",
+    "source": "Guía Nacional de Conducción, pág. 116",
+    "scenario": true
+  },
+  {
+    "category": "Señalización vial",
+    "topic": "Semáforos",
+    "question": "Está a media cuadra del cruce, con el pavimento seco y sin nadie pegado atrás, y el semáforo pasa a AMARILLO. ¿Qué hace?",
+    "options": [
+      "Acelera para pasar antes del rojo.",
+      "Sigue a la misma velocidad.",
+      "Toca bocina y cruza.",
+      "Se detiene antes del cruce."
+    ],
+    "correct": 3,
+    "explanation": "La luz amarilla fija obliga a detenerse antes del cruce, salvo que ya se esté en él o que frenar sea peligroso. A media cuadra hay lugar de sobra para frenar con seguridad.",
+    "source": "Ley 18.191, art. 36 (C); Guía Nacional de Conducción, pág. 108",
+    "scenario": true
+  },
+  {
+    "category": "Señalización vial",
+    "topic": "Semáforos",
+    "question": "El semáforo tiene luz ROJA y una FLECHA VERDE hacia la derecha. Usted quiere seguir derecho. ¿Qué hace?",
+    "options": [
+      "Avanza derecho con cuidado: la flecha habilita a todos.",
+      "Avanza si no viene nadie por la calle transversal.",
+      "Espera: la flecha solo habilita a girar a la derecha.",
+      "Gira a la izquierda, que es el giro que queda libre."
+    ],
+    "correct": 2,
+    "explanation": "Con luz roja y flecha verde se puede entrar cuidadosamente al cruce solo para seguir en la dirección que indica la flecha.",
+    "source": "Ley 18.191, art. 36 (F); Guía Nacional de Conducción, pág. 108",
+    "scenario": true
+  },
+  {
+    "category": "Señalización vial",
+    "topic": "Semáforos",
+    "question": "Son las 3 de la mañana, no hay nadie en la calle y el semáforo está en ROJO INTERMITENTE. ¿Qué hace?",
+    "options": [
+      "Pasa sin frenar, porque a esa hora no hay tránsito.",
+      "Se detiene por completo y después sigue, como en un PARE.",
+      "Baja un poco la velocidad y pasa sin detenerse.",
+      "Espera detenido hasta que el semáforo pase a verde."
+    ],
+    "correct": 1,
+    "explanation": "La luz roja intermitente obliga a detenerse y continuar según las reglas de la señal PARE, haya o no tránsito.",
+    "source": "Ley 18.191, art. 36 (B); Guía Nacional de Conducción, pág. 108",
+    "scenario": true
+  },
+  {
+    "category": "Factor humano y conducción",
+    "topic": "Emergencias",
+    "question": "Va por la ruta y se le revienta un neumático. ¿Cómo reacciona?",
+    "options": [
+      "Sostiene firme el volante y frena suavemente hasta un lugar despejado.",
+      "Frena a fondo de inmediato para detener el auto cuanto antes.",
+      "Gira rápido el volante hacia la banquina para salir de la ruta.",
+      "Acelera un poco para estabilizar el auto y después frena fuerte."
+    ],
+    "correct": 0,
+    "explanation": "Ante un reventón: volante firme, nada de frenadas bruscas, frenar suavemente y dirigir el vehículo hacia un lugar despejado.",
+    "source": "Guía Nacional de Conducción, pág. 27",
+    "scenario": true
+  },
+  {
+    "category": "Factor humano y conducción",
+    "topic": "Emergencias",
+    "question": "Pisa el freno y el pedal se va casi hasta el fondo, con poca resistencia. ¿Qué hace?",
+    "options": [
+      "Apaga el motor de inmediato, en marcha.",
+      "Pone la marcha atrás para trabar las ruedas.",
+      "Tira de golpe el freno de mano y suelta el volante.",
+      "Bombea el pedal y baja las marchas."
+    ],
+    "correct": 3,
+    "explanation": "Si el pedal todavía ofrece algo de resistencia hay que bombearlo; para frenar, bajar las marchas y soltar el embrague para usar el freno del motor.",
+    "source": "Guía Nacional de Conducción, pág. 23",
+    "scenario": true
+  },
+  {
+    "category": "Factor humano y conducción",
+    "topic": "Fenómenos Climáticos",
+    "question": "Va por pavimento con hielo o muy mojado y siente que las ruedas patinan. ¿Qué hace?",
+    "options": [
+      "Frena a fondo para detener el auto.",
+      "Acelera para que las ruedas agarren.",
+      "Levanta el pie del acelerador, sin frenar.",
+      "Gira el volante de un lado a otro."
+    ],
+    "correct": 2,
+    "explanation": "Si las ruedas patinan no hay que frenar: se quita el pie del acelerador y se controla el vehículo con el volante, con movimientos suaves.",
+    "source": "Guía Nacional de Conducción, pág. 87",
+    "scenario": true
+  },
+  {
+    "category": "Factor humano y conducción",
+    "topic": "Distracciones",
+    "question": "Va manejando y se da cuenta de que el GPS lo está llevando a una dirección equivocada. ¿Cuándo lo corrige?",
+    "options": [
+      "Mientras maneja, aprovechando un tramo recto.",
+      "Con el auto detenido en un lugar seguro.",
+      "En el próximo semáforo en rojo, rápido.",
+      "Mientras maneja, pero bajando la velocidad."
+    ],
+    "correct": 1,
+    "explanation": "Programar el GPS es una distracción: se hace antes de arrancar. Si hay que cambiarlo, primero hay que detenerse en un lugar seguro.",
+    "source": "Guía Nacional de Conducción, págs. 89-90",
+    "scenario": true
+  },
+  {
+    "category": "Factor humano y conducción",
+    "topic": "Factores de Riesgo",
+    "question": "Acaba de tener una discusión muy fuerte y está furioso. Tiene que salir en auto. ¿Qué recomienda la Guía?",
+    "options": [
+      "No conducir en ese estado, si puede evitarlo.",
+      "Conducir rápido para descargar la tensión.",
+      "Poner música fuerte y salir de todos modos.",
+      "Hablar por teléfono al manejar para calmarse."
+    ],
+    "correct": 0,
+    "explanation": "Las situaciones emocionales extremas (ira, un duelo, una mudanza) afectan la atención y las decisiones: en esos momentos conviene no conducir.",
+    "source": "Guía Nacional de Conducción, págs. 89-90",
+    "scenario": true
+  },
+  {
+    "category": "Factor humano y conducción",
+    "topic": "Leyes Físicas y Velocidad",
+    "question": "Sale de vacaciones con el auto muy cargado. ¿Qué cambia en la conducción?",
+    "options": [
+      "Nada: el auto se comporta igual que sin carga.",
+      "Frena en menos distancia, porque el peso lo ayuda.",
+      "Puede tomar las curvas más rápido, porque va más firme.",
+      "Necesita más distancia para frenar y para adelantar."
+    ],
+    "correct": 3,
+    "explanation": "Con carga pesada el vehículo necesita más distancia para detenerse y más espacio para adelantar, y se inclina más en las curvas.",
+    "source": "Guía Nacional de Conducción, págs. 114-115",
+    "scenario": true
+  },
+  {
+    "category": "Factor humano y conducción",
+    "topic": "Leyes Físicas y Velocidad",
+    "question": "Antes de salir de viaje quiere dejar una caja de herramientas sobre la bandeja trasera, detrás de los asientos. ¿Es buena idea?",
+    "options": [
+      "Sí: en ese lugar no molesta a ningún pasajero.",
+      "Sí, siempre que pese menos de diez kilos.",
+      "No: ahí no se llevan objetos duros o pesados.",
+      "Sí, mientras no tape el espejo retrovisor."
+    ],
+    "correct": 2,
+    "explanation": "En una frenada o un choque, los objetos sueltos de la bandeja trasera salen despedidos hacia los ocupantes. La Guía indica no llevar ahí objetos duros, puntiagudos o pesados.",
+    "source": "Guía Nacional de Conducción, pág. 115",
+    "scenario": true
+  },
+  {
+    "category": "Seguridad vial y legislación",
+    "topic": "Siniestros",
+    "question": "Choca con otro auto y el otro conductor queda lastimado. Él le propone \"arreglar entre los dos\" y que cada uno se vaya. ¿Qué debe hacer usted?",
+    "options": [
+      "Irse: si los dos están de acuerdo, no hay obligación.",
+      "Quedarse, procurar socorro, señalizar y denunciar.",
+      "Mover enseguida los autos para despejar y retirarse.",
+      "Dejarle sus datos al otro conductor y seguir viaje."
+    ],
+    "correct": 1,
+    "explanation": "Todo conductor implicado en un siniestro debe detenerse sin crear un nuevo peligro, permanecer en el lugar hasta que llegue la autoridad, procurar el socorro de las víctimas, señalizar, no alterar los elementos útiles para la investigación y denunciar el hecho.",
+    "source": "Ley 18.191, art. 43; Guía Nacional de Conducción, pág. 117",
+    "scenario": true
+  },
+  {
+    "category": "Seguridad vial y legislación",
+    "topic": "Siniestros",
+    "question": "Llega primero a un siniestro: hay un motociclista en el piso, consciente, con el casco puesto. ¿Qué hace con el casco?",
+    "options": [
+      "No se lo quita: lo hace el equipo de salud.",
+      "Se lo quita enseguida para que respire mejor.",
+      "Se lo quita solamente si él se lo pide.",
+      "Se lo afloja y le mueve el cuello con cuidado."
+    ],
+    "correct": 0,
+    "explanation": "No se le debe quitar el casco a un motociclista herido: la maniobra puede provocar lesiones graves. Debe hacerla el equipo de salud.",
+    "source": "Guía Nacional de Conducción, pág. 56",
+    "scenario": true
+  },
+  {
+    "category": "Seguridad vial y legislación",
+    "topic": "Siniestros",
+    "question": "Llama al 911 por un siniestro con heridos. ¿Qué información es la más útil para dar?",
+    "options": [
+      "Su nombre completo y su número de cédula.",
+      "La marca, el color y el año de cada vehículo.",
+      "Quién cree usted que tuvo la culpa del choque.",
+      "El lugar exacto, cuántos heridos hay y cómo están."
+    ],
+    "correct": 3,
+    "explanation": "Al llamar al 911 hay que informar la ubicación exacta, los lesionados (cantidad, edad aproximada, si están conscientes), si hay víctimas atrapadas o incendio, los vehículos implicados y si hay cargas peligrosas.",
+    "source": "Guía Nacional de Conducción, pág. 118",
+    "scenario": true
+  },
+  {
+    "category": "Seguridad vial y legislación",
+    "topic": "Alcohol y Conducción",
+    "question": "En el almuerzo tomó una copa de vino. Pasaron dos horas y se siente perfectamente. ¿Puede manejar?",
+    "options": [
+      "Sí: una sola copa no da positivo.",
+      "Sí, si antes toma un café cargado.",
+      "No, mientras tenga alcohol en sangre.",
+      "Sí, si maneja despacio y por calles tranquilas."
+    ],
+    "correct": 2,
+    "explanation": "En Uruguay rige la tolerancia cero: no se puede conducir con una concentración de alcohol en sangre superior a 0,0 gramos por litro. Sentirse bien no dice nada sobre eso.",
+    "source": "Ley 18.191, art. 45 (redacción dada por Ley 19.360); Guía Nacional de Conducción, págs. 16-17",
+    "scenario": true
+  },
+  {
+    "category": "Seguridad vial y legislación",
+    "topic": "Seguridad Infantil",
+    "question": "Lleva a su sobrino de 8 años a la escuela, a cinco cuadras. ¿Cómo debe viajar?",
+    "options": [
+      "Adelante, con el cinturón de seguridad del auto.",
+      "Atrás, con un sistema de retención infantil.",
+      "Atrás y sin sujeción, porque el trayecto es corto.",
+      "Adelante, en la falda de un adulto con cinturón."
+    ],
+    "correct": 1,
+    "explanation": "Los niños de 0 a 12 años deben viajar en el asiento trasero con un sistema de retención infantil, sin importar lo corto que sea el trayecto.",
+    "source": "Ley 19.061, art. 1; Guía Nacional de Conducción, pág. 34",
+    "scenario": true
+  },
+  {
+    "category": "Seguridad vial y legislación",
+    "topic": "Cinturón de Seguridad",
+    "question": "Un adulto que viaja en el asiento de atrás no quiere ponerse el cinturón porque \"atrás no hace falta\". ¿Tiene razón?",
+    "options": [
+      "No: es obligatorio para todos los ocupantes.",
+      "Sí: solo es obligatorio en los asientos de adelante.",
+      "Sí en ciudad; atrás solo se exige en ruta.",
+      "Sí, si el auto tiene airbags laterales."
+    ],
+    "correct": 0,
+    "explanation": "El uso del cinturón es obligatorio para el conductor y todos los pasajeros, en asientos delanteros y traseros, en zonas urbanas e interurbanas.",
+    "source": "Ley 18.191, art. 31; Guía Nacional de Conducción, pág. 33",
+    "scenario": true
+  },
+  {
+    "category": "Seguridad vial y legislación",
+    "topic": "Seguridad Vial",
+    "question": "Es un mediodía de sol y sale a la ruta. ¿Qué hace con las luces?",
+    "options": [
+      "Las lleva apagadas hasta que oscurezca.",
+      "Lleva solamente las luces de posición.",
+      "Lleva encendidas las luces largas.",
+      "Lleva encendidas las luces bajas."
+    ],
+    "correct": 3,
+    "explanation": "Es obligatorio circular con las luces bajas (cortas) encendidas de forma permanente, a cualquier hora del día.",
+    "source": "Ley 18.191, art. 30; Guía Nacional de Conducción, pág. 27",
+    "scenario": true
+  },
+  {
+    "category": "Seguridad vial y legislación",
+    "topic": "Normativa y Vehículos",
+    "question": "Va a la playa en una camioneta y sus amigos quieren viajar sentados en la caja. ¿Se puede?",
+    "options": [
+      "Sí, si van todos sentados y bien agarrados.",
+      "Sí, cuando el trayecto es corto y por calles internas.",
+      "No: la caja no está diseñada para llevar personas.",
+      "Sí, mientras no superen los 45 km/h."
+    ],
+    "correct": 2,
+    "explanation": "Se prohíbe el transporte de personas en la caja de cualquier tipo de vehículo que no haya sido diseñado para tal fin.",
+    "source": "Ley 19.061, art. 14 (redacción dada por Ley 19.824); Guía Nacional de Conducción, pág. 38",
+    "scenario": true
+  },
+  {
+    "category": "Documentación y vehículo",
+    "topic": "Mecánica y Seguridad",
+    "question": "Revisa las cubiertas y ve que el dibujo llegó al ras de los indicadores de desgaste. ¿Qué corresponde?",
+    "options": [
+      "Seguir usándolas hasta que queden lisas.",
+      "Cambiarlas: llegaron al desgaste máximo.",
+      "Inflarlas un poco más para compensar.",
+      "Usarlas solamente los días sin lluvia."
+    ],
+    "correct": 1,
+    "explanation": "La banda de rodamiento tiene un indicador normalizado que muestra cuándo la cubierta llegó a su máximo desgaste: a partir de ahí ya no puede usarse.",
+    "source": "Reglamento Nacional de Circulación Vial, art. 10.8",
+    "scenario": true
+  },
+  {
+    "category": "Motos",
+    "topic": "Motocicletas",
+    "question": "Va en moto y lleva a un amigo \"solo dos cuadras\". Él no tiene casco. ¿Puede llevarlo?",
+    "options": [
+      "No: los dos deben llevar casco, siempre.",
+      "Sí, porque es un trayecto de pocas cuadras.",
+      "Sí, si va despacio y por calles tranquilas.",
+      "Sí, si el acompañante es mayor de edad."
+    ],
+    "correct": 0,
+    "explanation": "El casco protector certificado y debidamente abrochado es obligatorio para todos los usuarios de motocicletas, sin importar la distancia.",
+    "source": "Ley 18.191, art. 33",
+    "scenario": true,
+    "moto": true
+  },
+  {
+    "category": "Motos",
+    "topic": "Motocicletas",
+    "question": "Va en moto por la ruta y un camión lo empieza a adelantar. ¿Dónde se ubica?",
+    "options": [
+      "Bien pegado a la línea central de la ruta.",
+      "Sobre la banquina, hasta que termine de pasar.",
+      "Cerca del camión, para aprovechar su rebufo.",
+      "En la parte central de su carril."
+    ],
+    "correct": 3,
+    "explanation": "Al ser adelantado, el motociclista debe mantenerse en la parte central de su carril y no acercarse al vehículo que lo pasa: el desplazamiento de aire puede desestabilizarlo.",
+    "source": "Guía Nacional de Conducción, pág. 63",
+    "scenario": true,
+    "moto": true
+  },
+  {
+    "category": "Motos",
+    "topic": "Motocicletas",
+    "question": "Va en moto y adelante ve un tramo de pavimento mojado y resbaladizo. ¿Qué hace?",
+    "options": [
+      "Frena fuerte cuando ya está sobre el tramo resbaladizo.",
+      "Acelera para atravesarlo en el menor tiempo posible.",
+      "Reduce la velocidad antes de llegar y frena con suavidad.",
+      "Inclina más la moto para ganar agarre sobre el tramo."
+    ],
+    "correct": 2,
+    "explanation": "En superficies resbaladizas hay que reducir la velocidad antes de entrar a la zona, evitar movimientos bruscos y frenar con suavidad.",
+    "source": "Guía Nacional de Conducción, pág. 67",
+    "scenario": true,
+    "moto": true
   }
 ]
